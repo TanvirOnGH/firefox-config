@@ -1,4 +1,4 @@
-## About
+## About [![DOI](https://zenodo.org/badge/672449209.svg)](https://zenodo.org/badge/latestdoi/672449209)
 My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.org/en-US/firefox) configuration.
 
 ![Firefox Screen 1](screenshots/firefox-1.png)
