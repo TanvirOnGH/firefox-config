@@ -28,6 +28,7 @@ Per addon configuration files are located in addons directory.
 ### Toolbar
 
 Go to `Open application menu > More tools > Customize toolbar...` and make the following changes:
+
 ![Toolbar Settings](screenshots/toolbar.png)
 
 #### Bookmarks
