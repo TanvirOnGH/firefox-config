@@ -3,6 +3,10 @@ https://chat.openai.com/backend-api/moderations
 
 ! Some of the popular sites have been redirected to free ones using libredirect !
 
+! Ecosystem
+https://*apple.com
+! End of Ecosystem
+
 ! Social Media
 https://*wechat.com
 https://*discord.com
