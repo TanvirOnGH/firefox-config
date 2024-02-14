@@ -1,4 +1,4 @@
-## About
+# About
 
 My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.org/en-US/firefox) configuration.
 
