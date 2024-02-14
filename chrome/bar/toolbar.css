@@ -46,84 +46,51 @@ toolbarbutton[open="true"] {
 }
 */
 
-/* Move the toolbar to the bottom */
+/* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/navbar_below_content.css */
+/* Move the main toolbar (#nav-bar) to the bottom */
 @-moz-document url(chrome://browser/content/browser.xhtml)
 {
-  /* Background color of the URL selection menu */
-  #urlbar-results .urlbarView-row[selected] {
-    background-color: #c38f8f !important;
+  :root:not([inFullscreen]) {
+    --uc-bottom-toolbar-height: calc(40px + var(--toolbarbutton-outer-padding));
   }
 
-  /* Text color of the URL selection menu */
-  #urlbar-results .urlbarView-row[selected] .urlbarView-title {
-    color: #ffffff !important;
+  :root[uidensity="compact"]:not([inFullscreen]) {
+    --uc-bottom-toolbar-height: calc(32px + var(--toolbarbutton-outer-padding));
   }
 
-  #main-window body {
-    flex-direction: column-reverse !important;
+  #browser,
+  #customization-container {
+    margin-bottom: var(--uc-bottom-toolbar-height, 0px);
   }
 
-  #navigator-toolbox {
-    flex-direction: column-reverse !important;
+  #nav-bar {
+    position: fixed !important;
+    bottom: 0px;
+    /* For some reason -webkit-box behaves internally like -moz-box,
+    but can be used with fixed position.
+    display: flex would work too but it breaks extension menus. */
+    display: -webkit-box;
+    width: 100%;
+    z-index: 1;
+  }
+  #nav-bar-customization-target {
+    -webkit-box-flex: 1;
   }
 
-  #urlbar {
-    top: unset !important;
-    bottom: calc(
-      (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
-    ) !important;
-    box-shadow: none !important;
+  /* Fix panels sizing */
+  .panel-viewstack {
+    max-height: unset !important;
+  }
+
+  #urlbar[breakout][breakout-extend] {
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: column-reverse;
+    bottom: 0px !important;
+    top: auto !important;
   }
 
-  #urlbar-input-container {
-    order: 2;
-  }
-
-  #urlbar > .urlbarView {
-    order: 1;
-    border-bottom: 1px solid #161616;
-  }
-
-  #urlbar-results {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .search-one-offs {
-    display: none !important;
-  }
-
-  .tab-background {
-    border-top: none !important;
-  }
-
-  #navigator-toolbox::after {
-    border: none;
-  }
-
-  #TabsToolbar .tabbrowser-arrowscrollbox,
-  #tabbrowser-tabs,
-  .tab-stack {
-    min-height: 30px !important;
-  }
-
-  .tabbrowser-tab {
-    font-size: 80%;
-  }
-
-  .tab-content {
-    padding: 0 5px;
-  }
-
-  .tab-close-button .toolbarbutton-icon {
-    width: 12px !important;
-    height: 12px !important;
-  }
-
-  toolbox[inFullscreen="true"] {
-    display: none;
+  .urlbarView-body-inner {
+    border-top-style: none !important;
   }
 }
 
@@ -142,18 +109,14 @@ toolbarbutton[open="true"] {
 #PersonalToolbar {
   opacity: 0;
   visibility: collapse;
-  transition:
-    opacity 0.4s ease-in-out,
-    visibility 0s linear 0.3s;
+  transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
 }
 
 /* Show bookmarks toolbar when toolbar is hovered */
 #navigator-toolbox:hover > #PersonalToolbar {
   opacity: 1;
   visibility: visible;
-  transition:
-    opacity 0.4s ease-in-out,
-    visibility 0s linear 0.3s;
+  transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
 }
 
 /* Remove maximum/minimum width restriction of sidebar */
