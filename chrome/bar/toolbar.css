@@ -145,3 +145,9 @@ toolbarbutton[open="true"] {
 #navigator-toolbox:hover > #PersonalToolbar {
   visibility: visible !important;
 }
+
+/* Remove maximum/minimum width restriction of sidebar */
+#sidebar {
+  max-width: none !important;
+  min-width: 0px !important;
+}
