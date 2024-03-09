@@ -1,5 +1,4 @@
 /* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_icon_glow.css */
-
 /* Replace the button background-colors with a glow effect */
 :root {
   --uc-icon-glow-primary: cyan;
@@ -70,4 +69,34 @@ toolbarbutton#scrollbutton-up:active,
 toolbarbutton#scrollbutton-down:active {
   filter: drop-shadow(0 0 2px var(--uc-icon-glow-hover-secondary))
     drop-shadow(0 0 1px var(--uc-icon-glow-hover-primary));
+}
+
+/* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_scale_onclick.css */
+/* Button Effect - Scale on click */
+.urlbar-icon,
+.toolbarbutton-icon,
+.menuitem-iconic .menu-iconic-icon {
+  transition: transform 90ms linear !important;
+}
+
+toolbar .toolbarbutton-1 > .toolbarbutton-icon {
+  transition: padding 90ms linear !important;
+}
+
+toolbarbutton#scrollbutton-up:active > .toolbarbutton-icon,
+toolbarbutton:not(.toolbarbutton-1):active > .toolbarbutton-icon,
+toolbar
+  .toolbarbutton-1:not([disabled]):active
+  > .toolbarbutton-badge-stack
+  > .toolbarbutton-icon,
+.menuitem-iconic:active .menu-iconic-icon,
+.urlbar-page-action:active > .urlbar-icon {
+  transform: scale(0.65) !important;
+}
+toolbarbutton#scrollbutton-down:active > .toolbarbutton-icon {
+  transform: scale(-0.65) !important;
+}
+
+toolbar .toolbarbutton-1:not([disabled]):active > .toolbarbutton-icon {
+  padding: calc(var(--toolbarbutton-inner-padding) + 3px) !important;
 }
