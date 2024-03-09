@@ -128,10 +128,20 @@ toolbarbutton[open="true"] {
 }
 
 /* Show bookmarks toolbar when urlbar is focused */
-#nav-bar:focus-within + #PersonalToolbar {
+/*
+#nav-bar:focus-within + #PersonalToolbar{
   visibility: visible !important;
 }
-
 #PersonalToolbar {
   visibility: collapse !important;
+}
+*/
+
+/* Show bookmarks toolbar when toolbar is hovered */
+#PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#navigator-toolbox:hover > #PersonalToolbar {
+  visibility: visible !important;
 }
