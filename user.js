@@ -27,6 +27,9 @@ user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
 user_pref("layout.frame_rate", 120);
 
+// Temporary (For: https://bugzilla.mozilla.org/show_bug.cgi?id=1818517)
+user_pref("widget.gtk.ignore-bogus-leave-notify", 1);
+
 /* <https://wiki.archlinux.org/title/Firefox/Tweaks#Smooth_scrolling> */
 /*
 user_pref("general.smoothScroll.lines.durationMaxMS", 125);
