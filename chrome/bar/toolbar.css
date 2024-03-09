@@ -126,3 +126,12 @@ toolbarbutton[open="true"] {
     display: none;
   }
 }
+
+/* Show bookmarks toolbar when urlbar is focused */
+#nav-bar:focus-within + #PersonalToolbar {
+  visibility: visible !important;
+}
+
+#PersonalToolbar {
+  visibility: collapse !important;
+}
