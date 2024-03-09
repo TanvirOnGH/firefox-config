@@ -16,6 +16,21 @@
   text-align: center !important;
 }
 
+/* Add color to urlbar border when urlbar is focused */
+#urlbar-container {
+  --toolbar-field-focus-border-color: #c38f8f !important;
+}
+
+/* Background color of the URL selection menu */
+#urlbar-results .urlbarView-row[selected] {
+  background-color: #c38f8f !important;
+}
+
+/* Text color of the URL selection menu */
+#urlbar-results .urlbarView-row[selected] .urlbarView-title {
+  color: #ffffff !important;
+}
+
 /* Based on: Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/urlbar_connection_type_background_colors.css */
 /* Add a colored overlay to urlbar based on the type of the connection */
 
