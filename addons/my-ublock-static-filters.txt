@@ -48,3 +48,5 @@ www.wikiwand.com##.desktop_logo__HbG02 > .logo_logo__AXqd6
 ! 2023-07-10 https://www.phind.com
 www.phind.com##.bi-discord.bi
 
+! 2023-09-07 https://chat.openai.com
+chat.openai.com##.w-6.h-6
