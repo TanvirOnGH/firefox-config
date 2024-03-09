@@ -3,26 +3,27 @@
 /* Make bunch of things in the main UI round */
 :root {
   --toolbarbutton-border-radius: 24px !important
+;
 }
 
 /* TODO: Make search bar's menu round */
-#urlbar-input-container>box:hover,
-#urlbar-input-container>box[open],
-#main-menubar>menu,
+#urlbar-input-container > box:hover,
+#urlbar-input-container > box[open],
+#main-menubar > menu,
 .titlebar-button:hover,
 #scrollbutton-up,
 #scrollbutton-down,
 .tab-close-button,
-.close-icon>image,
-#page-action-buttons> :hover,
+.close-icon > image,
+#page-action-buttons > :hover,
 .panel-arrowcontent,
 .urlbarView-row-inner,
 .search-one-offs button,
 .subviewbutton-back,
-.toolbaritem-combined-buttons>toolbarbutton,
+.toolbaritem-combined-buttons > toolbarbutton,
 #PopupSearchAutoComplete,
 menupopup {
-  border-radius: 18px
+  border-radius: 18px;
 }
 
 button,
@@ -50,11 +51,11 @@ menupopup {
 
 #nav-bar {
   box-shadow: none !important;
-  margin-top: 3px
+  margin-top: 3px;
 }
 
 .tab-line {
-  display: none
+  display: none;
 }
 
 .tab-background[selected] {
@@ -67,11 +68,13 @@ menupopup {
 }
 
 .urlbar-icon,
-toolbar toolbarbutton:not(#back-button):not(.bookmark-item):not(.titlebar-button)>.toolbarbutton-icon {
+toolbar
+  toolbarbutton:not(#back-button):not(.bookmark-item):not(.titlebar-button)
+  > .toolbarbutton-icon {
   border-radius: 0px !important;
-  clip-path: circle()
+  clip-path: circle();
 }
 
-menugroup:hover>menuitem {
-  clip-path: circle()
+menugroup:hover > menuitem {
+  clip-path: circle();
 }
