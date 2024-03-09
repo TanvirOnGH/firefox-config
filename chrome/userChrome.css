@@ -3,7 +3,7 @@
 @import "bar/tabbar.css";
 @import "bar/toolbar.css";
 @import "bar/sidebar.css";
-@import "bar/searchbar.css";
+@import "bar/urlbar.css";
 @import "menu/mainmenu.css";
 @import "menu/extensions-menu.css";
 @import "browser/navigation.css";

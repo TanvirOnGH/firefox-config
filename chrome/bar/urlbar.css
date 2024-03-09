@@ -1,0 +1,17 @@
+/* Remove search engines from the search bar */
+#urlbar .search-one-offs:not([hidden]) {
+  display: none !important;
+}
+
+/* Center text on urlbar */
+#urlbar:not([focused]) #urlbar-input,
+#urlbar:not([focused]) .urlbar-input {
+  text-align: center !important;
+}
+
+#urlbar-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
