@@ -2,9 +2,7 @@
 
 My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.org/en-US/firefox) configuration.
 
-![Firefox Screen 1](screenshots/firefox-1.png)
-
-![Firefox Screen 2](screenshots/firefox-2.png)
+![Firefox](screenshots/firefox.png)
 
 ## Note
 
