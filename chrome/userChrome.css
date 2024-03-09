@@ -6,4 +6,5 @@
 @import "bar/searchbar.css";
 @import "menu/mainmenu.css";
 @import "menu/extensions-menu.css";
+@import "browser/navigation.css";
 @import "misc/round-items.css";
