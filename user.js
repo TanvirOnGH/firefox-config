@@ -51,7 +51,7 @@ user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 250);
 user_pref("general.smoothScroll.currentVelocityWeighting", "1.0");
 user_pref("general.smoothScroll.stopDecelerationWeighting", "1.0");
 
-/// adjust multiply factor for mousewheel - or set to false if scrolling is way too fast  
+/// adjust multiply factor for mousewheel - or set to false if scrolling is way too fast
 user_pref("mousewheel.system_scroll_override.horizontal.factor", 200);
 user_pref("mousewheel.system_scroll_override.vertical.factor", 200);
 user_pref("mousewheel.system_scroll_override_on_root_content.enabled", true);
