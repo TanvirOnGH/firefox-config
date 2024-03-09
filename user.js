@@ -14,7 +14,7 @@ user_pref("browser.search.region", "US");
 user_pref("doh-rollout.home-region", "US");
 
 // Misc
-user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox");
+user_pref("browser.cache.disk.parent_directory", "/run/user/1001/firefox");
 user_pref("browser.search.suggest.enabled.private", true);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
