@@ -1,0 +1,256 @@
+{
+  "Gestures": [
+    {
+      "pattern": [
+        [
+          0,
+          1
+        ]
+      ],
+      "command": {
+        "name": "ScrollBottom",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          -1
+        ]
+      ],
+      "command": {
+        "name": "ScrollTop",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          1,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PageForth"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PageBack"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -145,
+          -16
+        ],
+        [
+          -82,
+          21
+        ],
+        [
+          -77,
+          67
+        ],
+        [
+          -31,
+          60
+        ],
+        [
+          -2,
+          96
+        ],
+        [
+          25,
+          55
+        ],
+        [
+          53,
+          42
+        ],
+        [
+          192,
+          7
+        ],
+        [
+          75,
+          -14
+        ]
+      ],
+      "command": {
+        "name": "ReloadTab",
+        "settings": {
+          "cache": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          257,
+          243
+        ],
+        [
+          4,
+          -77
+        ],
+        [
+          25,
+          -163
+        ],
+        [
+          -278,
+          214
+        ]
+      ],
+      "command": {
+        "name": "CloseTab",
+        "settings": {
+          "nextFocus": "default",
+          "closePinned": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          30,
+          230
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          66,
+          -10
+        ],
+        [
+          35,
+          -30
+        ],
+        [
+          13,
+          -33
+        ],
+        [
+          -11,
+          -183
+        ]
+      ],
+      "command": {
+        "name": "RestoreTab",
+        "settings": {
+          "currentWindowOnly": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -5,
+          -272
+        ],
+        [
+          1,
+          -11
+        ],
+        [
+          178,
+          -9
+        ]
+      ],
+      "command": {
+        "name": "ToggleFullscreen"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -53,
+          1
+        ],
+        [
+          -21,
+          13
+        ],
+        [
+          -14,
+          22
+        ],
+        [
+          4,
+          47
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          70,
+          -7
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          2,
+          37
+        ],
+        [
+          -10,
+          24
+        ],
+        [
+          -23,
+          13
+        ],
+        [
+          -31,
+          8
+        ],
+        [
+          -45,
+          -13
+        ],
+        [
+          -5,
+          -10
+        ],
+        [
+          0,
+          -18
+        ]
+      ],
+      "command": {
+        "name": "ViewPageSourceCode"
+      }
+    }
+  ],
+  "Settings": {
+    "General": {
+      "theme": "dark"
+    }
+  }
+}
