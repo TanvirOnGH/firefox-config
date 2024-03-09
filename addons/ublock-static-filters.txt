@@ -55,19 +55,6 @@ www.phind.com##.bi-discord.bi
 ! 2023-09-07 https://chat.openai.com
 chat.openai.com##.w-6.h-6
 
-! 2023-10-13 https://www.youtube.com
-www.youtube.com###logo-icon > .yt-icon.style-scope > .yt-spec-icon-shape > div
-www.youtube.com###logo-icon > .yt-icon.style-scope > .yt-spec-icon-shape
-www.youtube.com###logo-icon > .yt-icon.style-scope
-www.youtube.com##.ytd-topbar-logo-renderer.style-scope > .ytd-logo.style-scope
-www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
-www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
-www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape
-www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon.style-scope > .yt-spec-icon-shape > div
-www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon.style-scope > .yt-spec-icon-shape
-www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon.style-scope
-www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon
-www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon
-www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
-www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+! 2024-02-12 https://www.youtube.com
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 
