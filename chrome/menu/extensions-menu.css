@@ -1,0 +1,61 @@
+/* Based on: https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/EXTRA%20MODS/Compact%20extensions%20menu/Style%202/With%20Separator%20line/cleaner_extensions_menu.css */
+
+/* Icons only in extensions menu */
+#unified-extensions-panel #unified-extensions-view {
+    max-width: 250px !important;
+}
+
+#unified-extensions-view {
+    --uei-icon-size: 20px;
+    --firefoxcss-number-of-extensions-in-a-row: 6;
+}
+
+#unified-extensions-view .panel-header,
+#unified-extensions-view .panel-header+toolbarseparator,
+#unified-extensions-view .panel-subview-body+toolbarseparator,
+#unified-extensions-view #unified-extensions-manage-extensions,
+#unified-extensions-view .unified-extensions-item-menu-button.subviewbutton,
+#unified-extensions-view .unified-extensions-item-action-button .unified-extensions-item-contents {
+    display: none !important;
+}
+
+#unified-extensions-view .panel-subview-body {
+    padding: 3px !important;
+}
+
+#unified-extensions-view .unified-extensions-item .unified-extensions-item-icon,
+#unified-extensions-view .unified-extensions-item .toolbarbutton-badge-stack {
+    margin-inline-end: 0px !important;
+}
+
+#unified-extensions-view #overflowed-extensions-list,
+#unified-extensions-view #unified-extensions-area,
+#unified-extensions-view .unified-extensions-list {
+    display: grid !important;
+    grid-template-columns: repeat(var(--firefoxcss-number-of-extensions-in-a-row), auto);
+    justify-items: center !important;
+    align-items: center !important;
+}
+
+#unified-extensions-view .unified-extensions-list .unified-extensions-item-action-button {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+
+
+}
+
+#unified-extensions-view #unified-extensions-area .unified-extensions-item {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+
+}
+
+#unified-extensions-view .unified-extensions-list .unified-extensions-item,
+#unified-extensions-view .unified-extensions-list {
+    max-width: max-content;
+}
+
+#unified-extensions-view #unified-extensions-area {
+    padding-bottom: 3px !important;
+    border-bottom: 1px solid #aeaeae33 !important;
+}
