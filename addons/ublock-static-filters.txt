@@ -71,3 +71,14 @@ www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape 
 www.youtube.com##.ytd-topbar-menu-button-renderer.style-scope > .yt-icon.style-scope > .yt-spec-icon-shape > div
 www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 
+! 2023-09-12 https://www.youtube.com
+www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
+www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon.style-scope > .yt-spec-icon-shape > div
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon.style-scope > .yt-spec-icon-shape
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon.style-scope
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+
