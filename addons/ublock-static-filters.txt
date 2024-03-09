@@ -9,7 +9,7 @@ https://*apple.com
 
 ! Social Media
 https://*wechat.com
-https://*discord.com
+!https://*discord.com
 https://*instagram.com
 https://*facebook.com
 https://*snapchat.com
@@ -18,8 +18,8 @@ https://*tiktok.com
 
 # Messaging
 https://*messenger.com
-https://*telegram.org
-https://*whatsapp.com
+!https://*telegram.org
+!https://*whatsapp.com
 # End of Messaging
 
 ! Store
@@ -36,14 +36,14 @@ https://*omegle.com
 ! End of Misc
 
 ! Entertainment
-https://*soundcloud.com
-https://*spotify.com
+!https://*soundcloud.com
+!https://*spotify.com
 https://*netflix.com
 ! End of Entertainment
 
 ! Search Engine
-https://*yahoo.com
-https://*bing.com
+!https://*yahoo.com
+!https://*bing.com
 ! End of Search Engine
 
 ! 2023-06-30 https://www.wikiwand.com
@@ -70,3 +70,4 @@ www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-sh
 www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon
 www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
 www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+
