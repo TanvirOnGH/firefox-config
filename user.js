@@ -5,6 +5,9 @@
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("svg.context-properties.content.enabled", true);
 
+// UI
+user_pref("browser.compactmode.show", true);
+
 // To make Firefox Translations (Addon) better integrate with the UI
 user_pref("browser.translation.ui.show", true);
 user_pref("browser.translation.detectLanguage", true);
@@ -13,10 +16,13 @@ user_pref("browser.translation.detectLanguage", true);
 user_pref("browser.search.region", "US");
 user_pref("doh-rollout.home-region", "US");
 
+// Extensions
+user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.screenshots.disabled", true);
+
 // Misc
 user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox");
 user_pref("browser.search.suggest.enabled.private", true);
-user_pref("extensions.pocket.enabled", false);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
 user_pref("layout.frame_rate", 120);
