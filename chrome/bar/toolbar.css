@@ -51,7 +51,7 @@ toolbarbutton[open="true"] {
 {
   /* Background color of the URL selection menu */
   #urlbar-results .urlbarView-row[selected] {
-    background-color: #5906d3 !important;
+    background-color: #C38F8F !important;
   }
 
   /* Text color of the URL selection menu */
