@@ -47,80 +47,82 @@ toolbarbutton[open="true"] {
 */
 
 /* Move the toolbar to the bottom */
-@-moz-document url(chrome://browser/content/browser.xhtml){
+@-moz-document url(chrome://browser/content/browser.xhtml)
+{
+  /* Background color of the URL selection menu */
+  #urlbar-results .urlbarView-row[selected] {
+    background-color: #a30817 !important;
+  }
 
-/* Background color of the URL selection menu */
-#urlbar-results .urlbarView-row[selected] {
-    background-color: #A30817 !important;
-}
+  /* Text color of the URL selection menu */
+  #urlbar-results .urlbarView-row[selected] .urlbarView-title {
+    color: #ffffff !important;
+  }
 
-/* Text color of the URL selection menu */
-#urlbar-results .urlbarView-row[selected] .urlbarView-title {
-    color: #FFFFFF !important;
-}
-
-#main-window body {
+  #main-window body {
     flex-direction: column-reverse !important;
-}
+  }
 
-#navigator-toolbox {
+  #navigator-toolbox {
     flex-direction: column-reverse !important;
-}
+  }
 
-#urlbar {
+  #urlbar {
     top: unset !important;
-    bottom: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+    bottom: calc(
+      (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+    ) !important;
     box-shadow: none !important;
     display: flex !important;
     flex-direction: column !important;
-}
+  }
 
-#urlbar-input-container {
+  #urlbar-input-container {
     order: 2;
-}
+  }
 
-#urlbar>.urlbarView {
+  #urlbar > .urlbarView {
     order: 1;
     border-bottom: 1px solid #161616;
-}
+  }
 
-#urlbar-results {
+  #urlbar-results {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.search-one-offs {
+  .search-one-offs {
     display: none !important;
-}
+  }
 
-.tab-background {
+  .tab-background {
     border-top: none !important;
-}
+  }
 
-#navigator-toolbox::after {
+  #navigator-toolbox::after {
     border: none;
-}
+  }
 
-#TabsToolbar .tabbrowser-arrowscrollbox,
-#tabbrowser-tabs,
-.tab-stack {
+  #TabsToolbar .tabbrowser-arrowscrollbox,
+  #tabbrowser-tabs,
+  .tab-stack {
     min-height: 30px !important;
-}
+  }
 
-.tabbrowser-tab {
+  .tabbrowser-tab {
     font-size: 80%;
-}
+  }
 
-.tab-content {
+  .tab-content {
     padding: 0 5px;
-}
+  }
 
-.tab-close-button .toolbarbutton-icon {
+  .tab-close-button .toolbarbutton-icon {
     width: 12px !important;
     height: 12px !important;
-}
+  }
 
-toolbox[inFullscreen=true] {
+  toolbox[inFullscreen="true"] {
     display: none;
-}
+  }
 }
