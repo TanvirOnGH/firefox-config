@@ -137,13 +137,18 @@ toolbarbutton[open="true"] {
 }
 */
 
-/* Show bookmarks toolbar when toolbar is hovered */
+/* Hide bookmarks toolbar by default */
 #PersonalToolbar {
-  visibility: collapse !important;
+  opacity: 0;
+  visibility: collapse;
+  transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
 }
 
+/* Show bookmarks toolbar when toolbar is hovered */
 #navigator-toolbox:hover > #PersonalToolbar {
-  visibility: visible !important;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0s linear;
 }
 
 /* Remove maximum/minimum width restriction of sidebar */
