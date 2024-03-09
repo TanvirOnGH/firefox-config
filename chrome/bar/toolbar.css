@@ -132,6 +132,7 @@ toolbarbutton[open="true"] {
 #nav-bar:focus-within + #PersonalToolbar{
   visibility: visible !important;
 }
+
 #PersonalToolbar {
   visibility: collapse !important;
 }
@@ -160,3 +161,4 @@ toolbarbutton[open="true"] {
   max-width: none !important;
   min-width: 0px !important;
 }
+
