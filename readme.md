@@ -49,9 +49,13 @@ Go to `Open application menu > More tools > Customize toolbar...` and make the f
 
 You can find list of addons I use [here](https://addons.mozilla.org/en-US/firefox/collections/17970682/TAT-Collection/).
 
-## Userscripts
+## Userscripts (Violentmonkey)
 
 ![Userscripts](screenshots/violentmonkey-userscripts.png)
+
+## Stylus styles
+
+![Stylus styles](screenshots/stylus-styles.png)
 
 ## Theme
 
