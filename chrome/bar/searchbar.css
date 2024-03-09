@@ -1,0 +1,4 @@
+/* Remove search engines from the search bar */
+#urlbar .search-one-offs:not([hidden]) {
+    display: none !important;
+}

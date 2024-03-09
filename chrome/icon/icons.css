@@ -1,0 +1,59 @@
+/* Based on: https://github.com/not-holar/my_firefox_theme/tree/main/firefox/chrome */
+
+/* Icon overrides */
+#back-button>.toolbarbutton-icon {
+    list-style-image: url("img/back.svg") !important;
+}
+
+#bookmarks-menu-button>.toolbarbutton-icon {
+    list-style-image: url("img/bookmarks.svg") !important;
+}
+
+#forward-button>.toolbarbutton-icon {
+    list-style-image: url("img/forward.svg") !important;
+}
+
+#downloads-indicator-icon {
+    list-style-image: url("img/downloads.svg") !important;
+}
+
+#history-panelmenu {
+    list-style-image: url("img/history.svg") !important;
+}
+
+#PanelUI-menu-button>.toolbarbutton-icon {
+    list-style-image: url("img/menu.svg") !important;
+}
+
+#nav-bar-overflow-button>.toolbarbutton-icon {
+    list-style-image: url("img/overflow.svg") !important;
+}
+
+#reload-button>.toolbarbutton-icon {
+    list-style-image: url("img/reload.svg") !important;
+}
+
+#back-button,
+#forward-button {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding: 0 !important;
+}
+
+#back-button>.toolbarbutton-icon,
+#forward-button>.toolbarbutton-icon {
+    padding: 6px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+:root:not([uidensity="compact"]) #nav-bar #back-button>.toolbarbutton-icon {
+    --backbutton-background: transparent;
+    background-origin: unset !important;
+    background-clip: unset !important;
+    border: unset !important;
+    transition: unset !important;
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    padding: var(--toolbarbutton-inner-padding) !important;
+    border-radius: var(--toolbarbutton-border-radius) !important;
+}
