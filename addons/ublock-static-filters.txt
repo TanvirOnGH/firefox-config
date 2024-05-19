@@ -58,3 +58,13 @@ chat.openai.com##.w-6.h-6
 ! 2024-02-12 https://www.youtube.com
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 
+! 2024-03-07 https://search.brave.com
+search.brave.com##.type.theme--default.type--outlined.size--default.svelte-19isrip.button
+
+! 2024-05-19 https://www.youtube.com
+www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__stroke
+www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-button-shape-next__icon > yt-icon > .yt-spec-icon-shape.yt-icon-shape > div
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+www.youtube.com##.ytd-topbar-menu-button-renderer.style-scope > .yt-spec-icon-shape.yt-icon-shape > div
