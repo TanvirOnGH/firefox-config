@@ -62,3 +62,7 @@ You can find list of addons I use [here](https://addons.mozilla.org/en-US/firefo
 ## Theme
 
 The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org/en-US/firefox/addon/rosybrown_dark/)
+
+## Notable Mentions
+
+[schizofox](https://github.com/schizofox/schizofox) - Hardened Firefox flake for the delusional and the schizophrenics. You might find some interesting stuff there.
