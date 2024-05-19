@@ -34,9 +34,51 @@
 /* Based on: Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/urlbar_connection_type_background_colors.css */
 /* Add a colored overlay to urlbar based on the type of the connection */
 
+@keyframes colorCycle {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8.33% {
+    color: rgb(255, 127, 0);
+  }
+  16.66% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(127, 255, 0);
+  }
+  33.33% {
+    color: rgb(0, 255, 0);
+  }
+  41.66% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58.33% {
+    color: rgb(0, 127, 255);
+  }
+  66.66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83.33% {
+    color: rgb(255, 0, 255);
+  }
+  91.66% {
+    color: rgb(255, 0, 127);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+
 /* For normal pages */
 #identity-box[pageproxystate="valid"] ~ .urlbar-input-box {
-  color: green;
+  animation: colorCycle 20s linear infinite;
 }
 
 /* Mixed content including neterror */
