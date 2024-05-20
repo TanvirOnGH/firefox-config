@@ -12,6 +12,29 @@ This repository is not meant to be used as a whole, but rather as a reference fo
 
 I recommend using a Firefox account and sync everything. Make sure to disable telemetry (all telemetry actually) in the settings ;)
 
+## Features
+
+- Compact about:config list
+- Custom toolbar button icons
+- Custom (bouncing) loading indicator animation
+- Only icons in extensions menu
+- Icons in main menu items
+- Round UI items
+- Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
+- Glow and scale effect on hover on toolbar buttons
+- Hidden horizontal tab bar
+- Bottom main toolbar and search/url bar
+- Hidden bookmarks toolbar (When enabled, it is visible on hover)
+- Custom colors on various items
+- Centered text in the url bar
+- Colored overlay on the url bar based on the type of the connection
+- RGB animation on the url bar address
+- Other various fixes and tweaks
+- Custom addons configuration
+- Userscripts
+- Userstyles
+- Custom theme
+
 ## Where do each files go
 
 | File    | Location                              |
