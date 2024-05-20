@@ -57,7 +57,7 @@ You can find list of addons I use [here](https://addons.mozilla.org/en-US/firefo
 
 ## Stylus styles
 
-![Stylus styles](screenshots/stylus-styles.png)
+![Stylus styles](screenshots/stylus-userstyles.png)
 
 ## Theme
 
