@@ -2,9 +2,17 @@
 
 My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.org/en-US/firefox) configuration.
 
-![Firefox-1](screenshots/firefox-1.png)
+![Firefox-1](misc/screenshots/firefox-1.png)
 
-![Firefox-2](screenshots/firefox-2.png)
+![Firefox-2](misc/screenshots/firefox-2.png)
+
+![Page loading animation](misc/gifs/page-loading-animation.gif)
+
+![RGB URL bar](misc/gifs/rgb-urlbar.gif)
+
+![Navigation Buttons](misc/gifs/navigation-buttons.gif)
+
+![Other buttons](misc/gifs/other-buttons.gif)
 
 ## Note
 
@@ -52,23 +60,23 @@ Per addon configuration files are located in addons directory.
 
 Go to `Open application menu > More tools > Customize toolbar...` and make the following changes:
 
-![Toolbar Settings](screenshots/toolbar.png)
+![Toolbar Settings](misc/screenshots/toolbar.png)
 
 #### Bookmarks
 
-![Bookmarks Toolbar](screenshots/bookmarks.png)
+![Bookmarks Toolbar](misc/screenshots/bookmarks.png)
 
 ### General
 
-![General](screenshots/general.png)
+![General](misc/screenshots/general.png)
 
 ### Home
 
-![Home](screenshots/home.png)
+![Home](misc/screenshots/home.png)
 
 ### Search
 
-![Search](screenshots/search.png)
+![Search](misc/screenshots/search.png)
 
 ## Addons
 
@@ -76,7 +84,7 @@ You can find list of addons I use [here](https://addons.mozilla.org/en-US/firefo
 
 ## Userscripts
 
-![Userscripts](screenshots/violentmonkey-userscripts.png)
+![Userscripts](misc/screenshots/violentmonkey-userscripts.png)
 
 ## Theme
 
