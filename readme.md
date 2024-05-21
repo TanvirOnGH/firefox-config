@@ -22,7 +22,7 @@ I recommend using a Firefox account and sync everything. Make sure to disable te
 
 ## Features
 
-- Sidebar (Sidebery)
+- Sidebar (Sidebery) with over and auto-hide mechanism
 - Hovercards
 - Scrollable through tabs
 - Search bar for tabs in the sidebar

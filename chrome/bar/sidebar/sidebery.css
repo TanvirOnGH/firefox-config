@@ -88,8 +88,8 @@
 #sidebar,
 #sidebar-header {
   background-color: inherit !important;
-  border-inline: 1px solid rgb(80, 80, 80);
-  border-inline-width: 0px 1px;
+  border-inline: 1px solid #C38F8F;
+  border-inline-width: 0px 0px;
 }
 
 #sidebar-box:not([positionend]) > :-moz-locale-dir(rtl),
