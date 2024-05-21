@@ -22,16 +22,21 @@ I recommend using a Firefox account and sync everything. Make sure to disable te
 
 ## Features
 
-- Compact about:config list
+- Sidebar (Sidebery)
+- Hovercards
+- Scrollable through tabs
+- Search bar for tabs in the sidebar
 - Custom toolbar button icons
 - Custom (bouncing) loading indicator animation
 - Only icons in extensions menu
 - Icons in main menu items
 - Round UI items
+- Compact about:config list
 - Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
 - Glow and scale effect on hover on toolbar buttons
 - Hidden horizontal tab bar
 - Bottom main toolbar and search/url bar
+- Customized findbar with auto-hide mechanism
 - Hidden bookmarks toolbar (When enabled, it is visible on hover)
 - Custom colors on various items
 - Centered text in the url bar
