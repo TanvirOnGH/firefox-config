@@ -779,7 +779,7 @@
     "updateUrl": "https://raw.githubusercontent.com/uso-archive/data/flomaster/data/usercss/249575.user.css",
     "originalDigest": "0441c8a5caf73338850f022cad03df55a67cd6a8",
     "_id": "95b11520-a2cd-471f-8543-b0c3c6ebae4f",
-    "_rev": 1716188240948,
+    "_rev": 1716496931329,
     "url": "https://uso.kkx.one/style/249575",
     "installationUrl": "https://uso.kkx.one/style/249575",
     "id": 9
@@ -1706,7 +1706,7 @@
     "id": 14
   },
   {
-    "enabled": true,
+    "enabled": false,
     "installDate": 1716188704718,
     "sections": [
       {
@@ -1847,7 +1847,7 @@
     "updateUrl": "https://userstyles.world/api/style/212.user.css",
     "originalDigest": "1a42686c35741d10784ad99ef414b1e955027f17",
     "_id": "0549292b-67c1-438e-8dbe-072302f0312e",
-    "_rev": 1716188704722,
+    "_rev": 1716496927135,
     "installationUrl": "https://userstyles.world/style/212",
     "id": 16
   },
