@@ -18,8 +18,6 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 
 This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 
-I recommend using a Firefox account and sync everything. Make sure to disable telemetry (all telemetry actually) in the settings ;)
-
 ## Features
 
 - Sidebar (Sidebery) with over and auto-hide mechanism
