@@ -32,6 +32,7 @@ user_pref("widget.gtk.ignore-bogus-leave-notify", 1);
 
 // Privacy
 user_pref("privacy.globalprivacycontrol.enabled", true);
+user_pref("browser.privatebrowsing.vpnpromourl", "");
 
 // Crash Reports
 user_pref("breakpad.reportURL", "");
