@@ -45,6 +45,11 @@ user_pref("startup.homepage_welcome_url", "");
 user_pref("startup.homepage_welcome_url.additional", "");
 user_pref("startup.homepage_override_url", "");
 
+// Promos
+user_pref("browser.vpn_promo.enabled", false);
+user_pref("browser.promo.focus.enabled", false);
+user_pref("browser.promo.pin.enabled", false);
+
 // Telemetry
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
