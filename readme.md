@@ -2,6 +2,9 @@
 
 My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.org/en-US/firefox) configuration.
 
+> [!NOTE]  
+> This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
+
 ![Firefox-1](misc/screenshots/firefox-1.png)
 
 ![Firefox-2](misc/screenshots/firefox-2.png)
@@ -13,10 +16,6 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 ![Navigation Buttons](misc/gifs/navigation-buttons.gif)
 
 ![Other buttons](misc/gifs/other-buttons.gif)
-
-## Note
-
-This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 
 ## Features
 
