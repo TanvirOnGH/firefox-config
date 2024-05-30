@@ -5,6 +5,9 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 > [!NOTE]  
 > This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 
+> [!TIP]
+> Disable all telemetry and data collection in Firefox. Look at my `user.js` and find others' `user.js` and hardened firefox configs.
+
 ![Firefox-1](misc/screenshots/firefox-1.png)
 
 ![Firefox-2](misc/screenshots/firefox-2.png)
