@@ -90,6 +90,16 @@ You can find list of addons I use [here](https://addons.mozilla.org/en-US/firefo
 
 ![Userscripts](misc/screenshots/violentmonkey-userscripts.png)
 
+## Stylus styles
+
+![Stylus styles](misc/screenshots/stylus-userstyles.png)
+
+## Ublock origin
+
+Enabled all filters except for the regional ones. And added some custom filters:
+
+![Ublock origin](misc/screenshots/ublock-origin-custom-filters.png)
+
 ## Theme
 
 The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org/en-US/firefox/addon/rosybrown_dark/)
