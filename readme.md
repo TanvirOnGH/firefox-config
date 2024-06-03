@@ -108,7 +108,7 @@ The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org
 
 [schizofox](https://github.com/schizofox/schizofox) - Hardened Firefox flake for the delusional and the schizophrenics. You might find some interesting stuff there.
 
-[Betterfox](https://github.com/yokoffing/Betterfox) -  Firefox user.js for speed, privacy, and security. Your favorite browser, but better.
+[Betterfox](https://github.com/yokoffing/Betterfox) - Firefox user.js for speed, privacy, and security. Your favorite browser, but better.
 
 [FirefoxCSS-Store](https://firefoxcss-store.github.io) - A collection site of Firefox userchrome themes.
 
