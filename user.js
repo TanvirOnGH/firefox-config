@@ -1,6 +1,3 @@
-/// TODO: Harden Firefox
-//- Reference: <https://brainfucksec.github.io/firefox-hardening-guide>
-
 // Required for FF Ricing via CSS editing (chrome)
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("svg.context-properties.content.enabled", true);
@@ -41,7 +38,7 @@ user_pref("layers.gpu-process.enabled", true);
 user_pref("image.cache.size", 10485760);
 user_pref("media.memory_cache_max_size", 1048576);
 user_pref("media.memory_caches_combined_limit_kb", 3145728);
-// ser_pref("media.hardware-video-decoding.force-enabled", true);
+// user_pref("media.hardware-video-decoding.force-enabled", true);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 
 // Misc
