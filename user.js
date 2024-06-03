@@ -21,11 +21,12 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 
 // Misc
-user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox");
+user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // id -u <username>
 user_pref("browser.search.suggest.enabled.private", true);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
 user_pref("layout.frame_rate", 120);
+user_pref("browser.uitour.enabled", false);
 
 // Cache
 user_pref("browser.cache.jsbc_compression_level", 3);
