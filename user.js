@@ -49,7 +49,7 @@ user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // i
 user_pref("browser.search.suggest.enabled.private", true);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
-user_pref("layout.frame_rate", 120);
+user_pref("layout.frame_rate", -1);
 user_pref("browser.uitour.enabled", false);
 
 // URL Bar
