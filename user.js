@@ -28,6 +28,10 @@ user_pref("general.autoScroll", true);
 user_pref("layout.frame_rate", 120);
 user_pref("browser.uitour.enabled", false);
 
+// URL Bar
+user_pref("browser.urlbar.suggest.calculator", true);
+user_pref("browser.urlbar.unitConversion.enabled", true);
+
 // Cache
 user_pref("browser.cache.jsbc_compression_level", 3);
 
