@@ -53,6 +53,9 @@ user_pref("startup.homepage_welcome_url", "");
 user_pref("startup.homepage_welcome_url.additional", "");
 user_pref("startup.homepage_override_url", "");
 
+// Optimization
+user_pref("network.ssl_tokens_cache_capacity", 32768); // more TLS token caching (fast reconnects)
+
 // Promos
 user_pref("browser.vpn_promo.enabled", false);
 user_pref("browser.promo.focus.enabled", false);
