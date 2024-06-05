@@ -63,14 +63,21 @@
 }
 
 #sidebar {
-  transition: min-width 115ms linear var(--uc-autohide-sidebar-delay) !important;
+  transition: min-width 200ms ease-in-out var(--uc-autohide-sidebar-delay) !important;
   min-width: var(--uc-sidebar-width) !important;
   will-change: min-width;
 }
 
+/* Make the transition smoother with a delay */
 #sidebar-box:hover > #sidebar {
   min-width: var(--uc-sidebar-hover-width) !important;
-  transition-delay: 0ms !important;
+  transition-delay: 50ms !important;
+}
+
+/* Additional smoothing for the sidebar */
+#sidebar-box:hover #sidebar {
+  transition: min-width 200ms ease-in-out var(--uc-autohide-sidebar-delay) !important;
+  transition-delay: 50ms !important;
 }
 
 .sidebar-panel {
