@@ -20,6 +20,8 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 
 ![Other buttons](misc/gifs/other-buttons.gif)
 
+![Findbar](misc/screenshots/findbar.png)
+
 ## Features
 
 - Sidebar (Sidebery) with over and auto-hide mechanism
@@ -34,6 +36,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Compact about:config list
 - Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
 - Glow and scale effect on hover on toolbar buttons
+- Findbar as floating box at the top
 - Hidden horizontal tab bar
 - Bottom main toolbar and search/url bar
 - Hidden bookmarks toolbar (When enabled, it is visible on hover)
