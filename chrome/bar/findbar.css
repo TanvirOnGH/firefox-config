@@ -19,6 +19,7 @@ findbar {
 }
 
 /* Auto-hide findbar after Ns when unfocused */
+/*
 findbar:not(:focus-within) {
   opacity: 0 !important;
   margin-top: -100px !important;
@@ -26,6 +27,7 @@ findbar:not(:focus-within) {
     opacity 0.8s ease-in-out 5s,
     margin-top 0.8s ease-in-out 5s !important;
 }
+*/
 
 .findbar-container > .findbar-find-fast {
   padding: var(--toolbarbutton-inner-padding) 1px;
