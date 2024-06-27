@@ -21,9 +21,11 @@
   list-style-image: url("../icons/history.svg") !important;
 }
 
+/*
 #PanelUI-menu-button > .toolbarbutton-icon {
   list-style-image: url("../icons/menu.svg") !important;
 }
+*/
 
 #nav-bar-overflow-button > .toolbarbutton-icon {
   list-style-image: url("../icons/overflow.svg") !important;
@@ -31,6 +33,32 @@
 
 #reload-button > .toolbarbutton-icon {
   list-style-image: url("../icons/reload.svg") !important;
+}
+
+/* Based on: https://github.com/datguypiko/Firefox-Mod-Blur/raw/master/EXTRA%20MODS/Icon%20and%20Button%20Mods/Menu%20icon%20change/menu_icon_change_to_firefox.css */
+/* Change main menu icon to firefox logo */
+@media (prefers-color-scheme: dark) {
+  #navigator-toolbox #PanelUI-menu-button {
+    list-style-image: url(../icons/firefox.svg) !important;
+  }
+
+  :root[privatebrowsingmode="temporary"]
+    #navigator-toolbox
+    #PanelUI-menu-button {
+    list-style-image: url(../icons/firefox-private.svg) !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #navigator-toolbox #PanelUI-menu-button {
+    list-style-image: url(../icons/firefox-light.svg) !important;
+  }
+
+  :root[privatebrowsingmode="temporary"]
+    #navigator-toolbox
+    #PanelUI-menu-button {
+    list-style-image: url(../icons/firefox-private-light.svg) !important;
+  }
 }
 
 #back-button,
