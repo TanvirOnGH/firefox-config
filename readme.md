@@ -64,6 +64,20 @@ NB: You can find your default profile in `~/.mozilla/firefox/profiles.ini`.
 
 Per addon configuration files are located in addons directory.
 
+## Additional tweaks
+
+### Toolbar
+
+Go to `Open application menu > More tools > Customize toolbar...` and make the following changes:
+
+![Toolbar Settings](misc/screenshots/toolbar.png)
+
+Set Density to `Normal` and uncheck Title Bar.
+
+To disable bookmarks toolbar:
+
+![Bookmarks Toolbar](misc/screenshots/bookmarks.png)
+
 ## Customizing Firefox
 
 If you're planning to make multiple and extensive alterations to your UI, learning how to use the [Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) is essential. It allows you to create modifications to the UI and fix those modifications if a newer version of the Firefox codebase causes issues.
@@ -79,18 +93,6 @@ As an alternative to using the Browser Toolbox and SearchFox, you can explore th
 Look for specific topics in github: [userchrome](https://github.com/topics/userchrome), [firefox-css](https://github.com/topics/firefox-css), [firefox-tweaks](https://github.com/topics/firefox-tweaks), [userchrome-styles](https://github.com/topics/userchrome-styles), [userchromecss](https://github.com/topics/userchromecss)
 
 More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org)
-
-## Additional tweaks
-
-### Toolbar
-
-Go to `Open application menu > More tools > Customize toolbar...` and make the following changes:
-
-![Toolbar Settings](misc/screenshots/toolbar.png)
-
-#### Bookmarks
-
-![Bookmarks Toolbar](misc/screenshots/bookmarks.png)
 
 ## Addons
 
