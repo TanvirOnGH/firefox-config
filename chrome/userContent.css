@@ -25,3 +25,22 @@
     background-color: transparent !important;
   }
 }
+
+/* Change the default ugly cyan color in various elements/UI */
+:root,
+panel,
+dialog,
+window {
+  --lwt-toolbarbutton-icon-fill-attention: #c38f8f !important;
+  --button-primary-bgcolor: #c38f8f !important;
+  --button-primary-hover-bgcolor: #c38f8f !important;
+  --button-primary-active-bgcolor: #c38f8f !important;
+  --in-content-primary-button-background: #c38f8f !important;
+  --in-content-primary-button-background-hover: #c38f8f !important;
+  --in-content-primary-button-background-active: #c38f8f !important;
+  --input-border-color: #c38f8f !important;
+  --uc-checkbox-checked-bgcolor: #c38f8f !important;
+  --checkbox-checked-bgcolor: #c38f8f !important;
+  --focus-outline-color: #c38f8f !important;
+  --in-content-link-color: #c38f8f !important;
+}

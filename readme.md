@@ -49,6 +49,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Userscripts
 - Userstyles
 - Custom theme
+- Consistent and matching colors across various elements and the UI
 
 ## Where do each files go
 
