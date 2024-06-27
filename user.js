@@ -51,6 +51,7 @@ user_pref("ui.textSelectDisabledBackground", "#a0a0a0");
 // Misc colors
 user_pref("browser.visited_color", "#c38f8f");
 user_pref("browser.visited_color.dark", "#8a6666");
+user_pref("browser.anchor_color", "#40b5bf");
 
 // Misc
 user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // id -u <username>
