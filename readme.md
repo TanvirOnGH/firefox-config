@@ -24,6 +24,10 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 
 ![Findbar](misc/screenshots/findbar.png)
 
+![Searchbar](misc/screenshots/searchbar.png)
+
+![Downloads Menu](misc/screenshots/downloads-menu.png)
+
 ## Features
 
 - Sidebar (Sidebery) with over and auto-hide mechanism
