@@ -41,6 +41,13 @@ user_pref("media.memory_caches_combined_limit_kb", 3145728);
 // user_pref("media.hardware-video-decoding.force-enabled", true);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 
+// findbar (ctrl+f) highlight colors
+user_pref("ui.textHighlightBackground", "#8DB8CD");
+user_pref("ui.textHighlightForeground", "#ffffff");
+user_pref("ui.textSelectAttentionBackground", "#c38f8f");
+user_pref("ui.textSelectAttentionForeground", "#ffffff");
+user_pref("ui.textSelectDisabledBackground", "#a0a0a0");
+
 // Misc
 user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // id -u <username>
 user_pref("browser.search.suggest.enabled.private", true);
