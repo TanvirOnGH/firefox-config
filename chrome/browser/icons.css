@@ -2,35 +2,35 @@
 
 /* Icon overrides */
 #back-button > .toolbarbutton-icon {
-  list-style-image: url("img/back.svg") !important;
+  list-style-image: url("../icons/back.svg") !important;
 }
 
 #bookmarks-menu-button > .toolbarbutton-icon {
-  list-style-image: url("img/bookmarks.svg") !important;
+  list-style-image: url("../icons/bookmarks.svg") !important;
 }
 
 #forward-button > .toolbarbutton-icon {
-  list-style-image: url("img/forward.svg") !important;
+  list-style-image: url("../icons/forward.svg") !important;
 }
 
 #downloads-indicator-icon {
-  list-style-image: url("img/downloads.svg") !important;
+  list-style-image: url("../icons/downloads.svg") !important;
 }
 
 #history-panelmenu {
-  list-style-image: url("img/history.svg") !important;
+  list-style-image: url("../icons/history.svg") !important;
 }
 
 #PanelUI-menu-button > .toolbarbutton-icon {
-  list-style-image: url("img/menu.svg") !important;
+  list-style-image: url("../icons/menu.svg") !important;
 }
 
 #nav-bar-overflow-button > .toolbarbutton-icon {
-  list-style-image: url("img/overflow.svg") !important;
+  list-style-image: url("../icons/overflow.svg") !important;
 }
 
 #reload-button > .toolbarbutton-icon {
-  list-style-image: url("img/reload.svg") !important;
+  list-style-image: url("../icons/reload.svg") !important;
 }
 
 #back-button,
