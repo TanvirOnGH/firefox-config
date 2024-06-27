@@ -92,18 +92,6 @@ Go to `Open application menu > More tools > Customize toolbar...` and make the f
 
 ![Bookmarks Toolbar](misc/screenshots/bookmarks.png)
 
-### General
-
-![General](misc/screenshots/general.png)
-
-### Home
-
-![Home](misc/screenshots/home.png)
-
-### Search
-
-![Search](misc/screenshots/search.png)
-
 ## Addons
 
 You can find list of addons I use [here](https://addons.mozilla.org/en-US/firefox/collections/17970682/TAT-Collection/).
