@@ -30,7 +30,9 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 
 ## Features
 
-- Sidebar (Sidebery) with over and auto-hide mechanism
+- Smooth scrolling
+- Animations
+- Sidebar (Sidebery) with auto-hide mechanism
 - Hovercards
 - Scrollable through tabs
 - Search bar for tabs in the sidebar
@@ -41,11 +43,12 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Round UI items
 - Compact about:config list
 - Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
+- Consistent and matching colors across various elements and the UI
 - Glow and scale effect on hover on toolbar buttons
 - Findbar as floating box at the top
 - Hidden horizontal tab bar
 - Bottom main toolbar and search/url bar
-- Hidden bookmarks toolbar (When enabled, it is visible on hover)
+- Hidden bookmarks toolbar visible on hover
 - Custom colors on various items
 - Centered text in the url bar
 - Colored overlay on the url bar based on the type of the connection
@@ -55,7 +58,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Userscripts
 - Userstyles
 - Custom theme
-- Consistent and matching colors across various elements and the UI
+- Various performance and privacy tweaks
 
 ## Where do each files go
 
