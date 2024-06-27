@@ -88,3 +88,14 @@
 #appMenu-translate-button ~ * {
   order: 2;
 }
+
+/* Firefox profile avatar in menu */
+#appMenu-fxa-label2::before {
+  content: "";
+  display: flex;
+  height: 15px;
+  width: 15px;
+  background: var(--avatar-image-url) 0/15px;
+  scale: 1.2;
+  border-radius: 100px;
+}
