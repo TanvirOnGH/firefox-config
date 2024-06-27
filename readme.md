@@ -7,6 +7,8 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 
 > [!TIP]
 > Disable all telemetry and data collection in Firefox. Look at my `user.js` and find others' `user.js` and hardened firefox configs.
+>
+> For customizing firefox yourself, look at section [Customizing Firefox](#customizing-firefox).
 
 ![Firefox-1](misc/screenshots/firefox-1.png)
 
@@ -61,6 +63,22 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 NB: You can find your default profile in `~/.mozilla/firefox/profiles.ini`.
 
 Per addon configuration files are located in addons directory.
+
+## Customizing Firefox
+
+If you're planning to make multiple and extensive alterations to your UI, learning how to use the [Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) is essential. It allows you to create modifications to the UI and fix those modifications if a newer version of the Firefox codebase causes issues.
+
+While the Browser Toolbox isn't particularly user-friendly to set up or use initially, perseverance will pay off as it is key to inspecting Firefox's UI. Check out the [r/firefoxcss wiki](https://www.reddit.com/r/FirefoxCSS/wiki/index/) and search the subreddit for specific posts.
+
+Investigate how to use Mozilla's source code indexing tool [SearchFox](https://searchfox.org) as well.
+
+Most of your "How to" questions can be answered by the Browser Toolbox and SearchFox, though it takes some time to understand them both from scratch.
+
+As an alternative to using the Browser Toolbox and SearchFox, you can explore the wealth of information in subreddits like [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS), [r/firefox](https://www.reddit.com/r/firefox/) and [r/unixporn](https://www.reddit.com/r/unixporn/). Finding the precisely relevant information often requires diligent searching with a variety of **keywords**. A useful trick is to search with a section of CSS userstyle, a selector, or a rule related to the UI element you want to modify. You can also look on GitHub, GitLab, and other code hosting sites, or simply use your favorite search engine. There are various articles and blogs online as well. Discord servers like [unixporn](https://discord.com/invite/unixporn) server can be helpful too.
+
+Look for specific topics in github: [userchrome](https://github.com/topics/userchrome), [firefox-css](https://github.com/topics/firefox-css), [firefox-tweaks](https://github.com/topics/firefox-tweaks), [userchrome-styles](https://github.com/topics/userchrome-styles), [userchromecss](https://github.com/topics/userchromecss)
+
+More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org)
 
 ## Additional tweaks
 
