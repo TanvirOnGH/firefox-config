@@ -48,6 +48,10 @@ user_pref("ui.textSelectAttentionBackground", "#c38f8f");
 user_pref("ui.textSelectAttentionForeground", "#ffffff");
 user_pref("ui.textSelectDisabledBackground", "#a0a0a0");
 
+// Misc colors
+user_pref("browser.visited_color", "#c38f8f");
+user_pref("browser.visited_color.dark", "#8a6666");
+
 // Misc
 user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // id -u <username>
 user_pref("browser.search.suggest.enabled.private", true);
