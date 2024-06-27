@@ -26,6 +26,10 @@
   background-color: #c38f8f !important;
 }
 
+#urlbar-results :is(.urlbarView-tags, .urlbarView-action, .urlbarView-url) {
+  color: #c38f8f !important;
+}
+
 /* Text color of the URL selection menu */
 #urlbar-results .urlbarView-row[selected] .urlbarView-title {
   color: #ffffff !important;
