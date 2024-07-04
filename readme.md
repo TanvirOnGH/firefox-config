@@ -130,4 +130,4 @@ Enabled all filters except for the regional ones. And added some custom filters:
 - [FirefoxCSS-Store](https://firefoxcss-store.github.io) - A collection site of Firefox userchrome themes.
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) - A subreddit dedicated to Firefox customization.
 - [SearchFox](https://searchfox.org) - A source code indexing tool for Mozilla Firefox. It indexes C++, Rust, and JavaScript code.
-- [ArkenFox GUI](https://arkenfox.github.io/gui) -  Site to help you explore the information from the [arkenfox user.js](https://github.com/arkenfox/user.js)
+- [ArkenFox GUI](https://arkenfox.github.io/gui) - Site to help you explore the information from the [arkenfox user.js](https://github.com/arkenfox/user.js)
