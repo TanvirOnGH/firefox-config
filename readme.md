@@ -46,6 +46,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Dark UI in pages (e.g. addons.mozilla.org)
 - Centered status panel at the top
 - Compact about:config list
+- Compact items and menus (e.g. context menu)
 - Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
 - Consistent and matching colors across various elements and the UI
 - Glow and scale effect on hover on toolbar buttons
