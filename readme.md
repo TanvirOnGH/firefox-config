@@ -107,6 +107,15 @@ Look for specific topics in github: [userchrome](https://github.com/topics/userc
 
 More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org)
 
+### Live debug and update `userChrome.css`
+
+1. Set `devtools.debugger.remote-enabled` to `true` in `about:config`.
+2. Set `devtools.chrome.enabled` to true in `about:config`.
+3. Open remote debugger using **Ctrl+Alt+Shift+I**.
+4. Allow the incoming connection.
+5. Select Style Editor tab, then open `userChrome.css`.
+6. Edit and save the file for it to take effect (hot reload).
+
 ## Theme
 
 The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org/en-US/firefox/addon/rosybrown_dark/)
