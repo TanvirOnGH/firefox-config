@@ -1,5 +1,4 @@
 /* Based on: https://github.com/MrOtherGuy/firefox-csshacks/raw/master/chrome/centered_statuspanel.css */
-
 /* Centered Status Panel at the Top */
 #statuspanel:not([hidden]) {
   display: flex !important;
@@ -8,10 +7,34 @@
   inset-inline: auto !important;
   inset-block: 0 auto !important; /* top status panel */
   min-width: unset !important;
+  border-radius: 0 !important; /* Remove rounded corners */
 }
+
 #statuspanel-label {
   /* border-width: 1px 1px 0px 1px !important; */
   border-width: 0 1px 1px 1px !important; /* top status panel */
   border-style: solid !important;
   margin-inline: auto !important;
+}
+
+/* Ensure no rounded corners for both the panel and its label */
+#statuspanel:not([hidden]),
+#statuspanel-label {
+  border-radius: 0 !important;
+}
+
+/* Increase the size of the status panel */
+#statuspanel:not([hidden]) {
+  min-width: 100px !important;
+  height: 30px !important;
+  display: flex !important;
+  justify-content: center !important; /* Center content horizontally */
+  align-items: center !important; /* Center content vertically */
+}
+
+#statuspanel-label {
+  font-size: 20px !important;
+  border-width: 5 5px 5px 5px !important;
+  border-style: solid !important;
+  padding: 5 5px !important; /* Padding on the sides */
 }
