@@ -38,3 +38,8 @@
   border-style: solid !important;
   padding: 5 5px !important; /* Padding on the sides */
 }
+
+#statuspanel-label {
+  background-color: #202020 !important;
+  color: #c38f8f !important;
+}
