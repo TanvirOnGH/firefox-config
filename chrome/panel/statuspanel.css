@@ -43,3 +43,8 @@
   background-color: #202020 !important;
   color: #c38f8f !important;
 }
+
+/* Hide the status panel */
+/*
+#statuspanel {display: none !important ;}
+*/
