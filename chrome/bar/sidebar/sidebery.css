@@ -2,7 +2,7 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* Hide the sidebar header */
+/* Hide the sidebar header/title */
 #sidebar-header {
   display: none !important;
 }
