@@ -57,6 +57,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Centered text in the url bar
 - Colored overlay on the url bar based on the type of the connection
 - RGB animation on the url bar address
+- Global font family and size
 - Other various fixes and tweaks
 - Custom addons configuration
 - Userscripts

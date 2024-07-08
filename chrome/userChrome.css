@@ -11,6 +11,12 @@
 @import "misc/round-items.css";
 @import "panel/statuspanel.css";
 
+/* Global font and font size */
+* {
+  font-family: "Fira Code" !important;
+  /* font-size: 10pt !important; */
+}
+
 /* Change the default ugly cyan color in various elements/UI */
 :root,
 panel,
