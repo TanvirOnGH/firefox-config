@@ -9,6 +9,7 @@
 @import "menu/extensions-menu.css";
 @import "browser/navigation.css";
 @import "misc/round-items.css";
+@import "panel/statuspanel.css";
 
 /* Change the default ugly cyan color in various elements/UI */
 :root,
