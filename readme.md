@@ -43,6 +43,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Only icons in extensions menu
 - Icons in main menu items
 - Round UI items
+- Dark UI in pages (e.g. addons.mozilla.org)
 - Centered status panel at the top
 - Compact about:config list
 - Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
