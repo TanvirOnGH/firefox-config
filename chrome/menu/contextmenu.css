@@ -1,0 +1,6 @@
+/* Compact context menu */
+menupopup > menuitem,
+menupopup > menu {
+  padding-block: 2px !important;
+  min-height: unset !important;
+}
