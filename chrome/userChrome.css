@@ -12,8 +12,9 @@
 @import "misc/round-items.css";
 @import "panel/statuspanel.css";
 
-/* Global font and font size */
-* {
+/* Global font and font size, excluding common icon elements */
+/* Note: Exclusions added to prevent overriding icon fonts */
+*:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(i):not(span) {
   font-family: "Fira Code" !important;
   /* font-size: 10pt !important; */
 }
