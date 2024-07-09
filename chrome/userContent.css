@@ -1,9 +1,4 @@
-/* Global font and font size, excluding common icon elements */
-/* Note: Exclusions added to prevent overriding icon fonts */
-*:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(i):not(span) {
-  font-family: "Fira Code" !important;
-  /* font-size: 10pt !important; */
-}
+@import "styling/fonts.css";
 
 /* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/content/compact_about_config.css */
 /* Compact about:config list */
