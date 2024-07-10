@@ -11,9 +11,7 @@
 }
 
 #statuspanel-label {
-  /* border-width: 1px 1px 0px 1px !important; */
-  border-width: 0 1px 1px 1px !important; /* top status panel */
-  border-style: solid !important;
+  border-width: 0 !important; /* Remove all borders */
   margin-inline: auto !important;
 }
 
@@ -34,13 +32,9 @@
 
 #statuspanel-label {
   font-size: 20px !important;
-  border-width: 5 5px 5px 5px !important;
-  border-style: solid !important;
   padding: 5 5px !important; /* Padding on the sides */
-}
-
-#statuspanel-label {
-  background-color: #202020 !important;
+  /* Fully transparent background */
+  background-color: rgba(32, 32, 32, 0) !important;
   color: #c38f8f !important;
 }
 
