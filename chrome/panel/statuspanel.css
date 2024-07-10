@@ -1,3 +1,5 @@
+@import "../styling/animations.css";
+
 /* Based on: https://github.com/MrOtherGuy/firefox-csshacks/raw/master/chrome/centered_statuspanel.css */
 /* Centered Status Panel at the Top */
 #statuspanel:not([hidden]) {
@@ -36,6 +38,7 @@
   /* Fully transparent background */
   background-color: rgba(32, 32, 32, 0) !important;
   color: #c38f8f !important;
+  animation: heartbeat 1.5s ease-in-out infinite;
 }
 
 /* Hide the status panel */
