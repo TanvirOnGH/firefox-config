@@ -19,6 +19,16 @@
   text-align: center !important;
 }
 
+/* Change domain color in URL dropdown */
+#urlbar-results .urlbarView-row .urlbarView-url {
+  color: #496ad6 !important;
+}
+
+/* Change the title color */
+#urlbar-results .urlbarView-row .urlbarView-title {
+  color: #c38f8f !important;
+}
+
 /* Add color to urlbar border when urlbar is focused */
 #urlbar-container {
   --toolbar-field-focus-border-color: #c38f8f !important;
