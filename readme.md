@@ -79,6 +79,14 @@ NB: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go
 
 Per addons and userscripts configuration, you can find them in the respective directories.
 
+## Enabling userChrome.css and userContent.css
+
+Enable `userChrome.css` and `userContent.css` support:
+
+1. Go to `about:config` and click the "Accept the Risk and Continue" button.
+2. In the search box, type `toolkit.legacyUserProfileCustomizations.stylesheets`.
+3. Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` entry to set its value to **`true`**.
+
 ## Additional tweaks
 
 ### Toolbar
