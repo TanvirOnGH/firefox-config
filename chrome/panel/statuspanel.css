@@ -1,6 +1,6 @@
 @import "../styling/animations.css";
 
-/* Based on: https://github.com/MrOtherGuy/firefox-csshacks/raw/master/chrome/centered_statuspanel.css */
+/* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/raw/master/chrome/centered_statuspanel.css> */
 /* Centered Status Panel at the Top */
 #statuspanel:not([hidden]) {
   display: flex !important;

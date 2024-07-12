@@ -1,4 +1,4 @@
-/* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_icon_glow.css */
+/* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_icon_glow.css> */
 /* Replace the button background-colors with a glow effect */
 :root {
   --uc-icon-glow-primary: cyan;
@@ -71,7 +71,7 @@ toolbarbutton#scrollbutton-down:active {
     drop-shadow(0 0 1px var(--uc-icon-glow-hover-primary));
 }
 
-/* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_scale_onclick.css */
+/* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_scale_onclick.css> */
 /* Button Effect - Scale on click */
 .urlbar-icon,
 .toolbarbutton-icon,

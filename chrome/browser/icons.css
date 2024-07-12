@@ -1,4 +1,4 @@
-/* Based on: https://github.com/not-holar/my_firefox_theme/tree/main/firefox/chrome */
+/* Based on: <https://github.com/not-holar/my_firefox_theme/tree/main/firefox/chrome> */
 
 /* Icon overrides */
 #back-button > .toolbarbutton-icon {
@@ -35,7 +35,7 @@
   list-style-image: url("../icons/reload.svg") !important;
 }
 
-/* Based on: https://github.com/datguypiko/Firefox-Mod-Blur/raw/master/EXTRA%20MODS/Icon%20and%20Button%20Mods/Menu%20icon%20change/menu_icon_change_to_firefox.css */
+/* Based on: <https://github.com/datguypiko/Firefox-Mod-Blur/raw/master/EXTRA%20MODS/Icon%20and%20Button%20Mods/Menu%20icon%20change/menu_icon_change_to_firefox.css> */
 /* Change main menu icon to firefox logo */
 @media (prefers-color-scheme: dark) {
   #navigator-toolbox #PanelUI-menu-button {
