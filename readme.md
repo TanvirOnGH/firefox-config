@@ -109,7 +109,7 @@ As an alternative to using the Browser Toolbox and SearchFox, you can explore th
 
 Look for specific topics on GitHub: [userchrome](https://github.com/topics/userchrome), [firefox-css](https://github.com/topics/firefox-css), [firefox-tweaks](https://github.com/topics/firefox-tweaks), [userchrome-styles](https://github.com/topics/userchrome-styles), [userchromecss](https://github.com/topics/userchromecss).
 
-More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org).
+More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
 
 ### Live Debug and Update `userChrome.css`
 
@@ -150,3 +150,4 @@ Enabled all filters except for the regional ones. Added some custom filters:
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) - A subreddit dedicated to Firefox customization.
 - [SearchFox](https://searchfox.org) - A source code indexing tool for Mozilla Firefox. It indexes C++, Rust, and JavaScript code.
 - [ArkenFox GUI](https://arkenfox.github.io/gui) - Site to help you explore the information from the [arkenfox user.js](https://github.com/arkenfox/user.js)
+- [fx-autoconfig](https://github.com/MrOtherGuy/fx-autoconfig) - A toolkit to load arbitrary javascript files to be run in Firefox browser context. Relies on autoconfig functionality available in Firefox.
