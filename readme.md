@@ -72,6 +72,7 @@ Enable `userChrome.css` and `userContent.css` support in Firefox:
 1. Go to `about:config` and click the "Accept the Risk and Continue" button.
 2. In the search box, type `toolkit.legacyUserProfileCustomizations.stylesheets`.
 3. Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` entry to set its value to **`true`**.
+4. Restart Firefox.
 
 ## Additional Tweaks
 
