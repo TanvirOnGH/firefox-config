@@ -61,32 +61,14 @@
 #PersonalToolbar {
   opacity: 0;
   visibility: collapse;
-  transition:
-    opacity 0.4s ease-in-out,
-    visibility 0s linear 0.3s;
+  transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
 }
 
 /* Show bookmarks toolbar when toolbar is hovered */
 #navigator-toolbox:hover > #PersonalToolbar {
   opacity: 1;
   visibility: visible;
-  transition:
-    opacity 0.4s ease-in-out,
-    visibility 0s linear 0.3s;
-}
-
-/* Remove maximum/minimum width restriction of sidebar */
-#sidebar {
-  max-width: none !important;
-  min-width: 0px !important;
-}
-
-/* Downloads indicator progress bar */
-#downloads-indicator-progress-inner {
-  --toolbarbutton-icon-fill-attention: #c38f8f;
-}
-.downloadProgress::-moz-progress-bar {
-  --download-progress-fill-color: #c38f8f;
+  transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
 }
 
 /* Based on: <https://github.com/Etesam913/rounded-fox> */
