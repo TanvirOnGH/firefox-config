@@ -46,7 +46,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 - Icons in main menu items
 - Round UI items
 - Dark UI in pages (e.g. addons.mozilla.org)
-- Centered status panel at the top
+- Custom centered status panel at the top with animations
 - Compact about:config list
 - Compact items and menus (e.g. context menu)
 - Various sidebar (sidebery, tree-style-tab) tweaks including auto-hide
@@ -75,9 +75,9 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 | user.js | ~/.mozilla/firefox/<path_ID>.default/ |
 | chrome  | ~/.mozilla/firefox/<path_ID>.default/ |
 
-NB: You can find your default profile in `~/.mozilla/firefox/profiles.ini`.
+NB: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support`, you'll see your default profile directory in `Profile Directory` section. Click on `Open Directory`.
 
-Per addon configuration files are located in addons directory.
+Per addons and userscripts configuration, you can find them in the respective directories.
 
 ## Additional tweaks
 
