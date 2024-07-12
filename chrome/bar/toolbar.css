@@ -1,52 +1,4 @@
-/* Based on Based on: https://github.com/Etesam913/rounded-fox */
-
-/* Auto Hide Toolbar */
-/* Breaks on Firefox 113.0+ */
-/*
-#navigator-toolbox-background {
-    height: 0 !important;
-}
-
-#titlebar {
-    display: none !important;
-}
-
-.titlebar-buttonbox-container {
-    display: none !important;
-}
-
-#navigator-toolbox:not(:hover) {
-    --is-bar-visible: hidden;
-    opacity: 0 !important;
-    height: 10px;
-    transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
-}
-
-#navigator-toolbox {
-    position: relative;
-    z-index: 1;
-    overflow: var(--is-bar-visible);
-}
-
-#navigator-toolbox:hover {
-    height: 40px;
-    opacity: 1 !important;
-    transition: opacity 200ms ease-in-out;
-}
-
-#navigator-toolbox:focus-within {
-    height: 40px;
-    opacity: 1 !important;
-    transition: opacity 200ms ease-in-out;
-    --is-bar-visible: visible;
-}
-
-toolbarbutton[open="true"] {
-    --is-bar-visible: visible !important;
-}
-*/
-
-/* Based on: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/navbar_below_content.css */
+/* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/navbar_below_content.css> */
 /* Move the main toolbar (#nav-bar) to the bottom */
 @-moz-document url(chrome://browser/content/browser.xhtml)
 {
@@ -136,3 +88,51 @@ toolbarbutton[open="true"] {
 .downloadProgress::-moz-progress-bar {
   --download-progress-fill-color: #c38f8f;
 }
+
+/* Based on: <https://github.com/Etesam913/rounded-fox> */
+
+/* Auto Hide Toolbar */
+/* Breaks on Firefox 113.0+ */
+/*
+#navigator-toolbox-background {
+    height: 0 !important;
+}
+
+#titlebar {
+    display: none !important;
+}
+
+.titlebar-buttonbox-container {
+    display: none !important;
+}
+
+#navigator-toolbox:not(:hover) {
+    --is-bar-visible: hidden;
+    opacity: 0 !important;
+    height: 10px;
+    transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+#navigator-toolbox {
+    position: relative;
+    z-index: 1;
+    overflow: var(--is-bar-visible);
+}
+
+#navigator-toolbox:hover {
+    height: 40px;
+    opacity: 1 !important;
+    transition: opacity 200ms ease-in-out;
+}
+
+#navigator-toolbox:focus-within {
+    height: 40px;
+    opacity: 1 !important;
+    transition: opacity 200ms ease-in-out;
+    --is-bar-visible: visible;
+}
+
+toolbarbutton[open="true"] {
+    --is-bar-visible: visible !important;
+}
+*/

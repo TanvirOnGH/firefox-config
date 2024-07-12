@@ -7,7 +7,7 @@ user_pref("browser.compactmode.show", true);
 
 // Experimental
 // Requires Firefox 128+
-// <https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/128#experimental_web_features>
+// See: <https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/128#experimental_web_features>
 user_pref("image.jxl.enabled", true);
 
 // To make Firefox Translations (Addon) better integrate with the UI
@@ -31,7 +31,7 @@ user_pref("browser.warnOnQuit", true); // enable warning when quitting Firefox (
 user_pref("browser.tabs.warnOnCloseOtherTabs", true); // Recommended
 
 // GFX
-// Based on <https://gist.github.com/RubenKelevra/fd66c2f856d703260ecdf0379c4f59db#gfx-rendering-tweaks>
+// Based on: <https://gist.github.com/RubenKelevra/fd66c2f856d703260ecdf0379c4f59db#gfx-rendering-tweaks>
 user_pref("gfx.canvas.accelerated", true);
 user_pref("gfx.canvas.accelerated.cache-items", 32768);
 user_pref("gfx.canvas.accelerated.cache-size", 4096);
@@ -126,7 +126,7 @@ user_pref("browser.ping-centre.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 
-/* <https://wiki.archlinux.org/title/Firefox/Tweaks#Smooth_scrolling> */
+/* Based on: <https://wiki.archlinux.org/title/Firefox/Tweaks#Smooth_scrolling> */
 /*
 user_pref("general.smoothScroll.lines.durationMaxMS", 125);
 user_pref("general.smoothScroll.lines.durationMinMS", 125);
@@ -145,7 +145,7 @@ user_pref("toolkit.scrollbox.horizontalScrollDistance", 6);
 user_pref("toolkit.scrollbox.verticalScrollDistance", 2);
 */
 
-/* <https://raw.githubusercontent.com/AveYo/fox/main/Natural%20Smooth%20Scrolling%20for%20user.js> */
+/* Based on: <https://raw.githubusercontent.com/AveYo/fox/main/Natural%20Smooth%20Scrolling%20for%20user.js> */
 /// NATURAL SMOOTH SCROLLING V4 "SHARP"
 user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
 user_pref("general.smoothScroll.msdPhysics.enabled", true);
