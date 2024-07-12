@@ -75,7 +75,7 @@ My Tailor-Fitted highly customized and advanced [Firefox](https://www.mozilla.or
 | user.js | ~/.mozilla/firefox/<path_ID>.default/ |
 | chrome  | ~/.mozilla/firefox/<path_ID>.default/ |
 
-NB: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support`, you'll see your default profile directory in `Profile Directory` section. Click on `Open Directory`.
+You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support`, you'll see your default profile directory in `Profile Directory` section. Click on `Open Directory`.
 
 Per addons and userscripts configuration, you can find them in the respective directories.
 
