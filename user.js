@@ -5,6 +5,11 @@ user_pref("svg.context-properties.content.enabled", true);
 // UI
 user_pref("browser.compactmode.show", true);
 
+// Experimental
+// Requires Firefox 128+
+// <https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/128#experimental_web_features>
+user_pref("image.jxl.enabled", true);
+
 // To make Firefox Translations (Addon) better integrate with the UI
 user_pref("browser.translation.ui.show", true);
 user_pref("browser.translation.detectLanguage", true);
