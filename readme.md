@@ -63,12 +63,18 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 
 ## Where do each file go
 
-| File    | Location                              |
-| ------- | ------------------------------------- |
-| user.js | ~/.mozilla/firefox/<path_ID>.default/ |
-| chrome  | ~/.mozilla/firefox/<path_ID>.default/ |
+| File    | Location on Linux                     | Location on Windows                                   | Location on macOS                                                 |
+| ------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------- |
+| user.js | ~/.mozilla/firefox/<path_ID>.default/ | %APPDATA%\Mozilla\Firefox\Profiles\<path_ID>.default/ | ~/Library/Application Support/Firefox/Profiles/<path_ID>.default/ |
+| chrome  | ~/.mozilla/firefox/<path_ID>.default/ | %APPDATA%\Mozilla\Firefox\Profiles\<path_ID>.default/ | ~/Library/Application Support/Firefox/Profiles/<path_ID>.default/ |
 
-You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support`, you'll see your default profile directory in the `Profile Directory` section. Click on `Open Directory`.
+### Finding Your Default Profile
+
+- **Linux**: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support` in Firefox, you'll see your default profile directory in the `Profile Directory` section. Click on `Open Directory`.
+
+- **Windows**: Your default profile can be found at `%APPDATA%\Mozilla\Firefox\Profiles\`. Alternatively, navigate to `about:support` in Firefox, and click on `Open Folder` next to the `Profile Directory` section.
+
+- **macOS**: Locate your default profile in `~/Library/Application Support/Firefox/Profiles/`. Or, go to `about:support` in Firefox, and click on `Show in Finder` next to the `Profile Directory` section.
 
 For addons and userscripts configuration, you can find them in the respective directories.
 
