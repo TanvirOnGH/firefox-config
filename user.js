@@ -22,6 +22,14 @@ user_pref("doh-rollout.home-region", "US");
 user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 
+// Warnings
+user_pref("browser.aboutConfig.showWarning", false); // disable about:config warning
+user_pref("browser.tabs.warnOnClose", true); // enable warning when closing multiple tabs (recommended)
+user_pref("browser.tabs.warnOnCloseOtherTabs", true); // enable warning when closing multiple tabs (recommended)
+user_pref("browser.tabs.warnOnOpen", true); // enable warning when opening multiple tabs (recommended)
+user_pref("browser.warnOnQuit", true); // enable warning when quitting Firefox (recommended)
+user_pref("browser.tabs.warnOnCloseOtherTabs", true); // Recommended
+
 // GFX
 // Based on <https://gist.github.com/RubenKelevra/fd66c2f856d703260ecdf0379c4f59db#gfx-rendering-tweaks>
 user_pref("gfx.canvas.accelerated", true);
