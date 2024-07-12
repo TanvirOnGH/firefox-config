@@ -61,12 +61,17 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 ![Searchbar](misc/screenshots/searchbar.png)
 ![Downloads Menu](misc/screenshots/downloads-menu.png)
 
-## Where do each file go
+## File Locations
 
-| File    | Location on Linux                     | Location on Windows                                   | Location on macOS                                                 |
-| ------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------- |
-| user.js | ~/.mozilla/firefox/<path_ID>.default/ | %APPDATA%\Mozilla\Firefox\Profiles\<path_ID>.default/ | ~/Library/Application Support/Firefox/Profiles/<path_ID>.default/ |
-| chrome  | ~/.mozilla/firefox/<path_ID>.default/ | %APPDATA%\Mozilla\Firefox\Profiles\<path_ID>.default/ | ~/Library/Application Support/Firefox/Profiles/<path_ID>.default/ |
+Both `user.js` and `chrome` files should be placed in the following locations depending on your operating system:
+
+| OS      | Location                                                               |
+| ------- | ---------------------------------------------------------------------- |
+| Linux   | `~/.mozilla/firefox/<profile_ID>.default/`                             |
+| Windows | `%APPDATA%\Mozilla\Firefox\Profiles\<profile_ID>.default/`             |
+| macOS   | `~/Library/Application Support/Firefox/Profiles/<profile_ID>.default/` |
+
+Replace `<profile_ID>` with your Firefox profile ID.
 
 ### Finding Your Default Profile
 
