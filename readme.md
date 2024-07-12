@@ -73,6 +73,8 @@ Both `user.js` and `chrome` files should be placed in the following locations de
 
 Replace `<profile_ID>` with your Firefox profile ID.
 
+For addons and userscripts configuration, you can find them in the respective directories.
+
 ### Finding Your Default Profile
 
 - **Linux**: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support` in Firefox, you'll see your default profile directory in the `Profile Directory` section. Click on `Open Directory`.
@@ -80,8 +82,6 @@ Replace `<profile_ID>` with your Firefox profile ID.
 - **Windows**: Your default profile can be found at `%APPDATA%\Mozilla\Firefox\Profiles\`. Alternatively, navigate to `about:support` in Firefox, and click on `Open Folder` next to the `Profile Directory` section.
 
 - **macOS**: Locate your default profile in `~/Library/Application Support/Firefox/Profiles/`. Or, go to `about:support` in Firefox, and click on `Show in Finder` next to the `Profile Directory` section.
-
-For addons and userscripts configuration, you can find them in the respective directories.
 
 ## Enabling `userChrome.css` and `userContent.css`
 
