@@ -4,6 +4,9 @@
 }
 
 /* Center text on urlbar */
+/* Ensure text remains centered in the URL bar, even when focused */
+#urlbar[focused] #urlbar-input,
+#urlbar[focused] .urlbar-input,
 #urlbar:not([focused]) #urlbar-input,
 #urlbar:not([focused]) .urlbar-input {
   text-align: center !important;
