@@ -87,6 +87,7 @@
 }
 
 /* Based on: <https://gist.githubusercontent.com/qaz69wsx/83a90423163b65a8344b2e60fc356a58/raw/d9fbd601430b834e9a658fd8bebbfee2cb914300/menu_icons.css> */
+/* And: <https://github.com/bmFtZQ/edge-frfox/raw/main/chrome/icons/icons.css> */
 /* Icons in menus */
 .subviewbutton:not(.subviewbutton-iconic, [image], .all-tabs-close-button)
   > image {
@@ -95,6 +96,23 @@
   margin-inline-end: 8px !important;
   -moz-context-properties: fill;
   fill: currentColor;
+}
+
+/* Stop-Reload Animation */
+#stop-reload-button[animate]
+  > #reload-button[displaystop]
+  + #stop-button
+  > .toolbarbutton-animatable-box
+  > .toolbarbutton-animatable-image {
+  background-image: url("../icons/reload-to-stop.svg") !important;
+}
+
+/* Stop-Reload Animation */
+#stop-reload-button[animate]
+  > #reload-button
+  > .toolbarbutton-animatable-box
+  > .toolbarbutton-animatable-image {
+  background-image: url("../icons/stop-to-reload.svg") !important;
 }
 
 #overflowMenu-customize-button > .toolbarbutton-icon {
@@ -304,7 +322,7 @@ menupopup.toolbar-menupopup menuitem:not(.menuitem-iconic) {
 #context_reloadSelectedTabs,
 #toolbar-context-reloadSelectedTab,
 #context-reloadframe {
-  background-image: url("chrome://global/skin/icons/reload.svg");
+  background-image: url("../icons/reload.svg");
 }
 
 #context_toggleMuteTab,
