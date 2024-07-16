@@ -50,7 +50,7 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 - Global font family and size
 - Other various fixes and tweaks
 - Custom addons configuration
-- Various Context menu tweaks (e.g no separators, compact, custom colors, rounded borders)
+- Various Context menu tweaks (e.g no separators, compact, custom colors & icons, rounded borders)
 - Userscripts
 - Userstyles
 - Custom theme

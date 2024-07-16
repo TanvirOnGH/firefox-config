@@ -57,3 +57,32 @@ menupopup > menuseparator {
 menupopup menuseparator {
   display: none;
 }
+
+/* Navigation Icons */
+#context-back {
+  list-style-image: url("../icons/back.svg") !important;
+}
+
+#context-back {
+  list-style-image: url("../icons/back.svg") !important;
+}
+
+#context-forward {
+  list-style-image: url("../icons/forward.svg") !important;
+}
+
+#context-reload {
+  list-style-image: url("../icons/reload.svg") !important;
+}
+
+#context-stop {
+  list-style-image: url("../icons/close.svg") !important;
+}
+
+#context-bookmarkpage {
+  list-style-image: url("../icons/bookmarks.svg") !important;
+}
+
+#contentAreaContextMenu #context-bookmarkpage[starred] {
+  list-style-image: url("../icons/bookmarks-fill.svg") !important;
+}
