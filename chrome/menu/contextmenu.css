@@ -15,8 +15,7 @@ menupopup > menuseparator {
 
 /* Based on: <https://github.com/Redundakitties/colorful-minimalist/raw/main/hacks/darkContextMenu.css> */
 /* And: https://gist.github.com/soulhotel/23c20583751a7f457eb5b5579e828965 */
-menupopup,
-panel {
+menupopup {
   color-scheme: light dark;
   --panel-background: #202020 !important;
   --panel-color: #b0adac !important;
