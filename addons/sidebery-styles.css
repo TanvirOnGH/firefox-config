@@ -1,0 +1,263 @@
+#root.root {
+  --general-border-radius: 5px;
+}
+#root.root {
+  --accent: #c38f8f;
+}
+#root.root {
+  --nav-btn-fg: #faf8f7;
+}
+#root.root {
+  --toolbar-fg: #faf8f7;
+}
+#root.root {
+  --toolbar-el-overlay-active-bg: rgba(255, 255, 255, 0.141);
+}
+#root.root {
+  --general-margin: 2px;
+}
+#root.root {
+  --border: #202020;
+}
+#root.root {
+  --status-ok: #64df64;
+}
+#root.root {
+  --status-err: #df6464;
+}
+#root.root {
+  --status-active: #47cfff;
+}
+#root.root {
+  --status-notice: #00e9fb;
+}
+#root.root {
+  --scroll-progress-bg: #c38f8f;
+}
+#root.root {
+  --notification-fg: #faf8f7;
+}
+#root.root {
+  --notification-bg: #202020;
+}
+#root.root {
+  --nav-btn-active-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.071),
+    0 1px 3px 0 rgba(0, 0, 0, 0.212);
+}
+#root.root {
+  --nav-btn-accent: #c38f8f;
+}
+#root.root {
+  --frame-scrollbar-color: #8db8cd;
+}
+#root.root {
+  --toolbar-scrollbar-color: #8db8cd;
+}
+
+#root.root {
+  --frame-fg: #faf8f7;
+}
+#root.root {
+  --frame-bg: #202020;
+}
+#root.root {
+  --toolbar-bg: #202020;
+}
+
+/* Add animation to icon shown when playing audio in a tab */
+.Tab .-loud {
+  animation: audio-animation 1.2s infinite ease-in-out;
+}
+
+@keyframes audio-animation {
+  0% {
+    transform: scale(0.9);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+/* Based on: https://raw.githubusercontent.com/mgastonportillo/gale-for-ff/main/sidebery.css */
+#root {
+  --tabs-height: 34px;
+  --tabs-pinned-height: var(--tabs-height);
+  /* Dark Theme base settings */
+  --bg: #1c1b22 !important;
+  --tabs-fg: #d4d4d4 !important;
+  --tabs-bg-hover: #3b3948 !important;
+  --tabs-activated-bg: #5b5b66 !important;
+  --nav-btn-activated-bg: #1f222f !important;
+}
+
+#root .Tab {
+  --tabs-indent: 10px;
+}
+
+/* TABS */
+.Tab .lvl-wrapper:after {
+  display: none;
+}
+
+.Tab {
+  margin: auto;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.Tab .close > svg:hover {
+  /* Tab close button */
+  border-radius: 5px;
+  background: #df6464 !important;
+  opacity: 100%;
+}
+
+.Tab .title {
+  overflow: hidden !important;
+}
+
+/* PINNED TABS */
+.PinnedDock {
+  background-color: var(--bg) !important;
+}
+
+.PinnedTab {
+  margin: 5px 0px 4px 6px;
+  border-radius: 5px;
+}
+
+/* NAV BAR */
+.NavigationBar {
+  height: 40px !important;
+  padding: 4.5px 0px 0px 4.5px !important;
+  background-color: #2b2a33 !important;
+  margin-bottom: 5px;
+}
+
+.NavigationBar .panel-btn:hover {
+  border-radius: 5px !important;
+  background-color: var(--tabs-bg-hover) !important;
+}
+
+.NavigationBar .panel-btn[data-active="true"] {
+  border-radius: 5px !important;
+  background-color: var(--bg) !important;
+}
+
+.NavigationBar .panel-btn[data-active="true"]:hover {
+  border-radius: 5px !important;
+  background-color: var(--tabs-bg-hover) !important;
+}
+
+.NavigationBar .panel-btn > svg,
+.NavigationBar .panel-btn > img {
+  fill: #f2f2f2 !important;
+}
+
+/* SIDEBAR HACK PATCHES */
+@media (max-width: 50px) {
+  /* Fix to tab tree identation when minimised */
+  #root:not(:hover) .Tab {
+    --tabs-indent: 0px;
+  }
+
+  .Tab[data-lvl] > div.lvl-wrapper {
+    right: -2px;
+  }
+
+  .Tab {
+    max-width: 34px;
+  }
+
+  .Tab .fav {
+    z-index: 1;
+  }
+
+  .Tab .audio {
+    margin-left: -2px;
+    top: -1px !important;
+    left: 22px !important;
+  }
+
+  .Tab .title {
+    display: none;
+  }
+
+  .PinnedTab {
+    margin-left: 5px;
+  }
+
+  .NavigationBar .settings-btn {
+    display: none;
+  }
+}
+
+/* Disable these two snippets below to make pinned tabs wrap when minimised */
+.PinnedDock {
+  flex-wrap: nowrap !important;
+}
+
+.PinnedTab {
+  overflow: hidden !important;
+  min-width: var(--tabs-pinned-width) !important;
+}
+
+/* Better tab notifications on pinned tabs */
+.PinnedTab[data-audible] .fav > img,
+.PinnedTab[data-muted] .fav > img,
+.PinnedTab[data-loading] .fav > img {
+  mask: none;
+}
+
+.PinnedTab .fav > img {
+  mask: none;
+}
+
+.PinnedTab[data-updated="true"] .fav > img {
+  mask: radial-gradient(
+    circle at calc(100% - 2px) calc(100% - 2px),
+    rgba(0, 0, 0, 0.141),
+    rgba(0, 0, 0, 0.141) 4px,
+    #000 5px,
+    #000
+  );
+}
+
+.PinnedTab .audio-badge {
+  top: 5px;
+}
+
+.PinnedTab .update-badge {
+  opacity: 0;
+}
+
+.PinnedTab[data-updated="true"] .update-badge {
+  opacity: 100;
+}
+
+/* Scrolling Tab text title animation */
+/*
+.Tab .title {
+  display: inline-block;
+  transition: transform 5s ease;
+}
+
+.Tab:hover .title {
+  animation: moveTitle 5s infinite;
+}
+
+@keyframes moveTitle {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-10rem); }
+  100% { transform: translateX(0); }
+}
+*/

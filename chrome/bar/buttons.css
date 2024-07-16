@@ -75,7 +75,11 @@ toolbarbutton#scrollbutton-down:active {
 /* Button Effect - Scale on click */
 .urlbar-icon,
 .toolbarbutton-icon,
-.menuitem-iconic .menu-iconic-icon {
+.tab-close-button,
+.downloadIconShow > .button-box > .button-icon,
+.menuitem-iconic .menu-iconic-icon,
+#downloads-indicator-icon,
+.urlbar-input-container [role="button"] image {
   transition: transform 90ms linear !important;
 }
 
@@ -83,6 +87,10 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
   transition: padding 90ms linear !important;
 }
 
+.urlbar-input-container [role="button"]:active image,
+.tab-close-button:active,
+.downloadIconShow:active > .button-box > .button-icon,
+#downloads-button:active #downloads-indicator-icon,
 toolbarbutton#scrollbutton-up:active > .toolbarbutton-icon,
 toolbarbutton:not(.toolbarbutton-1):active > .toolbarbutton-icon,
 toolbar
@@ -93,6 +101,7 @@ toolbar
 .urlbar-page-action:active > .urlbar-icon {
   transform: scale(0.65) !important;
 }
+
 toolbarbutton#scrollbutton-down:active > .toolbarbutton-icon {
   transform: scale(-0.65) !important;
 }
