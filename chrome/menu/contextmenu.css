@@ -42,7 +42,6 @@ menupopup > menu[_moz-menuactive="true"],
   > .menu-iconic-left
   > .menu-iconic-icon {
   color: whitesmoke !important;
-  background: var(--lwt-accent-color) !important;
   filter: brightness(1.2);
 }
 
