@@ -36,6 +36,7 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 - Compact about:config list
 - Compact items and menus (e.g., context menu)
 - Various sidebar (Sidebery, Tree Style Tab) tweaks, including auto-hide
+- Animations in tabs that's playing audio
 - Consistent and matching colors across various elements and the UI
 - Glow and scale effect on hover on toolbar buttons
 - Findbar as floating box at the top
