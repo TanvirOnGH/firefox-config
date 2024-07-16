@@ -5,6 +5,11 @@ user_pref("svg.context-properties.content.enabled", true);
 // UI
 user_pref("browser.compactmode.show", true);
 
+// Remove native context menus
+user_pref("widget.gtk.native-context-menus", false);
+user_pref("widget.macos.native-context-menus", false);
+user_pref("widget.windows.native-context-menus", false);
+
 // Experimental
 // Requires Firefox 128+
 // See: <https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/128#experimental_web_features>

@@ -5,14 +5,33 @@ menupopup > menu {
   min-height: unset !important;
 }
 
+/* Remove excess paddings on the context menu */
+menupopup > menuitem,
+menupopup > menu,
+menupopup > menucaption,
+menupopup > menuseparator {
+  padding-inline: 0px !important;
+}
+
 /* Based on: <https://github.com/Redundakitties/colorful-minimalist/raw/main/hacks/darkContextMenu.css> */
-/* background */
+/* And: <https://gist.github.com/soulhotel/23c20583751a7f457eb5b5579e828965> */
 menupopup {
-  --panel-background: linear-gradient(
-    var(--lwt-accent-color),
-    #202020
-  ) !important;
-  --panel-border-color: rbg(0, 0, 0) !important;
+  color-scheme: light dark;
+  --panel-background: #202020 !important;
+  --panel-color: #b0adac !important;
+  --panel-border-radius: 12px !important;
+  --panel-border-color: rgba(32, 32, 32, 0) !important;
+}
+
+menuitem:hover {
+  background-color: #202020 !important;
+  color: #b0adac !important;
+}
+
+menu:where([_moz-menuactive="true"]:not([disabled="true"])),
+menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
+  background-color: #202020 !important;
+  color: #b0adac !important;
 }
 
 /* foreground */
@@ -23,7 +42,6 @@ menupopup > menu[_moz-menuactive="true"],
   > .menu-iconic-left
   > .menu-iconic-icon {
   color: whitesmoke !important;
-  background: var(--lwt-accent-color) !important;
   filter: brightness(1.2);
 }
 
@@ -37,4 +55,33 @@ menupopup > menuseparator {
 /* Remove separator */
 menupopup menuseparator {
   display: none;
+}
+
+/* Navigation Icons */
+#context-back {
+  list-style-image: url("../icons/back.svg") !important;
+}
+
+#context-back {
+  list-style-image: url("../icons/back.svg") !important;
+}
+
+#context-forward {
+  list-style-image: url("../icons/forward.svg") !important;
+}
+
+#context-reload {
+  list-style-image: url("../icons/reload2.svg") !important;
+}
+
+#context-stop {
+  list-style-image: url("../icons/close.svg") !important;
+}
+
+#context-bookmarkpage {
+  list-style-image: url("../icons/bookmarks.svg") !important;
+}
+
+#contentAreaContextMenu #context-bookmarkpage[starred] {
+  list-style-image: url("../icons/bookmarks-fill.svg") !important;
 }
