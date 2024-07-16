@@ -86,7 +86,7 @@
   border-radius: var(--toolbarbutton-border-radius) !important;
 }
 
-/* Based on: https://gist.githubusercontent.com/qaz69wsx/83a90423163b65a8344b2e60fc356a58/raw/d9fbd601430b834e9a658fd8bebbfee2cb914300/menu_icons.css */
+/* Based on: <https://gist.githubusercontent.com/qaz69wsx/83a90423163b65a8344b2e60fc356a58/raw/d9fbd601430b834e9a658fd8bebbfee2cb914300/menu_icons.css> */
 /* Icons in menus */
 .subviewbutton:not(.subviewbutton-iconic, [image], .all-tabs-close-button)
   > image {

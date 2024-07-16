@@ -87,7 +87,7 @@
   }
 }
 
-/* Based on: https://raw.githubusercontent.com/mgastonportillo/gale-for-ff/main/sidebery.css */
+/* Based on: <https://raw.githubusercontent.com/mgastonportillo/gale-for-ff/main/sidebery.css> */
 #root {
   --tabs-height: 34px;
   --tabs-pinned-height: var(--tabs-height);
