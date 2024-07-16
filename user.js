@@ -29,16 +29,11 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 
 // Warnings
-user_pref("browser.aboutConfig.showWarning",
-          false); // disable about:config warning
-user_pref("browser.tabs.warnOnClose",
-          true); // enable warning when closing multiple tabs (recommended)
-user_pref("browser.tabs.warnOnCloseOtherTabs",
-          true); // enable warning when closing multiple tabs (recommended)
-user_pref("browser.tabs.warnOnOpen",
-          true); // enable warning when opening multiple tabs (recommended)
-user_pref("browser.warnOnQuit",
-          true); // enable warning when quitting Firefox (recommended)
+user_pref("browser.aboutConfig.showWarning", false); // disable about:config warning
+user_pref("browser.tabs.warnOnClose", true); // enable warning when closing multiple tabs (recommended)
+user_pref("browser.tabs.warnOnCloseOtherTabs", true); // enable warning when closing multiple tabs (recommended)
+user_pref("browser.tabs.warnOnOpen", true); // enable warning when opening multiple tabs (recommended)
+user_pref("browser.warnOnQuit", true); // enable warning when quitting Firefox (recommended)
 user_pref("browser.tabs.warnOnCloseOtherTabs", true); // Recommended
 
 // GFX
@@ -79,8 +74,7 @@ user_pref("browser.visited_color.dark", "#8a6666");
 user_pref("browser.anchor_color", "#40b5bf");
 
 // Misc
-user_pref("browser.cache.disk.parent_directory",
-          "/run/user/1000/firefox"); // id -u <username>
+user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // id -u <username>
 user_pref("browser.search.suggest.enabled.private", true);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
@@ -113,8 +107,7 @@ user_pref("startup.homepage_welcome_url.additional", "");
 user_pref("startup.homepage_override_url", "");
 
 // Optimization
-user_pref("network.ssl_tokens_cache_capacity",
-          32768); // more TLS token caching (fast reconnects)
+user_pref("network.ssl_tokens_cache_capacity", 32768); // more TLS token caching (fast reconnects)
 
 // Promos
 user_pref("browser.vpn_promo.enabled", false);
