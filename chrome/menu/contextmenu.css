@@ -16,11 +16,13 @@ menupopup > menuseparator {
 /* Based on: <https://github.com/Redundakitties/colorful-minimalist/raw/main/hacks/darkContextMenu.css> */
 /* background */
 menupopup {
-  --panel-background: linear-gradient(
-    var(--lwt-accent-color),
-    #202020
-  ) !important;
-  --panel-border-color: rbg(0, 0, 0) !important;
+  --panel-background: #202020 !important;
+  --panel-border-color: rgba(
+    32,
+    32,
+    32,
+    0
+  ) !important; /* Transparent panel border */
 }
 
 /* foreground */
