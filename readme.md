@@ -54,6 +54,7 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 - Userscripts
 - Userstyles
 - Custom theme
+- Icons in menus (appmenu, context menu, main menu, etc.)
 - Various performance and privacy tweaks
 - JPEG XL (JXL) enabled by default
 
