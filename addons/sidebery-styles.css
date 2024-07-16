@@ -64,6 +64,29 @@
   --toolbar-bg: #202020;
 }
 
+/* Add animation to icon shown when playing audio in a tab */
+.Tab .-loud {
+  animation: audio-animation 1.2s infinite ease-in-out;
+}
+
+@keyframes audio-animation {
+  0% {
+    transform: scale(0.9);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
 /* Based on: https://raw.githubusercontent.com/mgastonportillo/gale-for-ff/main/sidebery.css */
 #root {
   --tabs-height: 34px;
