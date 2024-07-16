@@ -183,9 +183,9 @@
   }
 
   .Tab .audio {
-    z-index: 1;
-    margin-left: -12px;
-    height: 26px;
+    margin-left: -2px;
+    top: -1px !important;
+    left: 22px !important;
   }
 
   .Tab .title {
@@ -243,3 +243,21 @@
 .PinnedTab[data-updated="true"] .update-badge {
   opacity: 100;
 }
+
+/* Scrolling Tab text title animation */
+/*
+.Tab .title {
+  display: inline-block;
+  transition: transform 5s ease;
+}
+
+.Tab:hover .title {
+  animation: moveTitle 5s infinite;
+}
+
+@keyframes moveTitle {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-10rem); }
+  100% { transform: translateX(0); }
+}
+*/
