@@ -5,6 +5,14 @@ menupopup > menu {
   min-height: unset !important;
 }
 
+/* Remove excess paddings on the context menu */
+menupopup > menuitem,
+menupopup > menu,
+menupopup > menucaption,
+menupopup > menuseparator {
+  padding-inline: 0px !important;
+}
+
 /* Based on: <https://github.com/Redundakitties/colorful-minimalist/raw/main/hacks/darkContextMenu.css> */
 /* background */
 menupopup {
