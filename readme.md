@@ -70,6 +70,9 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 ![Status Panel](misc/screenshots/statuspanel.png)
 ![Searchbar](misc/screenshots/searchbar.png)
 ![Downloads Menu](misc/screenshots/downloads-menu.png)
+![Menu](misc/screenshots/menu-0.png)
+![Context Menu](misc/screenshots/context-menu.png)
+![Context Menu 2](misc/screenshots/context-menu-2.png)
 
 ## File Locations
 
