@@ -1,37 +1,163 @@
-/* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/navbar_below_content.css> */
-/* Move the main toolbar (#nav-bar) to the bottom */
+/* Based on: <https://raw.githubusercontent.com/FineFuturity/FrameUIForFirefox/main/userChrome.css> */
+
+/* Necessary to make themeing to work */
+#navigator-toolbox {
+  --toolbar-bgcolor: rgba(32, 32, 32, 0);
+}
+
+/* Fix private browsing indicator icon in private browsing mode */
+#private-browsing-indicator-with-label > label {
+  visibility: collapse !important;
+}
+
+#private-browsing-indicator-with-label {
+  visibility: visible !important;
+  z-index: 1 !important;
+  margin-top: 4px !important;
+  margin-right: 5px !important;
+  transform: scale(0.9) !important;
+}
+
+/* Space reserved for window controls (Windows 10/11) */
+:root:is([tabsintitlebar], [sizemode="fullscreen"]) {
+  --uc-window-control-width: 140px;
+  --uc-window-drag-space-pre: 30px;
+  --uc-window-drag-space-post: -30px;
+}
+
+:root:is([tabsintitlebar][sizemode="maximized"], [sizemode="fullscreen"]) {
+  --uc-window-drag-space-pre: 0px;
+}
+
+@media (-moz-platform: windows-win7), (-moz-platform: windows-win8) {
+  :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
+    --uc-window-control-width: 105px;
+  }
+}
+
+@media (-moz-gtk-csd-available) {
+  :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
+    --uc-window-control-width: 84px;
+  }
+}
+
+@media (-moz-platform: macos) {
+  :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
+    --uc-window-control-width: 72px;
+  }
+}
+
+.titlebar-buttonbox,
+#window-controls {
+  color: var(--toolbar-color);
+}
+
+:root[sizemode="fullscreen"] .titlebar-buttonbox-container {
+  display: none;
+}
+
+:root[sizemode="fullscreen"] #navigator-toolbox {
+  position: relative;
+}
+
+:root[sizemode="fullscreen"]
+  #TabsToolbar
+  > .titlebar-buttonbox-container:last-child,
+:root[sizemode="fullscreen"] #window-controls {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  height: 40px;
+}
+
+:root[sizemode="fullscreen"]
+  #TabsToolbar
+  > .titlebar-buttonbox-container:last-child,
+:root[uidensity="compact"][sizemode="fullscreen"] #window-controls {
+  height: 32px;
+}
+
+#nav-bar {
+  border-inline: var(--uc-window-drag-space-pre, 0px) solid transparent;
+  border-inline-style: solid !important;
+  border-right-width: calc(
+    var(--uc-window-control-width, 0px) / 3 +
+      var(--uc-window-drag-space-post, 0px)
+  );
+  margin-right: var(--uc-window-control-width) !important;
+  background-clip: border-box !important;
+  z-index: 100 !important;
+}
+
+/* Rules for window controls on left layout */
+@media (-moz-bool-pref: "userchrome.force-window-controls-on-left.enabled"),
+  (-moz-gtk-csd-reversed-placement),
+  (-moz-platform: macos) {
+  :root[tabsintitlebar="true"] #nav-bar {
+    border-inline-width: calc(
+        var(--uc-window-control-width, 0px) +
+          var(--uc-window-drag-space-post, 0px)
+      )
+      var(--uc-window-drag-space-pre, 0px);
+  }
+
+  :root[sizemode="fullscreen"]
+    #TabsToolbar
+    > .titlebar-buttonbox-container:last-child,
+  :root[sizemode="fullscreen"] #window-controls {
+    right: unset;
+  }
+}
+
+@media (-moz-bool-pref: "userchrome.force-window-controls-on-left.enabled") {
+  .titlebar-buttonbox-container {
+    order: -1 !important;
+  }
+
+  .titlebar-buttonbox {
+    flex-direction: row-reverse;
+  }
+}
+
 @-moz-document url(chrome://browser/content/browser.xhtml)
 {
-  :root:not([inFullscreen]) {
-    --uc-bottom-toolbar-height: calc(40px + var(--toolbarbutton-outer-padding));
+  #titlebar {
+    -moz-appearance: none !important;
   }
 
-  :root[uidensity="compact"]:not([inFullscreen]) {
-    --uc-bottom-toolbar-height: calc(32px + var(--toolbarbutton-outer-padding));
+  #navigator-toolbox > div {
+    display: contents;
   }
 
+  .global-notificationbox,
+  #mainPopupSet,
   #browser,
-  #customization-container {
-    margin-bottom: var(--uc-bottom-toolbar-height, 0px);
+  #customization-container,
+  #tab-notification-deck {
+    order: -1;
   }
 
-  #nav-bar {
-    position: fixed !important;
-    bottom: 0px;
-    /* For some reason -webkit-box behaves internally like -moz-box,
-    but can be used with fixed position.
-    display: flex would work too but it breaks extension menus. */
-    display: -webkit-box;
-    width: 100%;
-    z-index: 1;
-  }
-  #nav-bar-customization-target {
-    -webkit-box-flex: 1;
+  /* Remove the next row if you want tabs to be the top-most row */
+  #titlebar {
+    order: 2;
   }
 
-  /* Fix panels sizing */
-  .panel-viewstack {
-    max-height: unset !important;
+  #toolbar-menubar {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    top: 0px;
+    -moz-window-dragging: drag;
+  }
+
+  /* Remove bottom border that won't do anything useful when at bottom of the window */
+  #navigator-toolbox {
+    border-bottom: none !important;
+  }
+
+  #toolbar-menubar > spacer {
+    flex-grow: 1;
   }
 
   #urlbar[breakout][breakout-extend] {
@@ -44,6 +170,104 @@
   .urlbarView-body-inner {
     border-top-style: none !important;
   }
+
+  #toolbar-menubar > .titlebar-buttonbox-container {
+    order: 1000;
+  }
+
+  /* Fix panels sizing */
+  .panel-viewstack {
+    max-height: unset !important;
+  }
+
+  /* Fullscreen mode support */
+  #navigator-toolbox[inFullscreen] {
+    margin-top: 0 !important;
+  }
+
+  #navigator-toolbox[inFullscreen][style*="margin-top"] {
+    visibility: collapse;
+  }
+
+  #fullscr-toggler {
+    bottom: 0;
+    top: unset !important;
+  }
+
+  #navigator-toolbox {
+    bottom: 0px;
+    transform-origin: bottom;
+  }
+
+  #main-window > body > box {
+    margin-top: 0 !important;
+  }
+
+  #toolbar-menubar {
+    z-index: 1;
+    background-color: var(--lwt-accent-color, #202020);
+  }
+
+  :root[BookmarksToolbarOverlapsBrowser] #navigator-toolbox {
+    margin-block: calc(-1 * var(--bookmarks-toolbar-height)) 0 !important;
+  }
+
+  :root[BookmarksToolbarOverlapsBrowser] .newTabBrowserPanel {
+    padding-block: 0 var(--bookmarks-toolbar-height) !important;
+  }
+
+  #toolbar-menubar #menubar-items {
+    padding-left: 10px !important;
+  }
+
+  #toolbar-menubar {
+    background: transparent !important;
+    position: static;
+    display: flex;
+    margin-top: 0px !important;
+  }
+
+  #titlebar {
+    flex-direction: column-reverse;
+  }
+}
+
+.titlebar-buttonbox {
+  z-index: 10000 !important;
+}
+
+/* Hide everything except the window controls on tab bar */
+#TabsToolbar tab,
+#TabsToolbar-customization-target,
+#firefox-view-button,
+.tabs-alltabs-button {
+  visibility: hidden !important;
+  background: transparent !important;
+}
+
+#TabsToolbar .titlebar-buttonbox-container {
+  margin-top: 4px !important;
+  margin-bottom: 0px !important;
+}
+
+#nav-bar {
+  margin-left: 30px !important;
+  /* margin-right: 10px !important; */
+  margin-bottom: -36px !important;
+}
+
+#PersonalToolbar {
+  background: transparent !important;
+  order: -1;
+}
+
+/* fix issue with bottom of window getting cut off when going into new tab */
+:root[BookmarksToolbarOverlapsBrowser] .newTabBrowserPanel {
+  margin-top: -28px !important;
+}
+
+:root[BookmarksToolbarOverlapsBrowser] #sidebar-box {
+  margin-top: -28px !important;
 }
 
 /* Show bookmarks toolbar when urlbar is focused */
@@ -70,51 +294,3 @@
   visibility: visible;
   transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
 }
-
-/* Based on: <https://github.com/Etesam913/rounded-fox> */
-
-/* Auto Hide Toolbar */
-/* Breaks on Firefox 113.0+ */
-/*
-#navigator-toolbox-background {
-    height: 0 !important;
-}
-
-#titlebar {
-    display: none !important;
-}
-
-.titlebar-buttonbox-container {
-    display: none !important;
-}
-
-#navigator-toolbox:not(:hover) {
-    --is-bar-visible: hidden;
-    opacity: 0 !important;
-    height: 10px;
-    transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
-}
-
-#navigator-toolbox {
-    position: relative;
-    z-index: 1;
-    overflow: var(--is-bar-visible);
-}
-
-#navigator-toolbox:hover {
-    height: 40px;
-    opacity: 1 !important;
-    transition: opacity 200ms ease-in-out;
-}
-
-#navigator-toolbox:focus-within {
-    height: 40px;
-    opacity: 1 !important;
-    transition: opacity 200ms ease-in-out;
-    --is-bar-visible: visible;
-}
-
-toolbarbutton[open="true"] {
-    --is-bar-visible: visible !important;
-}
-*/
