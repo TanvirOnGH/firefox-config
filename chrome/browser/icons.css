@@ -280,8 +280,7 @@
 menupopup > menu:not([icon], .menu-iconic),
 menupopup:not(.in-menulist)
   > menuitem:not([checked="true"], [icon], .menuitem-iconic) {
-  padding-inline-start: calc(1em + 16px + 8px) !important;
-  background-position: left 1em center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 16px;
   -moz-context-properties: fill;
