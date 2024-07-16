@@ -2,7 +2,7 @@
 
 My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.org/en-US/firefox) configuration.
 
-> [!NOTE]  
+> [!NOTE]
 > This repository is not meant to be used as a whole but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 >
 > Firefox occasionally changes its codebase, which may break some of the configurations on newer versions of Firefox. I try to keep this repository updated, but I cannot guarantee that everything will work as expected. To deal with it yourself, refer to the [Customizing Firefox](#customizing-firefox) section.
