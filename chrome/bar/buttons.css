@@ -80,7 +80,7 @@ toolbarbutton#scrollbutton-down:active {
 .menuitem-iconic .menu-iconic-icon,
 #downloads-indicator-icon,
 .urlbar-input-container [role="button"] image {
-  transition: transform 83ms linear !important;
+  transition: transform 90ms linear !important;
 }
 
 toolbar .toolbarbutton-1 > .toolbarbutton-icon {
