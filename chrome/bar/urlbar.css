@@ -12,7 +12,7 @@
   text-align: center !important;
 }
 
-#urlbar-input-container {
+.urlbar-input-container {
   display: flex;
   justify-content: center;
   align-items: center;
