@@ -14,15 +14,25 @@ menupopup > menuseparator {
 }
 
 /* Based on: <https://github.com/Redundakitties/colorful-minimalist/raw/main/hacks/darkContextMenu.css> */
-/* background */
-menupopup {
+/* And: https://gist.github.com/soulhotel/23c20583751a7f457eb5b5579e828965 */
+menupopup,
+panel {
+  color-scheme: light dark;
   --panel-background: #202020 !important;
-  --panel-border-color: rgba(
-    32,
-    32,
-    32,
-    0
-  ) !important; /* Transparent panel border */
+  --panel-color: #b0adac !important;
+  --panel-border-radius: 12px !important;
+  --panel-border-color: rgba(32, 32, 32, 0) !important;
+}
+
+menuitem:hover {
+  background-color: #202020 !important;
+  color: #b0adac !important;
+}
+
+menu:where([_moz-menuactive="true"]:not([disabled="true"])),
+menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
+  background-color: #202020 !important;
+  color: #b0adac !important;
 }
 
 /* foreground */
