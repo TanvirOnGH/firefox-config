@@ -73,6 +73,8 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 ![Menu](misc/screenshots/menu-0.png)
 ![Context Menu](misc/screenshots/context-menu.png)
 ![Context Menu 2](misc/screenshots/context-menu-2.png)
+![Menu Bar Menu](misc/screenshots/menu-bar-menu.png)
+![Sidebery Context Menu](misc/screenshots/sidebery-context-menu.png)
 
 ## File Locations
 
