@@ -13,7 +13,6 @@ https://*linkedin.com
 
 ! Social Media
 https://*wechat.com
-https://*discord.com
 https://*instagram.com
 https://*facebook.com
 https://*snapchat.com
@@ -21,6 +20,8 @@ https://*tiktok.com
 ! End of Social Media
 
 # Messaging
+https://*discord.com
+https://*discordapp.net
 https://*messenger.com
 https://*telegram.*
 https://*whatsapp.com
