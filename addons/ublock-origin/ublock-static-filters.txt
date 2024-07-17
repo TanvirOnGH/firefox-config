@@ -1,5 +1,5 @@
 ! Remove ChatGPT warning
-https://chat.openai.com/backend-api/moderations
+! https://chat.openai.com/backend-api/moderations
 
 ! Some of the popular sites have been redirected to free ones using libredirect !
 
@@ -7,9 +7,13 @@ https://chat.openai.com/backend-api/moderations
 https://*apple.com
 ! End of Ecosystem
 
+! TEMP
+https://*linkedin.com
+! End of TEMP
+
 ! Social Media
 https://*wechat.com
-!https://*discord.com
+https://*discord.com
 https://*instagram.com
 https://*facebook.com
 https://*snapchat.com
@@ -18,8 +22,12 @@ https://*tiktok.com
 
 # Messaging
 https://*messenger.com
-!https://*telegram.org
-!https://*whatsapp.com
+https://*telegram.*
+https://*whatsapp.com
+https://*signal.org
+https://*skype.com
+https://*viber.com
+https://*line.me
 # End of Messaging
 
 ! Store
@@ -29,10 +37,23 @@ https://*aliexpress.com
 https://*ebay.com
 ! End of Store
 
+! Store
+https://*alibaba.com
+https://*amazon.com
+https://*aliexpress.com
+https://*ebay.com
+https://*etsy.com
+https://*walmart.com
+https://*target.com
+! End of Store
+
 ! Misc
 https://*tinder.com
 https://*onlyfans.com
 https://*omegle.com
+https://*zoom.us
+https://*netflix.com
+https://*hulu.com
 ! End of Misc
 
 ! Entertainment
@@ -41,25 +62,8 @@ https://*omegle.com
 https://*netflix.com
 ! End of Entertainment
 
-! Search Engine
-!https://*yahoo.com
-!https://*bing.com
-! End of Search Engine
-
-! 2023-06-30 https://www.wikiwand.com
-www.wikiwand.com##.desktop_logo__HbG02 > .logo_logo__AXqd6
-
-! 2023-07-10 https://www.phind.com
-www.phind.com##.bi-discord.bi
-
-! 2023-09-07 https://chat.openai.com
-chat.openai.com##.w-6.h-6
-
 ! 2024-02-12 https://www.youtube.com
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
-
-! 2024-03-07 https://search.brave.com
-search.brave.com##.type.theme--default.type--outlined.size--default.svelte-19isrip.button
 
 ! 2024-05-19 https://www.youtube.com
 www.youtube.com##.yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
