@@ -263,6 +263,10 @@
   list-style-image: url("chrome://browser/skin/customize.svg");
 }
 
+#appMenu-more-button2 {
+  list-style-image: url("chrome://global/skin/icons/developer.svg");
+}
+
 .subviewbutton[key="key_aboutProcesses"] {
   list-style-image: url("chrome://global/skin/icons/performance.svg");
 }
