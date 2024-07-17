@@ -48,6 +48,9 @@
   --nav-btn-accent: #c38f8f;
 }
 #root.root {
+  --frame-el-overlay-selected-border: #c38f8f;
+}
+#root.root {
   --frame-scrollbar-color: #8db8cd;
 }
 #root.root {
