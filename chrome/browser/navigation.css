@@ -8,16 +8,17 @@
     background-position-x: right;
   }
 }
+
 #statuspanel[type="status"]::after {
   position: fixed;
   display: block;
-  height: 3px;
+  height: 2px;
   width: 100vw;
   top: 0;
   left: 0;
   content: "";
   pointer-events: none;
-  background-size: 20%;
+  background-size: 30%;
   background-repeat: no-repeat;
   background-image: linear-gradient(
     to left,
@@ -25,7 +26,7 @@
     rgb(195, 143, 143),
     transparent
   );
-  animation: statusline-anim 400ms alternate infinite ease-in-out;
+  animation: statusline-anim 500ms alternate infinite ease-in-out;
 }
 
 @media (min-width: 1000px) {
