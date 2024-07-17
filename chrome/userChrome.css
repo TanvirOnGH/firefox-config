@@ -12,6 +12,7 @@
 @import "misc/round-items.css";
 @import "panel/statuspanel.css";
 @import "styling/fonts.css";
+@import "browser/tweaks.css";
 
 /* Change the default ugly cyan color in various elements/UI */
 :root,
@@ -38,18 +39,4 @@ window {
 }
 .downloadProgress::-moz-progress-bar {
   --download-progress-fill-color: #c38f8f;
-}
-
-/* Remove white flash when reloading a page */
-body,
-html,
-.browserContainer,
-#mainPopupSet:not(url("about:config")),
-#main-window:not(url("about:config")),
-#tabbrowser-tabbox:not(url("about:config")) {
-  background-color: #202020 !important;
-}
-.browserContainer,
-#tabbrowser-tabpanels {
-  background: #202020 !important;
 }
