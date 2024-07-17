@@ -46,6 +46,14 @@
   }
 }
 
+/* Remove border between tabbar and urlbar */
+#nav-bar {
+  box-shadow: none !important;
+  margin: 0px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+}
+
 /* Show bookmarks toolbar when urlbar is focused */
 /*
 #nav-bar:focus-within + #PersonalToolbar{
