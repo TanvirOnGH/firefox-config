@@ -1,6 +1,7 @@
 @import "styling/fonts.css";
 @import "browser/tweaks.css";
 @import "bar/scrollbar.css";
+@import "styling/colors.css";
 
 /* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/content/compact_about_config.css> */
 /* Compact about:config list */
@@ -28,25 +29,6 @@
   tr:not(:hover) .semi-transparent:not(.primary, .button-add) {
     background-color: transparent !important;
   }
-}
-
-/* Change the default ugly cyan color in various elements/UI */
-:root,
-panel,
-dialog,
-window {
-  --lwt-toolbarbutton-icon-fill-attention: #c38f8f !important;
-  --button-primary-bgcolor: #c38f8f !important;
-  --button-primary-hover-bgcolor: #c38f8f !important;
-  --button-primary-active-bgcolor: #c38f8f !important;
-  --in-content-primary-button-background: #c38f8f !important;
-  --in-content-primary-button-background-hover: #c38f8f !important;
-  --in-content-primary-button-background-active: #c38f8f !important;
-  --input-border-color: #c38f8f !important;
-  --uc-checkbox-checked-bgcolor: #c38f8f !important;
-  --checkbox-checked-bgcolor: #c38f8f !important;
-  --focus-outline-color: #c38f8f !important;
-  --in-content-link-color: #c38f8f !important;
 }
 
 /* Dark mode for addons.mozilla.org */
