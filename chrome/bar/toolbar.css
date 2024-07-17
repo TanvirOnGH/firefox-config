@@ -114,7 +114,7 @@
     --is-bar-visible: visible;
 }
 
-toolbarbutton[open="true"] {
+toolbarbutton[open] {
     --is-bar-visible: visible !important;
 }
 */
