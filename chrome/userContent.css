@@ -3,6 +3,14 @@
 @import "bar/scrollbar.css";
 @import "styling/colors.css";
 
+/* Text Highlight color in webpages */
+@-moz-document regexp("http(s)?:.*") {
+  ::selection {
+    background-color: #c38f8f;
+    color: #ffffff;
+  }
+}
+
 /* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/content/compact_about_config.css> */
 /* Compact about:config list */
 @-moz-document url("about:config") {
