@@ -50,6 +50,7 @@
 #appMenu-popup {
   --panel-shortcut-color: #c38f8f;
 }
+
 .subviewbutton-nav::after,
 .subviewbutton-iconic > .toolbarbutton-icon {
   fill: var(--panel-shortcut-color) !important;
