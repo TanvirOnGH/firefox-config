@@ -88,6 +88,7 @@
 
 /* Based on: <https://gist.githubusercontent.com/qaz69wsx/83a90423163b65a8344b2e60fc356a58/raw/d9fbd601430b834e9a658fd8bebbfee2cb914300/menu_icons.css> */
 /* And: <https://github.com/bmFtZQ/edge-frfox/raw/main/chrome/icons/icons.css> */
+/* And: <https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/EXTRA%20MODS/Icon%20and%20Button%20Mods/Icons%20in%20main%20menu/icons_in_main_menu.css> */
 /* Icons in menus */
 .subviewbutton:not(.subviewbutton-iconic, [image], .all-tabs-close-button)
   > image {
