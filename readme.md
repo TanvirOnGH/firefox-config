@@ -119,7 +119,7 @@ Set Density to `Normal` and uncheck Title Bar.
 
 To disable bookmarks toolbar:
 
-![Bookmarks Toolbar](misc/screenshots/bookmarks-toolbar.png)
+![Disable Bookmarks Toolbar](misc/screenshots/disable-bookmarks-toolbar.png)
 
 ## Customizing Firefox
 
