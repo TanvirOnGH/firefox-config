@@ -54,6 +54,11 @@
   border-bottom: 0px !important;
 }
 
+:root {
+  /* Remove the line between the tab and rest of the UI */
+  --tabs-navbar-separator-style: none !important;
+}
+
 /* Show bookmarks toolbar when urlbar is focused */
 /*
 #nav-bar:focus-within + #PersonalToolbar{
