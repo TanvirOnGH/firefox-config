@@ -11,6 +11,7 @@
 @import "browser/navigation.css";
 @import "misc/round-items.css";
 @import "panel/statuspanel.css";
+@import "browser/indicators.css";
 @import "styling/fonts.css";
 @import "browser/tweaks.css";
 
@@ -31,12 +32,4 @@ window {
   --checkbox-checked-bgcolor: #c38f8f !important;
   --focus-outline-color: #c38f8f !important;
   --in-content-link-color: #c38f8f !important;
-}
-
-/* Downloads indicator progress bar */
-#downloads-indicator-progress-inner {
-  --toolbarbutton-icon-fill-attention: #c38f8f;
-}
-.downloadProgress::-moz-progress-bar {
-  --download-progress-fill-color: #c38f8f;
 }
