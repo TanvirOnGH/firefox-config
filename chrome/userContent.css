@@ -1,4 +1,5 @@
 @import "styling/fonts.css";
+@import "browser/tweaks.css";
 
 /* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/content/compact_about_config.css> */
 /* Compact about:config list */
@@ -53,20 +54,6 @@ window {
 
 *:not(select) {
   scrollbar-color: #c38f8f #202020 !important;
-}
-
-/* Remove white flash when reloading a page */
-body,
-html,
-.browserContainer,
-#mainPopupSet:not(url("about:config")),
-#main-window:not(url("about:config")),
-#tabbrowser-tabbox:not(url("about:config")) {
-  background-color: #202020 !important;
-}
-.browserContainer,
-#tabbrowser-tabpanels {
-  background: #202020 !important;
 }
 
 /* Dark mode for addons.mozilla.org */
