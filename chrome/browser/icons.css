@@ -123,8 +123,12 @@
 #fxa-manage-account-button,
 #PanelUI-remotetabs-view-managedevices {
   padding-inline-start: calc(
-    var(--arrowpanel-menuitem-padding-inline) + 16px + 8px
+    var(--arrowpanel-menuitem-padding-inline) + 10px
   ) !important;
+}
+
+#appMenu-zoom-controls::before {
+  background-image: url("chrome://browser/skin/fullscreen.svg");
 }
 
 #appMenu-fxa-label2::before,
