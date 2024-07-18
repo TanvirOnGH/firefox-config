@@ -168,7 +168,7 @@
     "animationSpeed": "norm",
     "theme": "proton",
     "density": "default",
-    "colorScheme": "dark",
+    "colorScheme": "ff",
     "sidebarCSS": true,
     "groupCSS": true,
     "snapNotify": true,
