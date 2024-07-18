@@ -247,6 +247,32 @@
   opacity: 100;
 }
 
+/* Multiline Tab Titles */
+/* TODO: Fine-tune */
+/* TODO: Multiline Tab Titles in Hovercard Title */
+/*
+#root {
+  --tabs-height: 36px !important;
+  --tabs-title-padding: 6px;
+  --tabs-font-size: 0.9rem;
+  --tabs-title-lines: 2;
+}
+
+.Tab .t-box {
+  align-items: center;
+  max-height: calc(var(--tabs-height) - var(--tabs-title-padding));
+  overflow: hidden;
+}
+
+.Tab .title {
+  font-size: var(--tabs-font-size);
+  white-space: pre-wrap;
+  line-height: calc(
+    (var(--tabs-height) - var(--tabs-title-padding)) / var(--tabs-title-lines)
+  );
+}
+*/
+
 /* Scrolling Tab text title animation */
 /*
 .Tab .title {
