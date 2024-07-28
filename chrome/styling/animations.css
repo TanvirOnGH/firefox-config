@@ -113,6 +113,48 @@
   }
 }
 
+@keyframes colorCycle {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8.33% {
+    color: rgb(255, 127, 0);
+  }
+  16.66% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(127, 255, 0);
+  }
+  33.33% {
+    color: rgb(0, 255, 0);
+  }
+  41.66% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58.33% {
+    color: rgb(0, 127, 255);
+  }
+  66.66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83.33% {
+    color: rgb(255, 0, 255);
+  }
+  91.66% {
+    color: rgb(255, 0, 127);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+
 @keyframes rgbshift {
   0% {
     background-color: #ff0000;
