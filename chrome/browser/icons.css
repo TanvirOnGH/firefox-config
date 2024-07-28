@@ -15,7 +15,7 @@
 
 /* TODO: Fine-tune as the button has several states */
 #downloads-indicator-icon {
-  list-style-image: url("../icons/downloads.svg") !important;
+  list-style-image: url("chrome://browser/skin/downloads/downloads.svg") !important;
 }
 
 #history-panelmenu {
@@ -186,7 +186,7 @@
 
 #appMenu-downloads-button,
 #appMenu-library-downloads-button {
-  list-style-image: url("../icons/downloads.svg");
+  list-style-image: url("chrome://browser/skin/downloads/downloads.svg");
 }
 
 #appMenu-passwords-button {
@@ -631,7 +631,7 @@ menuitem[data-l10n-id="text-action-paste"] {
 }
 
 #menu_openDownloads {
-  background-image: url("../icons/downloads.svg");
+  background-image: url("chrome://browser/skin/downloads/downloads.svg");
 }
 
 #menu_openAddons {
