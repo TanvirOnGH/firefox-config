@@ -101,6 +101,7 @@
 }
 
 /* Stop-Reload Animation */
+/*
 #stop-reload-button[animate]
   > #reload-button[displaystop]
   + #stop-button
@@ -108,14 +109,17 @@
   > .toolbarbutton-animatable-image {
   background-image: url("../icons/reload-to-stop.svg") !important;
 }
+*/
 
 /* Stop-Reload Animation */
+/*
 #stop-reload-button[animate]
   > #reload-button
   > .toolbarbutton-animatable-box
   > .toolbarbutton-animatable-image {
   background-image: url("../icons/stop-to-reload.svg") !important;
 }
+*/
 
 #overflowMenu-customize-button > .toolbarbutton-icon {
   margin-inline-end: 0.5em !important;
