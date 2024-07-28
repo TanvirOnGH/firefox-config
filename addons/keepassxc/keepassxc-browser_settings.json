@@ -1,0 +1,42 @@
+{
+  "autoReconnect": false,
+  "afterFillSorting": "sortByMatchingCredentials",
+  "afterFillSortingTotp": "sortByRelevantEntry",
+  "autoCompleteUsernames": true,
+  "showGroupNameInAutocomplete": true,
+  "autoFillAndSend": false,
+  "autoFillSingleEntry": false,
+  "autoRetrieveCredentials": true,
+  "autoSubmit": false,
+  "checkUpdateKeePassXC": 0,
+  "clearCredentialsTimeout": 10,
+  "colorTheme": "dark",
+  "credentialSorting": "sortByGroupAndTitle",
+  "debugLogging": false,
+  "defaultGroup": "",
+  "defaultGroupAlwaysAsk": false,
+  "downloadFaviconAfterSave": false,
+  "redirectAllowance": 3,
+  "saveDomainOnly": true,
+  "showGettingStartedGuideAlert": true,
+  "showTroubleshootingGuideAlert": true,
+  "showLoginFormIcon": true,
+  "showLoginNotifications": true,
+  "showNotifications": true,
+  "useMonochromeToolbarIcon": true,
+  "showOTPIcon": true,
+  "useObserver": true,
+  "usePredefinedSites": true,
+  "usePasswordGeneratorIcons": true,
+  "sitePreferences": [
+    {
+      "url": "https://chat.vignat.org/#/*",
+      "ignore": "ignoreNormal",
+      "usernameOnly": false
+    }
+  ],
+  "passkeys": false,
+  "passkeysFallback": true,
+  "autoFillSingleTotp": true,
+  "useCompactMode": true
+}
