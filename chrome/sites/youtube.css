@@ -1,0 +1,40 @@
+/* Subtitles/Closed Captions (c) */
+/*
+  - Subtitles are white with a dark shadow for better readability.
+  - Font weight is set to bolder for clearer text.
+  - Background is removed to avoid any distraction.
+  - Text is centered and kept on a single line.
+  - Font size is adjusted for different modes.
+  - Caption window is centered and positioned slightly above the bottom of the video.
+*/
+@-moz-document url-prefix("https://www.youtube.com/watch")
+{
+  .ytp-caption-segment {
+    color: #ffffff !important;
+    text-shadow: 0px 0px 6px #000000 !important;
+    font-weight: bolder !important;
+    background: none !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    line-height: normal !important;
+  }
+
+  .ytp-big-mode > div > div > span > span > span,
+  .ytp-hide-info-bar > div > div > span > span > span {
+    font-size: 30px !important;
+  }
+
+  .caption-window {
+    text-align: center !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0% !important;
+    margin-left: auto !important;
+    bottom: 5% !important;
+  }
+
+  .ytp-big-mode.ytp-autohide-active > div > .caption-window,
+  .ytp-autohide > div > .caption-window {
+    bottom: 10% !important;
+  }
+}
