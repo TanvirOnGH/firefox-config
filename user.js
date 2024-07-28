@@ -4,7 +4,7 @@ user_pref("svg.context-properties.content.enabled", true);
 
 // UI
 user_pref("browser.compactmode.show", true);
-user_pref("layout.css.prefers-color-scheme.content-override", 0); // Force dark mode on websites
+user_pref("layout.css.prefers-color-scheme.content-override", 0); // Force dark mode
 
 // Remove native context menus
 user_pref("widget.gtk.native-context-menus", false);
@@ -27,6 +27,10 @@ user_pref("doh-rollout.home-region", "US");
 // Extensions
 user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
+
+// Recommendations
+user_pref("browser.dataFeatureRecommendations.enabled", false);
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Remove 'Recommendations' tab in about:addons
 
 // Warnings
 user_pref("browser.aboutConfig.showWarning", false); // disable about:config warning
