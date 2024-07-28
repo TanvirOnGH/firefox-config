@@ -25,3 +25,17 @@
     background-color: transparent !important;
   }
 }
+
+/* Remove all 'Learn more' links in about:preferences */
+@-moz-document url-prefix("about:preferences") {
+  .learnMore,
+  #addEngines,
+  #addressAutofillLearnMore,
+  .browsing-cfr-recommendations-learn-more,
+  #creditCardAutofillLearnMore,
+  #creditCardReauthenticateLearnMore,
+  #crashReporterLearnMore,
+  a[is="moz-support-link"] {
+    display: none !important;
+  }
+}
