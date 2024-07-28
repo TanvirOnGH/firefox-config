@@ -14,3 +14,9 @@
     color: #ffffff;
   }
 }
+
+/* Removes discover Sections */
+/* Remove Recommendations page/section from about:addons */
+.category[name="discover"] {
+  display: none !important;
+}
