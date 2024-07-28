@@ -1,7 +1,5 @@
-! Remove ChatGPT warning
-! https://chat.openai.com/backend-api/moderations
-
 ! Some of the popular sites have been redirected to free ones using libredirect !
+! Some adapted from https://tosdr.org !
 
 ! Ecosystem
 https://*apple.com
@@ -47,6 +45,19 @@ https://*etsy.com
 https://*walmart.com
 https://*target.com
 ! End of Store
+
+! Payment
+https://*paypal.com
+https://*patreon.com
+! End of Payment
+
+! Wiki
+https://*wikihow.com
+! End of Wiki
+
+! Gaming
+https://*roblox.com
+! End of Gaming
 
 ! Misc
 https://*tinder.com
