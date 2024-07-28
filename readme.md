@@ -76,7 +76,18 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 ![Menu Bar Menu](misc/screenshots/menu-bar-menu.png)
 ![Sidebery Context Menu](misc/screenshots/sidebery-context-menu.png)
 
-## File Locations
+## Installation
+
+### Enabling `userChrome.css` and `userContent.css`
+
+Enable `userChrome.css` and `userContent.css` support in Firefox:
+
+1. Go to `about:config` and click the "Accept the Risk and Continue" button.
+2. In the search box, type `toolkit.legacyUserProfileCustomizations.stylesheets`.
+3. Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` entry to set its value to **`true`**.
+4. Restart Firefox.
+
+### File Locations
 
 Both `user.js` and `chrome` files should be placed in the following locations depending on your operating system:
 
@@ -95,15 +106,6 @@ Replace `<profile_ID>` with your Firefox profile ID.
 - **Windows**: Your default profile can be found at `%APPDATA%\Mozilla\Firefox\Profiles\`. Alternatively, navigate to `about:support` in Firefox, and click on `Open Folder` next to the `Profile Directory` section.
 
 - **macOS**: Locate your default profile in `~/Library/Application Support/Firefox/Profiles/`. Or, go to `about:support` in Firefox, and click on `Show in Finder` next to the `Profile Directory` section.
-
-## Enabling `userChrome.css` and `userContent.css`
-
-Enable `userChrome.css` and `userContent.css` support in Firefox:
-
-1. Go to `about:config` and click the "Accept the Risk and Continue" button.
-2. In the search box, type `toolkit.legacyUserProfileCustomizations.stylesheets`.
-3. Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` entry to set its value to **`true`**.
-4. Restart Firefox.
 
 ## Theme
 
