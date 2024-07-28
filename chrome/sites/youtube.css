@@ -1,3 +1,5 @@
+@import "../styling/animations.css";
+
 /* Subtitles/Closed Captions (c) */
 /*
   - Subtitles are white with a dark shadow for better readability.
@@ -36,5 +38,13 @@
   .ytp-big-mode.ytp-autohide-active > div > .caption-window,
   .ytp-autohide > div > .caption-window {
     bottom: 10% !important;
+  }
+}
+
+/* RGB Youtube Progress Bar */
+@-moz-document domain(youtube.com) {
+  .ytp-play-progress,
+  .ytp-swatch-background-color {
+    animation: bgcolorCycle 20s ease-in-out infinite;
   }
 }
