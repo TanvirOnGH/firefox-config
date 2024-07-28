@@ -115,7 +115,7 @@ The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org
 
 For addons and userscripts configuration, you can find them in the respective directories.
 
-You can find a list of addons I use [here](https://addons.mozilla.org/en-US/firefox/collections/17970682/TAT-Collection/).
+You can find a list of addons I use [here](https://addons.mozilla.org/en-US/firefox/collections/17970682/TAT-Collection/). Note that I don't use all of them (not even a third), and many of the addons listed can be replaced by uBlock Origin.
 
 ## Additional Tweaks
 
