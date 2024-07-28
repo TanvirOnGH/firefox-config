@@ -26,12 +26,12 @@
   }
 }
 
-/* Remove all 'Learn more' links in about:preferences */
+/* Hide all 'Learn more' links in about:preferences */
 @-moz-document url-prefix("about:preferences") {
   .learnMore,
+  .browsing-cfr-recommendations-learn-more,
   #addEngines,
   #addressAutofillLearnMore,
-  .browsing-cfr-recommendations-learn-more,
   #creditCardAutofillLearnMore,
   #creditCardReauthenticateLearnMore,
   #crashReporterLearnMore,
