@@ -88,8 +88,6 @@ Both `user.js` and `chrome` files should be placed in the following locations de
 
 Replace `<profile_ID>` with your Firefox profile ID.
 
-For addons and userscripts configuration, you can find them in the respective directories.
-
 ### Finding Your Default Profile
 
 - **Linux**: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support` in Firefox, you'll see your default profile directory in the `Profile Directory` section. Click on `Open Directory`.
@@ -106,6 +104,16 @@ Enable `userChrome.css` and `userContent.css` support in Firefox:
 2. In the search box, type `toolkit.legacyUserProfileCustomizations.stylesheets`.
 3. Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` entry to set its value to **`true`**.
 4. Restart Firefox.
+
+## Theme
+
+The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org/en-US/firefox/addon/rosybrown_dark/)
+
+## Addons
+
+For addons and userscripts configuration, you can find them in the respective directories.
+
+You can find a list of addons I use [here](https://addons.mozilla.org/en-US/firefox/collections/17970682/TAT-Collection/).
 
 ## Additional Tweaks
 
@@ -145,28 +153,6 @@ More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS 
 4. Allow the incoming connection.
 5. Select Style Editor tab, then open `userChrome.css`.
 6. Edit and save the file for it to take effect (hot reload).
-
-## Theme
-
-The theme I'm currently using: [RosyBrown Dark by Me](https://addons.mozilla.org/en-US/firefox/addon/rosybrown_dark/)
-
-## Addons
-
-You can find a list of addons I use [here](https://addons.mozilla.org/en-US/firefox/collections/17970682/TAT-Collection/).
-
-## Userscripts
-
-![Userscripts](misc/screenshots/violentmonkey-userscripts.png)
-
-## Stylus Styles
-
-![Stylus styles](misc/screenshots/stylus-userstyles.png)
-
-## Ublock Origin
-
-Enabled all filters except for the regional ones. Added some custom filters:
-
-![Ublock origin](misc/screenshots/ublock-origin-custom-filters.png)
 
 ## Notable Mentions
 
