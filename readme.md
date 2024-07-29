@@ -21,43 +21,43 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 ## Features
 
 - Smooth scrolling
-- Animations
-- Sidebar (Sidebery) with auto-hide mechanism
+- Animations throughout the UI
+- Auto-hiding sidebar (Sidebery)
 - Hovercards
-- Scrollable through tabs
-- Search bar for tabs in the sidebar
-- Custom toolbar button icons
-- Custom (bouncing) loading indicator animation
-- Only icons in extensions menu
+- Scrollable tabs
+- Searchable sidebar for tabs
+- Custom toolbar icons
+- Bouncing loading indicator
+- Icons only in the extensions menu
 - Icons in main menu items
-- Round UI items
-- Dark UI in pages (e.g., addons.mozilla.org)
-- Custom centered status panel at the top with animations
+- Rounded UI elements
+- Dark theme for pages (e.g., addons.mozilla.org)
+- Centered status panel with animations
 - Compact about:config list
-- Compact items and menus (e.g., context menu)
-- Various sidebar (Sidebery, Tree Style Tab) tweaks, including auto-hide
-- Animations in tabs that's playing audio
-- Consistent and matching colors across various elements and the UI
-- Glow and scale effect on hover on toolbar buttons
-- Findbar as floating box at the top
+- Compact menus and items (e.g., context menu)
+- Sidebar tweaks (Sidebery, Tree Style Tab) with auto-hide
+- Tab animations for audio playback
+- Consistent and matching UI colors
+- Hover effects (glow and scale) on toolbar buttons
+- Floating find bar at the top
 - Hidden horizontal tab bar
-- Bottom main toolbar and search/url bar
-- Hidden bookmarks toolbar visible on hover
-- Custom colors on various items
+- Bottom toolbar and search/url bar
+- Hidden bookmarks toolbar (visible on hover)
+- Custom colors for various elements
 - Centered text in the url bar
-- Colored overlay on the url bar based on the type of connection
-- RGB animation on the url bar address
+- Colored overlay in the url bar based on connection type
+- RGB animation in the url bar
 - Global font family and size
-- Other various fixes and tweaks
+- Various fixes and tweaks
 - Custom addons configuration
-- Various Context menu tweaks (e.g no separators, compact, custom colors & icons, rounded borders)
+- Context menu tweaks (no separators, compact, custom colors & icons, rounded borders)
 - Userscripts
 - Userstyles
 - Custom theme
 - Icons in menus (appmenu, context menu, main menu, etc.)
-- Various performance and privacy tweaks
+- Performance and privacy tweaks
 - JPEG XL (JXL) enabled by default
-- Per site UI/UX tweaks (e.g Youtube, Mozilla, about:config, etc.)
+- Per-site UI/UX tweaks (e.g., YouTube, Mozilla, about:config)
 
 ## Screenshots and GIFs
 
