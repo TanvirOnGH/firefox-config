@@ -146,6 +146,8 @@ As an alternative to using the Browser Toolbox and SearchFox, you can explore th
 
 Look for specific topics on GitHub: [userchrome](https://github.com/topics/userchrome), [firefox-css](https://github.com/topics/firefox-css), [firefox-tweaks](https://github.com/topics/firefox-tweaks), [userchrome-styles](https://github.com/topics/userchrome-styles), [userchromecss](https://github.com/topics/userchromecss).
 
+Look for specific topic on Github Gist: [firefox css userchrome](https://gist.github.com/search?o=desc&q=firefox+css+userchrome&s=updated)
+
 More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
 
 ### Live Debug and Update `userChrome.css`
