@@ -89,6 +89,7 @@ user_pref("network.captive-portal-service.enabled", false);
 // URL Bar
 user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("browser.urlbar.unitConversion.enabled", true);
+user_pref("browser.urlbar.trimURLs", false);
 
 // Cache
 user_pref("browser.cache.jsbc_compression_level", 3);
