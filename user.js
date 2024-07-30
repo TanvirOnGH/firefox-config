@@ -83,6 +83,8 @@ user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
 user_pref("layout.frame_rate", -1);
 user_pref("browser.uitour.enabled", false);
+user_pref("network.notify.checkForProxies", false);
+user_pref("network.captive-portal-service.enabled", false);
 
 // URL Bar
 user_pref("browser.urlbar.suggest.calculator", true);
