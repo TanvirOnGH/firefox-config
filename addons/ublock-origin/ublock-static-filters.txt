@@ -3,11 +3,11 @@
 
 ! Ecosystem
 https://*apple.com
-! End of Ecosystem
+! End-of Ecosystem
 
 ! TEMP
 https://*linkedin.com
-! End of TEMP
+! End-of TEMP
 
 ! Social Media
 https://*wechat.com
@@ -15,7 +15,7 @@ https://*instagram.com
 https://*facebook.com
 https://*snapchat.com
 https://*tiktok.com
-! End of Social Media
+! End-of Social Media
 
 # Messaging
 https://*discord.com
@@ -27,14 +27,14 @@ https://*signal.org
 https://*skype.com
 https://*viber.com
 https://*line.me
-# End of Messaging
+# End-of Messaging
 
 ! Store
 https://*alibaba.com
 https://*amazon.com
 https://*aliexpress.com
 https://*ebay.com
-! End of Store
+! End-of Store
 
 ! Store
 https://*alibaba.com
@@ -44,35 +44,38 @@ https://*ebay.com
 https://*etsy.com
 https://*walmart.com
 https://*target.com
-! End of Store
+! End-of Store
 
 ! Payment
 https://*paypal.com
 https://*patreon.com
-! End of Payment
+! End-of Payment
 
 ! Wiki
 https://*wikihow.com
-! End of Wiki
+! End-of Wiki
 
 ! Gaming
 https://*roblox.com
-! End of Gaming
+! End-of Gaming
 
-! Misc
+! NSFW
+https://*nixos.com
 https://*tinder.com
 https://*onlyfans.com
 https://*omegle.com
-https://*zoom.us
-https://*netflix.com
-https://*hulu.com
-! End of Misc
+! End-of NSFW
 
 ! Entertainment
 !https://*soundcloud.com
 !https://*spotify.com
 https://*netflix.com
-! End of Entertainment
+https://*hulu.com
+! End-of Entertainment
+
+! Misc
+https://*zoom.us
+! End-of Misc
 
 ! 2024-02-12 https://www.youtube.com
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
