@@ -66,17 +66,6 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 ![RGB URL bar](misc/gifs/rgb-urlbar.gif)
 ![Firefox-1](misc/screenshots/firefox-1.png)
 ![Firefox-2](misc/screenshots/firefox-2.png)
-![Navigation Buttons](misc/gifs/navigation-buttons.gif)
-![Other buttons](misc/gifs/other-buttons.gif)
-![Findbar](misc/screenshots/findbar.png)
-![Status Panel](misc/screenshots/statuspanel.png)
-![Searchbar](misc/screenshots/searchbar.png)
-![Downloads Menu](misc/screenshots/downloads-menu.png)
-![Menu](misc/screenshots/menu-0.png)
-![Context Menu](misc/screenshots/context-menu.png)
-![Context Menu 2](misc/screenshots/context-menu-2.png)
-![Menu Bar Menu](misc/screenshots/menu-bar-menu.png)
-![Sidebery Context Menu](misc/screenshots/sidebery-context-menu.png)
 
 ## Installation
 
