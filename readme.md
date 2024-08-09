@@ -52,8 +52,6 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 - Various fixes and tweaks
 - Custom addons configuration
 - Context menu tweaks (no separators, compact, custom colors & icons, rounded borders)
-- Userscripts
-- Userstyles
 - Custom theme
 - Icons in menus (appmenu, context menu, main menu, etc.)
 - Performance and privacy tweaks
