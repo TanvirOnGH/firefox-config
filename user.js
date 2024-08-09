@@ -5,7 +5,8 @@ user_pref("layout.css.has-selector.enabled", true);
 
 // UI
 user_pref("browser.compactmode.show", true);
-user_pref("layout.css.prefers-color-scheme.content-override", 0); // Force dark mode
+user_pref("layout.css.prefers-color-scheme.content-override",
+          0); // Force dark mode
 
 // Remove native context menus
 user_pref("widget.gtk.native-context-menus", false);
@@ -14,7 +15,8 @@ user_pref("widget.windows.native-context-menus", false);
 
 // Experimental
 // Requires Firefox 128+
-// See: <https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/128#experimental_web_features>
+// See:
+// <https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/128#experimental_web_features>
 user_pref("image.jxl.enabled", true);
 
 // To make Firefox Translations (Addon) better integrate with the UI
@@ -31,18 +33,25 @@ user_pref("extensions.screenshots.disabled", true);
 
 // Recommendations
 user_pref("browser.dataFeatureRecommendations.enabled", false);
-user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Remove 'Recommendations' tab in about:addons
+user_pref("extensions.htmlaboutaddons.recommendations.enabled",
+          false); // Remove 'Recommendations' tab in about:addons
 
 // Warnings
-user_pref("browser.aboutConfig.showWarning", false); // disable about:config warning
-user_pref("browser.tabs.warnOnClose", true); // enable warning when closing multiple tabs (recommended)
-user_pref("browser.tabs.warnOnCloseOtherTabs", true); // enable warning when closing multiple tabs (recommended)
-user_pref("browser.tabs.warnOnOpen", true); // enable warning when opening multiple tabs (recommended)
-user_pref("browser.warnOnQuit", true); // enable warning when quitting Firefox (recommended)
+user_pref("browser.aboutConfig.showWarning",
+          false); // disable about:config warning
+user_pref("browser.tabs.warnOnClose",
+          true); // enable warning when closing multiple tabs (recommended)
+user_pref("browser.tabs.warnOnCloseOtherTabs",
+          true); // enable warning when closing multiple tabs (recommended)
+user_pref("browser.tabs.warnOnOpen",
+          true); // enable warning when opening multiple tabs (recommended)
+user_pref("browser.warnOnQuit",
+          true); // enable warning when quitting Firefox (recommended)
 user_pref("browser.tabs.warnOnCloseOtherTabs", true); // Recommended
 
 // GFX
-// Based on: <https://gist.github.com/RubenKelevra/fd66c2f856d703260ecdf0379c4f59db#gfx-rendering-tweaks>
+// Based on:
+// <https://gist.github.com/RubenKelevra/fd66c2f856d703260ecdf0379c4f59db#gfx-rendering-tweaks>
 user_pref("gfx.canvas.accelerated", true);
 user_pref("gfx.canvas.accelerated.cache-items", 32768);
 user_pref("gfx.canvas.accelerated.cache-size", 4096);
@@ -78,7 +87,8 @@ user_pref("browser.visited_color.dark", "#8a6666");
 user_pref("browser.anchor_color", "#40b5bf");
 
 // Misc
-user_pref("browser.cache.disk.parent_directory", "/run/user/1000/firefox"); // id -u <username>
+user_pref("browser.cache.disk.parent_directory",
+          "/run/user/1000/firefox"); // id -u <username>
 user_pref("browser.search.suggest.enabled.private", true);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("general.autoScroll", true);
@@ -114,7 +124,8 @@ user_pref("startup.homepage_welcome_url.additional", "");
 user_pref("startup.homepage_override_url", "");
 
 // Optimization
-user_pref("network.ssl_tokens_cache_capacity", 32768); // more TLS token caching (fast reconnects)
+user_pref("network.ssl_tokens_cache_capacity",
+          32768); // more TLS token caching (fast reconnects)
 
 // Promos
 user_pref("browser.vpn_promo.enabled", false);
@@ -140,7 +151,8 @@ user_pref("browser.ping-centre.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 
-/* Based on: <https://wiki.archlinux.org/title/Firefox/Tweaks#Smooth_scrolling> */
+/* Based on: <https://wiki.archlinux.org/title/Firefox/Tweaks#Smooth_scrolling>
+ */
 /*
 user_pref("general.smoothScroll.lines.durationMaxMS", 125);
 user_pref("general.smoothScroll.lines.durationMinMS", 125);
@@ -153,13 +165,16 @@ user_pref("general.smoothScroll.pages.durationMaxMS", 125);
 user_pref("general.smoothScroll.pages.durationMinMS", 125);
 user_pref("mousewheel.min_line_scroll_amount", 30);
 user_pref("mousewheel.system_scroll_override_on_root_content.enabled", true);
-user_pref("mousewheel.system_scroll_override_on_root_content.horizontal.factor", 175);
-user_pref("mousewheel.system_scroll_override_on_root_content.vertical.factor", 175);
-user_pref("toolkit.scrollbox.horizontalScrollDistance", 6);
+user_pref("mousewheel.system_scroll_override_on_root_content.horizontal.factor",
+175);
+user_pref("mousewheel.system_scroll_override_on_root_content.vertical.factor",
+175); user_pref("toolkit.scrollbox.horizontalScrollDistance", 6);
 user_pref("toolkit.scrollbox.verticalScrollDistance", 2);
 */
 
-/* Based on: <https://raw.githubusercontent.com/AveYo/fox/main/Natural%20Smooth%20Scrolling%20for%20user.js> */
+/* Based on:
+ * <https://raw.githubusercontent.com/AveYo/fox/main/Natural%20Smooth%20Scrolling%20for%20user.js>
+ */
 /// NATURAL SMOOTH SCROLLING V4 "SHARP"
 user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
 user_pref("general.smoothScroll.msdPhysics.enabled", true);
@@ -171,13 +186,15 @@ user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 250);
 user_pref("general.smoothScroll.currentVelocityWeighting", "1.0");
 user_pref("general.smoothScroll.stopDecelerationWeighting", "1.0");
 
-/// adjust multiply factor for mousewheel - or set to false if scrolling is way too fast
+/// adjust multiply factor for mousewheel - or set to false if scrolling is way
+/// too fast
 user_pref("mousewheel.system_scroll_override.horizontal.factor", 200);
 user_pref("mousewheel.system_scroll_override.vertical.factor", 200);
 user_pref("mousewheel.system_scroll_override_on_root_content.enabled", true);
 user_pref("mousewheel.system_scroll_override.enabled", true);
 
-/// Adjust pixels at a time count for mousewheel - cant do more than a page at once if <100
+/// Adjust pixels at a time count for mousewheel - cant do more than a page at
+/// once if <100
 user_pref("mousewheel.default.delta_multiplier_x", 100);
 user_pref("mousewheel.default.delta_multiplier_y", 100);
 user_pref("mousewheel.default.delta_multiplier_z", 100);
