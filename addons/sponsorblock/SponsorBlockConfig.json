@@ -85,13 +85,34 @@
   "autoSkipOnMusicVideos": true,
   "renderSegmentsAsChapters": true,
   "categorySelections": [
-    { "name": "sponsor", "option": 2 },
-    { "name": "poi_highlight", "option": 1 },
-    { "name": "exclusive_access", "option": 0 },
-    { "name": "chapter", "option": 0 },
-    { "name": "selfpromo", "option": 2 },
-    { "name": "interaction", "option": 2 },
-    { "name": "music_offtopic", "option": 2 }
+    {
+      "name": "sponsor",
+      "option": 2
+    },
+    {
+      "name": "poi_highlight",
+      "option": 1
+    },
+    {
+      "name": "exclusive_access",
+      "option": 0
+    },
+    {
+      "name": "chapter",
+      "option": 0
+    },
+    {
+      "name": "selfpromo",
+      "option": 2
+    },
+    {
+      "name": "interaction",
+      "option": 2
+    },
+    {
+      "name": "music_offtopic",
+      "option": 2
+    }
   ],
   "showCategoryWithoutPermission": true,
   "defaultCategory": "chooseACategory",
@@ -138,36 +159,123 @@
   "showDeArrowInSettings": true,
   "shownDeArrowPromotion": false,
   "categoryPillColors": {},
-  "skipKeybind": { "key": "Enter" },
-  "skipToHighlightKeybind": { "key": "Enter", "ctrl": true },
-  "startSponsorKeybind": { "key": ";" },
-  "submitKeybind": { "key": "'" },
-  "actuallySubmitKeybind": { "key": "'", "ctrl": true },
-  "previewKeybind": { "key": ";", "ctrl": true },
-  "nextChapterKeybind": { "key": "ArrowRight", "ctrl": true },
-  "previousChapterKeybind": { "key": "ArrowLeft", "ctrl": true },
-  "closeSkipNoticeKeybind": { "key": "Backspace" },
-  "colorPalette": { "red": "#780303", "white": "#ffffff", "locked": "#ffc83d" },
+  "skipKeybind": {
+    "key": "Enter"
+  },
+  "skipToHighlightKeybind": {
+    "key": "Enter",
+    "ctrl": true
+  },
+  "startSponsorKeybind": {
+    "key": ";"
+  },
+  "submitKeybind": {
+    "key": "'"
+  },
+  "actuallySubmitKeybind": {
+    "key": "'",
+    "ctrl": true
+  },
+  "previewKeybind": {
+    "key": ";",
+    "ctrl": true
+  },
+  "nextChapterKeybind": {
+    "key": "ArrowRight",
+    "ctrl": true
+  },
+  "previousChapterKeybind": {
+    "key": "ArrowLeft",
+    "ctrl": true
+  },
+  "closeSkipNoticeKeybind": {
+    "key": "Backspace"
+  },
+  "colorPalette": {
+    "red": "#780303",
+    "white": "#ffffff",
+    "locked": "#ffc83d"
+  },
   "barTypes": {
-    "preview-chooseACategory": { "color": "#ffffff", "opacity": "0.7" },
-    "sponsor": { "color": "#00d400", "opacity": "0.7" },
-    "preview-sponsor": { "color": "#007800", "opacity": "0.7" },
-    "selfpromo": { "color": "#ffff00", "opacity": "0.7" },
-    "preview-selfpromo": { "color": "#bfbf35", "opacity": "0.7" },
-    "exclusive_access": { "color": "#008a5c", "opacity": "0.7" },
-    "interaction": { "color": "#cc00ff", "opacity": "0.7" },
-    "preview-interaction": { "color": "#6c0087", "opacity": "0.7" },
-    "intro": { "color": "#00ffff", "opacity": "0.7" },
-    "preview-intro": { "color": "#008080", "opacity": "0.7" },
-    "outro": { "color": "#0202ed", "opacity": "0.7" },
-    "preview-outro": { "color": "#000070", "opacity": "0.7" },
-    "preview": { "color": "#008fd6", "opacity": "0.7" },
-    "preview-preview": { "color": "#005799", "opacity": "0.7" },
-    "music_offtopic": { "color": "#ff9900", "opacity": "0.7" },
-    "preview-music_offtopic": { "color": "#a6634a", "opacity": "0.7" },
-    "poi_highlight": { "color": "#ff1684", "opacity": "0.7" },
-    "preview-poi_highlight": { "color": "#9b044c", "opacity": "0.7" },
-    "filler": { "color": "#7300FF", "opacity": "0.9" },
-    "preview-filler": { "color": "#2E0066", "opacity": "0.7" }
+    "preview-chooseACategory": {
+      "color": "#ffffff",
+      "opacity": "0.7"
+    },
+    "sponsor": {
+      "color": "#00d400",
+      "opacity": "0.7"
+    },
+    "preview-sponsor": {
+      "color": "#007800",
+      "opacity": "0.7"
+    },
+    "selfpromo": {
+      "color": "#ffff00",
+      "opacity": "0.7"
+    },
+    "preview-selfpromo": {
+      "color": "#bfbf35",
+      "opacity": "0.7"
+    },
+    "exclusive_access": {
+      "color": "#008a5c",
+      "opacity": "0.7"
+    },
+    "interaction": {
+      "color": "#cc00ff",
+      "opacity": "0.7"
+    },
+    "preview-interaction": {
+      "color": "#6c0087",
+      "opacity": "0.7"
+    },
+    "intro": {
+      "color": "#00ffff",
+      "opacity": "0.7"
+    },
+    "preview-intro": {
+      "color": "#008080",
+      "opacity": "0.7"
+    },
+    "outro": {
+      "color": "#0202ed",
+      "opacity": "0.7"
+    },
+    "preview-outro": {
+      "color": "#000070",
+      "opacity": "0.7"
+    },
+    "preview": {
+      "color": "#008fd6",
+      "opacity": "0.7"
+    },
+    "preview-preview": {
+      "color": "#005799",
+      "opacity": "0.7"
+    },
+    "music_offtopic": {
+      "color": "#ff9900",
+      "opacity": "0.7"
+    },
+    "preview-music_offtopic": {
+      "color": "#a6634a",
+      "opacity": "0.7"
+    },
+    "poi_highlight": {
+      "color": "#ff1684",
+      "opacity": "0.7"
+    },
+    "preview-poi_highlight": {
+      "color": "#9b044c",
+      "opacity": "0.7"
+    },
+    "filler": {
+      "color": "#7300FF",
+      "opacity": "0.9"
+    },
+    "preview-filler": {
+      "color": "#2E0066",
+      "opacity": "0.7"
+    }
   }
 }

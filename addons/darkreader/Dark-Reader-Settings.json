@@ -232,5 +232,8 @@
     "thanks-for-contribution",
     "dynamic-theme"
   ],
-  "displayedNews": ["filter-mode", "news-2023"]
+  "displayedNews": [
+    "filter-mode",
+    "news-2023"
+  ]
 }
