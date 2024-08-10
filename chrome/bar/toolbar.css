@@ -76,14 +76,18 @@
 #PersonalToolbar {
   opacity: 0;
   visibility: collapse;
-  transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
+  transition:
+    opacity 0.4s ease-in-out,
+    visibility 0s linear 0.3s;
 }
 
 /* Show bookmarks toolbar when toolbar is hovered */
 #navigator-toolbox:hover > #PersonalToolbar {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.4s ease-in-out, visibility 0s linear 0.3s;
+  transition:
+    opacity 0.4s ease-in-out,
+    visibility 0s linear 0.3s;
 }
 
 /* Based on: <https://github.com/Etesam913/rounded-fox> */
