@@ -7,6 +7,7 @@
 @import "sites/browser.css";
 @import "sites/mozilla.css";
 @import "sites/youtube.css";
+@import "sites/google.css";
 
 /* Text Highlight color in webpages */
 @-moz-document regexp("http(s)?:.*") {
