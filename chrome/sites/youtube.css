@@ -48,3 +48,71 @@
     animation: bgcolorCycle 20s ease-in-out infinite;
   }
 }
+
+/* Remove voice search button */
+@-moz-document domain("youtube.com") {
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > yt-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape__fill,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > yt-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape__stroke,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > yt-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > .yt-spec-button-shape-next__icon
+    > yt-icon
+    > .yt-spec-icon-shape.yt-icon-shape
+    > div,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > .yt-spec-button-shape-next__icon
+    > yt-icon
+    > .yt-spec-icon-shape.yt-icon-shape,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > .yt-spec-button-shape-next__icon
+    > yt-icon,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next__icon,
+  .ytd-masthead.style-scope
+    > yt-button-shape
+    > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next,
+  .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > yt-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape__fill,
+  .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > yt-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape__stroke,
+  .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > yt-touch-feedback-shape
+    > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape,
+  .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > .yt-spec-button-shape-next__icon
+    > yt-icon
+    > .yt-spec-icon-shape.yt-icon-shape
+    > div,
+  .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+    > .yt-spec-button-shape-next__icon
+    > yt-icon
+    > .yt-spec-icon-shape.yt-icon-shape,
+  .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next {
+    display: none !important;
+  }
+}
