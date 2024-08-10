@@ -49,6 +49,18 @@
   }
 }
 
+/* Remove create button */
+@-moz-document domain("youtube.com") {
+  .ytd-topbar-menu-button-renderer.style-scope
+    > .yt-spec-icon-shape.yt-icon-shape
+    > div,
+  .ytd-topbar-menu-button-renderer.style-scope
+    > .yt-spec-icon-shape.yt-icon-shape,
+  #button > .ytd-topbar-menu-button-renderer.style-scope {
+    display: none !important;
+  }
+}
+
 /* Remove voice search button */
 @-moz-document domain("youtube.com") {
   .ytd-masthead.style-scope
