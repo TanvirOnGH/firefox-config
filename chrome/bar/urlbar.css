@@ -21,6 +21,13 @@
   text-align: center !important;
 }
 
+/* Change text highlight color when clicking on the URL bar */
+#urlbar-input::selection,
+.urlbar-input::selection {
+  background-color: #c38f8f !important;
+  color: #ffffff !important;
+}
+
 /* Change domain color in URL dropdown */
 #urlbar-results .urlbarView-row .urlbarView-url {
   color: #c8d0d4 !important;
