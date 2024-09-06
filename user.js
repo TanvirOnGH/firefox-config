@@ -6,6 +6,7 @@ user_pref("layout.css.has-selector.enabled", true);
 // UI
 user_pref("browser.compactmode.show", true);
 user_pref("layout.css.prefers-color-scheme.content-override", 0); // Force dark mode
+user_pref("ui.key.menuAccessKey", 0); // Remove the underscores on Context Menu Items
 
 // Remove native context menus
 user_pref("widget.gtk.native-context-menus", false);
