@@ -10,6 +10,12 @@
   display: none !important;
 }
 
+/* Remove the identity icon of extension pages from the URL bar */
+/* AKA: Remove "loaded from an extension" message from address bar */
+#urlbar #identity-box.extensionPage #identity-icon-label {
+  display: none !important;
+}
+
 /* Center text on urlbar */
 /* Ensure text remains centered in the URL bar, even when focused */
 #urlbar[focused] #urlbar-input,
