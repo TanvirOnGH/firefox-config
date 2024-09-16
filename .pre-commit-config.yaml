@@ -1,15 +1,15 @@
 repos:
-  - repo: https://github.com/sirwart/ripsecrets
-    rev: v0.1.8
-    hooks:
-      - id: ripsecrets
+    - repo: https://github.com/sirwart/ripsecrets
+      rev: v0.1.8
+      hooks:
+          - id: ripsecrets
 
-  - repo: https://github.com/trufflesecurity/trufflehog
-    rev: v3.81.10
-    hooks:
-      - id: trufflehog
+    - repo: https://github.com/trufflesecurity/trufflehog
+      rev: v3.82.2
+      hooks:
+          - id: trufflehog
 
-  - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.18.4
-    hooks:
-      - id: gitleaks
+    - repo: https://github.com/gitleaks/gitleaks
+      rev: v8.19.2
+      hooks:
+          - id: gitleaks
