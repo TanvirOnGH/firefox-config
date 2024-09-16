@@ -1,0 +1,46 @@
+image: gitpod/workspace-full-vnc
+
+# Currently broken:
+# 1. Broken paths
+# 2. Firefox doesn't launch: <https://github.com/gitpod-io/gitpod/issues/19342>
+tasks:
+    - name: Setup Firefox configuration
+      init: |
+          sudo apt update ; sudo apt install firefox -y
+          mkdir -p ~/.mozilla/firefox/*.default/chrome
+      command: |
+          ln -sfn /workspace/firefox-config/user.js ~/.mozilla/firefox/*.default/user.js
+
+          for item in /workspace/firefox-config/chrome/*; do
+              ln -sfn "$item" ~/.mozilla/firefox/*.default/chrome
+          done
+
+ports:
+    - name: VNC
+      description: Full GUI Virtual Desktop
+      port: 6080
+      onOpen: open-browser
+vscode:
+    extensions:
+        - ecmel.vscode-html-css
+        - Gydunhn.javascript-essentials
+        - castrogusttavo.min-theme
+        - castrogusttavo.symbols
+        - antfu.icons-carbon
+        - gruntfuggly.todo-tree
+        - mhutchie.git-graph
+        - donjayamanne.githistory
+        - timonwong.shellcheck
+        - foxundermoon.shell-format
+        - tyriar.sort-lines
+        - yzhang.markdown-all-in-one
+        - davidanson.vscode-markdownlint
+        - naumovs.color-highlight
+        - oderwat.indent-rainbow
+        - tamasfe.even-better-toml
+        - idleberg.icon-fonts
+        - anseki.vscode-color
+        - aaron-bond.better-comments
+        - ibm.output-colorizer
+        - chouzz.vscode-better-align
+        - esbenp.prettier-vscode
