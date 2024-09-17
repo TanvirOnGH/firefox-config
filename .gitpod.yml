@@ -1,7 +1,5 @@
 image: gitpod/workspace-full-vnc
 
-# Currently broken:
-# 1. Broken paths
 tasks:
     - name: Setup Firefox configuration
       init: |
@@ -17,13 +15,20 @@ tasks:
           ' | sudo tee /etc/apt/preferences.d/mozilla
           sudo apt-get update && sudo apt-get install firefox -y
 
-          # Setup Firefox profile directory
-          mkdir -p ~/.mozilla/firefox/*.default/chrome
+          # Launch Firefox once to create the profile directory
+          firefox & sleep 5 && pkill firefox
+
+          PROFILE_DIR=$(find ~/.mozilla/firefox -maxdepth 1 -name "*.default*" | head -n 1)
+
+          mkdir -p "$PROFILE_DIR/chrome"
       command: |
-          ln -sfn /workspace/firefox-config/user.js ~/.mozilla/firefox/*.default/user.js
+          # Use dynamically detected profile directory
+          PROFILE_DIR=$(find ~/.mozilla/firefox -maxdepth 1 -name "*.default*" | head -n 1)
+
+          ln -sfn /workspace/firefox-config/user.js "$PROFILE_DIR/user.js"
 
           for item in /workspace/firefox-config/chrome/*; do
-              ln -sfn "$item" ~/.mozilla/firefox/*.default/chrome
+              ln -sfn "$item" "$PROFILE_DIR/chrome"
           done
 
 ports:
