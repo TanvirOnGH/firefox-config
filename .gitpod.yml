@@ -1,5 +1,6 @@
 image: gitpod/workspace-full-vnc
 
+# TODO: Install and configure sidebery
 tasks:
     - name: Setup Firefox configuration
       init: |
