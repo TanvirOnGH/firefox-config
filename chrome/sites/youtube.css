@@ -53,6 +53,13 @@
   }
 }
 
+/* Remove "i" (info) icon on the video player from top right corner */
+@-moz-document domain("youtube.com") {
+  .ytp-cards-button-icon-default > .ytp-cards-button-icon {
+    display: none !important;
+  }
+}
+
 /* Remove create button */
 @-moz-document domain("youtube.com") {
   .ytd-topbar-menu-button-renderer.style-scope
