@@ -53,6 +53,38 @@
   }
 }
 
+/* Based on: <https://userstyles.world/style/13339/youtube-full-theater> */
+@-moz-document url-prefix("https://www.youtube.com/watch")
+{
+  /* Full height player */
+  ytd-watch-flexy[theater] #player-wide-container,
+  ytd-watch-flexy[theater] #player-theater-container,
+  ytd-watch-flexy[theater] #full-bleed-container {
+    max-height: 100vh !important;
+    min-height: 100vh !important;
+  }
+  /* Hide top bar */
+  #masthead[theater] {
+    height: 0 !important;
+    opacity: 0 !important;
+    transition: opacity 0.1s ease-in-out !important;
+  }
+
+  /* Show on hover */
+  #masthead[theater]:hover {
+    opacity: 1 !important;
+  }
+
+  /* Remove top margin */
+  #masthead-container {
+    position: sticky !important;
+  }
+
+  #page-manager {
+    margin-top: 0 !important;
+  }
+}
+
 /* Remove "i" (info) icon on the video player from top right corner */
 @-moz-document domain("youtube.com") {
   .ytp-cards-button-icon-default > .ytp-cards-button-icon {
