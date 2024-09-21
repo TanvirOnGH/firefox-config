@@ -5,7 +5,20 @@ p,
 div,
 span:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(
     [class*="material-icons"]
-  ):not([class*="mdi"]):not([class*="iconify"]) {
+  ):not([class*="mdi"]):not([class*="iconify"]):not([class*="ion"]):not(
+    [class*="ti"]
+  ):not([class*="fi"]):not([class*="oi"]):not([class*="icofont"]):not(
+    [class*="material-symbols-outlined"]
+  ),
+i:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(
+    [class*="material-icons"]
+  ):not([class*="mdi"]):not([class*="iconify"]):not([class*="ion"]):not(
+    [class*="ti"]
+  ):not([class*="fi"]):not([class*="oi"]):not([class*="icofont"]):not(
+    [class*="material-symbols-outlined"]
+  ),
+[class^="icon-"],
+[class*=" icon-"] {
   font-family: "Fira Code" !important;
   /* font-size: 10pt !important; */
 }
