@@ -8,6 +8,7 @@
 @import "menu/appmenu.css";
 @import "menu/contextmenu.css";
 @import "menu/extensions-menu.css";
+@import "menu/developer-tools.css";
 @import "browser/navigation.css";
 @import "misc/round-items.css";
 @import "panel/statuspanel.css";
