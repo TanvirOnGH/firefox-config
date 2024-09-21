@@ -1,8 +1,11 @@
 /* Global font and font size, excluding common icon elements */
 /* Note: Exclusions added to prevent overriding icon fonts */
-*:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(i):not(
-    span
-  ) {
+body,
+p,
+div,
+span:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(
+    [class*="material-icons"]
+  ):not([class*="mdi"]):not([class*="iconify"]) {
   font-family: "Fira Code" !important;
   /* font-size: 10pt !important; */
 }
