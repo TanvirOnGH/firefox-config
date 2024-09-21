@@ -29,6 +29,7 @@ i:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(
     font-family: "Fira Code" !important;
   }
 }
+
 /* App menu */
 #appMenu-popup {
   font-family: "Fira Code" !important;
