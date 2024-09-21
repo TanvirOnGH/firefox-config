@@ -9,6 +9,7 @@
 @import "sites/youtube.css";
 @import "sites/google.css";
 @import "sites/chatgpt.css";
+@import "sites/gemini.css";
 
 /* Text Highlight color in webpages */
 @-moz-document regexp("http(s)?:.*") {
