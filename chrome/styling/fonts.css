@@ -3,6 +3,10 @@
 body,
 p,
 div,
+code,
+pre,
+input,
+textarea,
 span:not([class*="icon"]):not([class*="glyph"]):not([class*="fa"]):not(
     [class*="material-icons"]
   ):not([class*="mdi"]):not([class*="iconify"]):not([class*="ion"]):not(
