@@ -3,7 +3,7 @@
 @-moz-document url(chrome://browser/content/browser.xhtml)
 {
   :root:not([inFullscreen]) {
-    --uc-bottom-toolbar-height: calc(40px + var(--toolbarbutton-outer-padding));
+    --uc-bottom-toolbar-height: calc(34px + var(--toolbarbutton-outer-padding));
   }
 
   :root[uidensity="compact"]:not([inFullscreen]) {
