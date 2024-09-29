@@ -1,4 +1,7 @@
 #root.root {
+  --tabs-inner-gap: 6.5px;
+}
+#root.root {
   --general-border-radius: 5px;
 }
 #root.root {
