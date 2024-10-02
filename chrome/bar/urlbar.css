@@ -5,6 +5,11 @@
   display: none !important;
 }
 
+/* Remove the tracking protection icon from the URL bar */
+#tracking-protection-icon-container {
+  display: none !important;
+}
+
 /* Remove search engines from the search bar */
 #urlbar .search-one-offs:not([hidden]) {
   display: none !important;
