@@ -25,6 +25,11 @@
   display: none !important;
 }
 
+/* Hide the identity box from the URL bar */
+#identity-box {
+  display: none !important;
+}
+
 /* Remove search engines from the search bar */
 #urlbar .search-one-offs:not([hidden]) {
   display: none !important;
