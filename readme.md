@@ -4,7 +4,7 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TanvirOnGH/firefox-config)
 
-> [!NOTE]  
+> [!NOTE]
 > This repository is not meant to be used as a whole but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 >
 > For other experimental features, check out the other branches of this repository.
@@ -124,6 +124,11 @@ To disable bookmarks toolbar:
 
 ## Customizing Firefox
 
+> [!NOTE]
+> [The Toolbox (ctrl-shift-c) is used to inspect web pages](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)
+>
+> [The Browser Toolbox (ctrl-alt-shift-i) is used to inspect the interface (parent process only) and/or web pages (multiprocess)](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)
+
 If you're planning to make multiple and extensive alterations to your UI, learning how to use the [Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) is essential. It allows you to create modifications to the UI and fix those modifications if a newer version of the Firefox codebase causes issues.
 
 While the Browser Toolbox isn't particularly user-friendly to set up or use initially, perseverance will pay off as it is key to inspecting Firefox's UI. Check out the [r/firefoxcss wiki](https://www.reddit.com/r/FirefoxCSS/wiki/index/) and search the subreddit for specific posts.
@@ -132,13 +137,15 @@ Investigate how to use Mozilla's source code indexing tool [SearchFox](https://s
 
 Most of your "How to" questions can be answered by the Browser Toolbox and SearchFox, though it takes some time to understand them both from scratch.
 
-As an alternative to using the Browser Toolbox and SearchFox, you can explore the wealth of information in subreddits like [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS), [r/firefox](https://www.reddit.com/r/firefox/), and [r/unixporn](https://www.reddit.com/r/unixporn/). Finding the precisely relevant information often requires diligent searching with a variety of **keywords**. A useful trick is to search with a section of CSS userstyle, a selector, or a rule related to the UI element you want to modify. You can also look on GitHub, GitLab, and other code hosting sites, or simply use your favorite search engine. There are various articles and blogs online as well. Discord servers like [unixporn](https://discord.com/invite/unixporn) and matrix rooms like [#firefoxcss:mozilla.org](https://chat.hackliberty.org/#/room/#firefoxcss:mozilla.org) can be helpful too.
+As an alternative to using the Browser Toolbox and SearchFox, you can explore the wealth of information in subreddits like [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) ([it's tutorials](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials)), [r/firefox](https://www.reddit.com/r/firefox/), and [r/unixporn](https://www.reddit.com/r/unixporn/). Finding the precisely relevant information often requires diligent searching with a variety of **keywords**. A useful trick is to search with a section of CSS userstyle, a selector, or a rule related to the UI element you want to modify. You can also look on GitHub, GitLab, and other code hosting sites, or simply use your favorite search engine. There are various articles and blogs online as well. Discord servers like [unixporn](https://discord.com/invite/unixporn) and matrix rooms like [#firefoxcss:mozilla.org](https://chat.hackliberty.org/#/room/#firefoxcss:mozilla.org) can be helpful too.
 
 Look for specific topics on GitHub: [userchrome](https://github.com/topics/userchrome), [firefox-css](https://github.com/topics/firefox-css), [firefox-tweaks](https://github.com/topics/firefox-tweaks), [userchrome-styles](https://github.com/topics/userchrome-styles), [userchromecss](https://github.com/topics/userchromecss).
 
 Look for specific topic on Github Gist: [firefox css userchrome](https://gist.github.com/search?o=desc&q=firefox+css+userchrome&s=updated)
 
-More handy resources: [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
+More handy resources: [Firefox CSS Guidelines](https://firefox-source-docs.mozilla.org/code-quality/coding-style/css_guidelines.html), [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
+
+Misc resources: [Overview for beginners](https://www.reddit.com/r/FirefoxCSS/comments/ugej2i/comment/i707t5x/)
 
 ### Live Debug and Update `userChrome.css`
 
