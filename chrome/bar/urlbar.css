@@ -47,10 +47,6 @@
   opacity: 0 !important;
 }
 
-#urlbar-input::placeholder {
-  opacity: 0 !important;
-}
-
 @keyframes darkenBackground {
   from {
     background-color: rgba(0, 0, 0, 0);
