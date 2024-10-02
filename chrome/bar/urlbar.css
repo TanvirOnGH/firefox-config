@@ -47,38 +47,9 @@
   opacity: 0 !important;
 }
 
-@keyframes slideUp {
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 /* Slide-up animation of the urls when the URL bar is focused */
 #urlbar[focused] #urlbar-results {
   animation: slideUp 0.2s ease-out forwards;
-}
-
-@keyframes darkenBackground {
-  from {
-    background-color: rgba(0, 0, 0, 0);
-  }
-  to {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-}
-
-@keyframes lightenBackground {
-  from {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  to {
-    background-color: rgba(0, 0, 0, 0);
-  }
 }
 
 /* Darkens the background when url bar is focused with animation */
