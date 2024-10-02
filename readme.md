@@ -124,8 +124,7 @@ To disable bookmarks toolbar:
 
 ## Customizing Firefox
 
-> [!NOTE]
-> [The Toolbox (ctrl-shift-c) is used to inspect web pages](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)
+> [!NOTE] > [The Toolbox (ctrl-shift-c) is used to inspect web pages](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)
 >
 > [The Browser Toolbox (ctrl-alt-shift-i) is used to inspect the interface (parent process only) and/or web pages (multiprocess)](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)
 
