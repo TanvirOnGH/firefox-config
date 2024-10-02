@@ -1,3 +1,5 @@
+@import "../styling/animations.css";
+
 /* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/button_effect_icon_glow.css> */
 /* Replace the button background-colors with a glow effect */
 :root {
@@ -28,7 +30,7 @@ toolbarbutton#scrollbutton-down {
   border-color: transparent !important;
 }
 
-/* Glow effects on hover */
+/* Glow and wobble-skew effects on hover */
 .close-icon:hover,
 .urlbar-history-dropmarker:hover,
 #page-action-buttons > .urlbar-icon:hover,
@@ -45,6 +47,7 @@ toolbarbutton#scrollbutton-up:not([disabled]):hover,
 toolbarbutton#scrollbutton-down:not([disabled]):hover {
   filter: drop-shadow(0 0 2px var(--uc-icon-glow-secondary))
     drop-shadow(0 0 1px var(--uc-icon-glow-primary));
+  animation: wobbleSkew 0.5s ease-in-out infinite;
 }
 
 /* Active states and close window button hover state */
