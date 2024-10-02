@@ -20,6 +20,11 @@
   display: none !important;
 }
 
+/* Remove the picture-in-picture button from the URL bar */
+#picture-in-picture-button {
+  display: none !important;
+}
+
 /* Remove search engines from the search bar */
 #urlbar .search-one-offs:not([hidden]) {
   display: none !important;
