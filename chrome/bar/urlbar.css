@@ -10,6 +10,11 @@
   display: none !important;
 }
 
+/* Remove the bookmark star button from the URL bar */
+#star-button-box {
+  display: none !important;
+}
+
 /* Remove search engines from the search bar */
 #urlbar .search-one-offs:not([hidden]) {
   display: none !important;
