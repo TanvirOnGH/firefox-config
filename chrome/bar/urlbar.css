@@ -47,7 +47,29 @@
   opacity: 0 !important;
 }
 
-/* Darkens the background when url bar is focused */
+#urlbar-input::placeholder {
+  opacity: 0 !important;
+}
+
+@keyframes darkenBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@keyframes lightenBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+/* Darkens the background when url bar is focused with animation */
 #urlbar:is([breakout][breakout-extend], [breakout][usertyping][focused]):after {
   content: "";
   position: fixed;
@@ -60,6 +82,27 @@
   left: 0px;
 
   background-color: rgba(0, 0, 0, 0.6);
+  animation: darkenBackground 0.5s forwards;
+
+  z-index: -1;
+}
+
+/* Lightens the background when url bar loses focus with animation */
+#urlbar:not(
+    :is([breakout][breakout-extend], [breakout][usertyping][focused])
+  ):after {
+  content: "";
+  position: fixed;
+  pointer-events: none;
+
+  width: 100vw;
+  height: 100vh;
+
+  top: 0px;
+  left: 0px;
+
+  background-color: rgba(0, 0, 0, 0);
+  animation: lightenBackground 0.5s forwards;
 
   z-index: -1;
 }
