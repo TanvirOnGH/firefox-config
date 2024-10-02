@@ -15,6 +15,11 @@
   display: none !important;
 }
 
+/* Remove the reader mode button from the URL bar */
+#reader-mode-button {
+  display: none !important;
+}
+
 /* Remove search engines from the search bar */
 #urlbar .search-one-offs:not([hidden]) {
   display: none !important;
