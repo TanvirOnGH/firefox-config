@@ -34,6 +34,18 @@ user_pref("extensions.screenshots.disabled", true);
 user_pref("browser.dataFeatureRecommendations.enabled", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Remove 'Recommendations' tab in about:addons
 
+// Media
+user_pref("media.volume_scale", "1.0");
+user_pref("media.mediasource.experimental.enabled", true);
+user_pref("media.hardwaremediakeys.enabled", true);
+user_pref("media.ffmpeg.enabled", true);
+user_pref("media.ffmpeg.encoder.enabled", true);
+user_pref("media.flac.enabled", true);
+user_pref("media.gmp.encoder.enabled", true);
+user_pref("media.gmp.encoder.multithreaded", true);
+user_pref("media.hls.enabled", true);
+user_pref("media.peerconnection.video.denoising", true);
+
 // Warnings
 user_pref("browser.aboutConfig.showWarning", false); // disable about:config warning
 user_pref("browser.tabs.warnOnClose", true); // enable warning when closing multiple tabs (recommended)
