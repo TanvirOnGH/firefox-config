@@ -35,6 +35,7 @@ user_pref("browser.dataFeatureRecommendations.enabled", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Remove 'Recommendations' tab in about:addons
 
 // Media
+user_pref("media.default_volume", "1.0");
 user_pref("media.volume_scale", "1.0");
 user_pref("media.mediasource.experimental.enabled", true);
 user_pref("media.hardwaremediakeys.enabled", true);
