@@ -124,10 +124,17 @@ To disable bookmarks toolbar:
 
 ## Customizing Firefox
 
-> [!NOTE]
-> [The Toolbox (ctrl-shift-c) is used to inspect web pages](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)
->
-> [The Browser Toolbox (ctrl-alt-shift-i) is used to inspect the interface (parent process only) and/or web pages (multiprocess)](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)
+### Understanding `userChrome.css` and `userContent.css`
+
+- **userChrome.css**: Used for changing the Firefox interface, including everything above the web page such as toolbars, tabs, and context menus.
+- **userContent.css**: Used for changing the content of web pages and Firefox's `about:` pages.
+
+### Understanding **The Browser Toolbox** and **The Toolbox**
+
+- **[The Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)** _(ctrl+alt+shift+i)_ is used to inspect the interface (parent process only) and/or web pages (multi-process).
+- **[The Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)** _(ctrl+shift+c)_ is used to inspect web pages.
+
+### Tips and Resources
 
 If you're planning to make multiple and extensive alterations to your UI, learning how to use the [Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) is essential. It allows you to create modifications to the UI and fix those modifications if a newer version of the Firefox codebase causes issues.
 
