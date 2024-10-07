@@ -9,6 +9,14 @@
   list-style-image: url("../icons/bookmarks.svg") !important;
 }
 
+#star-button {
+  list-style-image: url("../icons/bookmarks.svg") !important;
+}
+
+#star-button[starred="true"] {
+  list-style-image: url("../icons/bookmarks-fill.svg") !important;
+}
+
 #forward-button > .toolbarbutton-icon {
   list-style-image: url("../icons/forward.svg") !important;
 }
