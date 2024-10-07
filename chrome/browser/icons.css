@@ -188,7 +188,7 @@
 #appMenu-bookmarks-button,
 #panelMenuBookmarkThisPage[starred],
 #appMenu-library-bookmarks-button {
-  list-style-image: url("chrome://browser/skin/bookmark.svg");
+  list-style-image: url("../icons/bookmarks.svg");
 }
 
 #appMenu-history-button,
@@ -433,7 +433,9 @@ menuitem.sendtab-target[clientType="vr"] {
 
 #sidebar-switcher-bookmarks,
 #menu_bookmarkThisPage[data-l10n-id="menu-edit-bookmark"] {
-  background-image: url("chrome://browser/skin/bookmark.svg");
+  /* Color doesn't seem to be applied */
+  /* TODO: Investigate and Fix the color issue */
+  background-image: url("../icons/bookmarks-fill.svg");
 }
 
 #sidebar-switcher-history {
