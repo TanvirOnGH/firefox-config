@@ -226,6 +226,30 @@
   }
 }
 
+@keyframes softbgcolorCycle {
+  0% {
+    background-color: rgb(195, 143, 143);
+  }
+  16.6% {
+    background-color: rgb(143, 195, 143);
+  }
+  33.3% {
+    background-color: rgb(143, 143, 195);
+  }
+  50% {
+    background-color: rgb(195, 143, 195);
+  }
+  66.6% {
+    background-color: rgb(143, 195, 195);
+  }
+  83.3% {
+    background-color: rgb(195, 195, 143);
+  }
+  100% {
+    background-color: rgb(195, 143, 143);
+  }
+}
+
 @keyframes rgbshift {
   0% {
     background-color: #ff0000;

@@ -45,11 +45,11 @@
   }
 }
 
-/* RGB Youtube Progress Bar */
+/* Custom Soft RGB (RosyBrownRGB) Youtube Progress Bar */
 @-moz-document domain(youtube.com) {
   .ytp-play-progress,
   .ytp-swatch-background-color {
-    animation: bgcolorCycle 20s ease-in-out infinite;
+    animation: softbgcolorCycle 8s ease-in-out infinite;
   }
 }
 
