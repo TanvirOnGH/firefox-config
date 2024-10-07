@@ -11,7 +11,7 @@
 @import "sites/chatgpt.css";
 @import "sites/gemini.css";
 
-/* Text Highlight color in webpages */
+/* Text Highlight color on webpages */
 @-moz-document regexp("http(s)?:.*") {
   ::selection {
     background-color: transparent !important;
