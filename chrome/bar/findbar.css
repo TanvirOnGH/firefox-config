@@ -1,5 +1,5 @@
 /* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/floating_findbar_on_top.css> */
-/* findbar as floating box at the top with auto-hide
+/* findbar as floating box at the top center
  * N.B: privacy.resistFingerprinting.letterboxing prevents this from working properly
 */
 
@@ -72,13 +72,16 @@ findbar > .findbar-container {
   width: initial !important;
   order: -1;
 }
+
 .findbar-closebutton > image {
   padding: 3px;
 }
+
 .findbar-closebutton:hover > image {
   background: var(--toolbarbutton-hover-background) !important;
   border-radius: 4px;
 }
+
 findbar > .findbar-container > hbox {
   margin: 0 5px;
 }
@@ -92,12 +95,14 @@ findbar::after {
 findbar {
   flex-direction: row-reverse;
 }
+
 findbar > .findbar-container {
   flex-direction: row-reverse;
   border-inline-width: 1px 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 4px;
 }
+
 findbar {
   margin-right: 300px;
   border-right: 1px solid var(--chrome-content-separator-color);
