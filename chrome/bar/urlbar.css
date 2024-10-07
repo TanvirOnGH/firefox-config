@@ -11,9 +11,11 @@
 }
 
 /* Remove the bookmark star button from the URL bar */
+/*
 #star-button-box {
   display: none !important;
 }
+*/
 
 /* Remove the reader mode button from the URL bar */
 #reader-mode-button {
