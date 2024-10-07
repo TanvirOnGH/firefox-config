@@ -14,8 +14,8 @@
 /* Text Highlight color in webpages */
 @-moz-document regexp("http(s)?:.*") {
   ::selection {
-    background-color: #c38f8f;
-    color: #ffffff;
+    background-color: transparent !important;
+    color: #c38f8f !important;
   }
 }
 
