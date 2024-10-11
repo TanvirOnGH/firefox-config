@@ -9,7 +9,9 @@ findbar {
   position: relative;
   border-top: none !important;
   padding: 0 !important;
-  transition: transform 200ms ease-in-out, opacity 200ms ease-in-out !important;
+  transition:
+    transform 200ms ease-in-out,
+    opacity 200ms ease-in-out !important;
   background: none !important;
   pointer-events: none;
   z-index: 1;
