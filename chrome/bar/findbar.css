@@ -151,3 +151,9 @@ label[anonid="entire-word-status"] {
   content: "Previous" !important;
 }
 */
+
+/* Don't animate the findbar close button */
+toolbarbutton[anonid="find-closebutton"]:hover {
+  filter: none !important;
+  animation: none !important;
+}
