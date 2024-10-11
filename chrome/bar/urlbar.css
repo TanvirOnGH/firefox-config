@@ -27,6 +27,18 @@
   display: none !important;
 }
 
+/* Remove the identity permission box from the URL bar */
+#identity-permission-box {
+  display: none !important;
+}
+
+/* Remove the permissions granted icon from the URL bar */
+/*
+#permissions-granted-icon {
+  display: none !important;
+}
+*/
+
 /* Hide the identity box from the URL bar */
 /*
 #identity-box {
