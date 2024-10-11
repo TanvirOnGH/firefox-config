@@ -6,7 +6,8 @@
 }
 
 /* Remove the tracking protection icon from the URL bar */
-#tracking-protection-icon-container {
+#tracking-protection-icon-container,
+.urlbar-input-container > #tracking-protection-icon-container {
   display: none !important;
 }
 
@@ -56,8 +57,9 @@
   display: inline !important;
 }
 
-/* Remove search engines from the search bar */
-#urlbar .search-one-offs:not([hidden]) {
+/* Remove search engines from the search bar and the search button */
+#urlbar .search-one-offs:not([hidden]),
+#urlbar .urlbar-search-button {
   display: none !important;
 }
 
@@ -69,7 +71,8 @@
 
 /* Remove the placeholder text from the URL bar */
 /* AKA: Remove "Search or enter address" message from the URL bar */
-#urlbar-input::placeholder {
+#urlbar-input::placeholder,
+.urlbar-input::placeholder {
   opacity: 0 !important;
 }
 
@@ -125,7 +128,8 @@
   text-align: center !important;
 }
 
-.urlbar-input-container {
+.urlbar-input-container,
+#urlbar .urlbar-input-container {
   display: flex;
   justify-content: center;
   align-items: center;
