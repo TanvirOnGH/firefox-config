@@ -46,6 +46,16 @@
 }
 */
 
+/* Hide the identity icon by default */
+#identity-icon {
+  display: none !important;
+}
+
+/* Show the identity icon when the site is insecure */
+#identity-box[pageproxystate="valid"].notSecure #identity-icon {
+  display: inline !important;
+}
+
 /* Remove search engines from the search bar */
 #urlbar .search-one-offs:not([hidden]) {
   display: none !important;
