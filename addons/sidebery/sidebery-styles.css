@@ -266,6 +266,16 @@
   opacity: 100;
 }
 
+/* Scrolling Tab text title animation */
+.Tab .title {
+  display: inline-block;
+  transition: transform 5s ease;
+}
+
+.Tab:hover .title {
+  transform: translateX(calc(-100% + 10rem));
+}
+
 /* Multiline Tab Titles */
 /* TODO: Fine-tune */
 /* TODO: Multiline Tab Titles in Hovercard Title */
@@ -289,23 +299,5 @@
   line-height: calc(
     (var(--tabs-height) - var(--tabs-title-padding)) / var(--tabs-title-lines)
   );
-}
-*/
-
-/* Scrolling Tab text title animation */
-/*
-.Tab .title {
-  display: inline-block;
-  transition: transform 5s ease;
-}
-
-.Tab:hover .title {
-  animation: moveTitle 5s infinite;
-}
-
-@keyframes moveTitle {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(-10rem); }
-  100% { transform: translateX(0); }
 }
 */
