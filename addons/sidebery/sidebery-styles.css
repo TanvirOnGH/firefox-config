@@ -1,4 +1,7 @@
 #root.root {
+  --tabs-border-radius: 10px;
+}
+#root.root {
   --tabs-close-btn-margin: 10px;
 }
 #root.root {
