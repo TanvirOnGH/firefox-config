@@ -173,8 +173,8 @@
   color: #ffffff !important;
 }
 
+/* Modify the urlbar text color based on connection type */
 /* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/urlbar_connection_type_text_colors.css> */
-/* Add a colored overlay to urlbar based on the type of the connection */
 /* For normal pages (HTTPS with valid certificate) - Animated */
 .urlbar-input-container[pageproxystate="valid"]:not(
     [securitylevel="broken"],
@@ -184,19 +184,18 @@
   animation: colorCycle 20s linear infinite;
 }
 
-/* Mixed content/errors */
-.urlbar-input-container[securitylevel="broken"] .urlbar-input-box {
-  color: orange;
-}
-
 /* Insecure connections (HTTP) */
 .urlbar-input-container[securitylevel="none"] .urlbar-input-box {
   color: orangered;
 }
 
+/* Mixed content/errors */
+.urlbar-input-container[securitylevel="broken"] .urlbar-input-box {
+  color: orange;
+}
+
 /* Extension pages */
 #urlbar[actiontype="extension"] .urlbar-input-box {
-  /* Use #urlbar[actiontype] */
   color: violet;
 }
 
@@ -204,4 +203,49 @@
 .urlbar-input-container[pageproxystate="localResource"] .urlbar-input-box, /* pageproxystate on container */
 .urlbar-input-container[pageproxystate="chromeUI"] .urlbar-input-box {
   color: dodgerblue;
+}
+
+/* Adds a colored overlay to urlbar based on the type of the connection */
+/* Based on: <https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/urlbar_connection_type_background_colors.css> */
+#identity-box::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: var(--urlbar-height);
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+:root[customizing] #identity-box::before,
+#urlbar[focused] #identity-box::before {
+  display: none;
+}
+
+/* For normal pages (HTTPS with valid certificate) */
+/*
+#identity-box.verifiedDomain::before {
+  background-color: rgba(50, 255, 50, 0.1);
+}
+*/
+
+/* Insecure connections (HTTP) */
+#identity-box.certErrorPage::before,
+#identity-box.notSecure::before {
+  background-color: rgba(226, 0, 12, 0.2);
+}
+
+/* Mixed content/errors */
+#identity-box.unknownIdentity::before {
+  background-color: rgba(226, 120, 12, 0.2);
+}
+
+/* Extension pages */
+#identity-box.extensionPage::before {
+  background-color: rgba(195, 143, 143, 0.2);
+}
+
+/* Local resources (about:, chrome:) */
+#identity-box.chromeUI::before {
+  background-color: rgba(141, 184, 205, 0.2);
 }
