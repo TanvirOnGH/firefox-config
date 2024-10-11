@@ -1,4 +1,7 @@
 #root.root {
+  --tabs-close-btn-margin: 10px;
+}
+#root.root {
   --nav-btn-active-shadow: inset 0 0 0 1px rgb(195, 143, 143),
     0 1px 3px 0 rgba(0, 0, 0, 0.212);
 }
