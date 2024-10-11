@@ -1,4 +1,14 @@
 #root.root {
+  --nav-btn-active-shadow: inset 0 0 0 1px rgb(195, 143, 143),
+    0 1px 3px 0 rgba(0, 0, 0, 0.212);
+}
+#root.root {
+  --nav-btn-fg: rgb(255, 255, 255);
+}
+#root.root {
+  --nav-btn-accent: rgb(195, 143, 143);
+}
+#root.root {
   --tabs-inner-gap: 6.5px;
 }
 #root.root {
