@@ -175,28 +175,33 @@
 
 /* Based on: Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/urlbar_connection_type_background_colors.css */
 /* Add a colored overlay to urlbar based on the type of the connection */
-/* For normal pages */
-#identity-box[pageproxystate="valid"] ~ .urlbar-input-box {
+/* For normal pages (HTTPS with valid certificate) - Animated */
+.urlbar-input-container[pageproxystate="valid"]:not(
+    [securitylevel="broken"],
+    [securitylevel="none"]
+  )
+  .urlbar-input-box {
   animation: colorCycle 20s linear infinite;
 }
 
-/* Mixed content including neterror */
-#identity-box[pageproxystate="valid"].unknownIdentity ~ .urlbar-input-box {
+/* Mixed content/errors */
+.urlbar-input-container[securitylevel="broken"] .urlbar-input-box {
   color: orange;
 }
 
-/* http: and potentially some other insecure connections like ftp: */
-#identity-box[pageproxystate="valid"].notSecure ~ .urlbar-input-box {
+/* Insecure connections (HTTP) */
+.urlbar-input-container[securitylevel="none"] .urlbar-input-box {
   color: orangered;
 }
 
 /* Extension pages */
-#identity-box[pageproxystate="valid"].extensionPage ~ .urlbar-input-box {
+#urlbar[actiontype="extension"] .urlbar-input-box {
+  /* Use #urlbar[actiontype] */
   color: violet;
 }
 
-/* Internal about: and chrome:// urls (includes reader-view) */
-#identity-box[pageproxystate="valid"].localResource ~ .urlbar-input-box,
-#identity-box[pageproxystate="valid"].chromeUI ~ .urlbar-input-box {
+/* Local resources (about:, chrome:) */
+.urlbar-input-container[pageproxystate="localResource"] .urlbar-input-box, /* pageproxystate on container */
+.urlbar-input-container[pageproxystate="chromeUI"] .urlbar-input-box {
   color: dodgerblue;
 }
