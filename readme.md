@@ -150,7 +150,7 @@ Look for specific topics on GitHub: [userchrome](https://github.com/topics/userc
 
 Look for specific topic on Github Gist: [firefox css userchrome](https://gist.github.com/search?o=desc&q=firefox+css+userchrome&s=updated)
 
-More handy resources: [Firefox CSS Guidelines](https://firefox-source-docs.mozilla.org/code-quality/coding-style/css_guidelines.html), [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
+More handy resources: [m/FirefoxCSS](https://fedia.io/m/FirefoxCSS), [Firefox CSS Guidelines](https://firefox-source-docs.mozilla.org/code-quality/coding-style/css_guidelines.html), [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
 
 Misc resources: [Overview for beginners](https://www.reddit.com/r/FirefoxCSS/comments/ugej2i/comment/i707t5x/)
 
@@ -169,6 +169,7 @@ Misc resources: [Overview for beginners](https://www.reddit.com/r/FirefoxCSS/com
 - [Betterfox](https://github.com/yokoffing/Betterfox) - Firefox user.js for speed, privacy, and security. Your favorite browser, but better.
 - [FirefoxCSS-Store](https://firefoxcss-store.github.io) - A collection site of Firefox userchrome themes.
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) - A subreddit dedicated to Firefox customization.
+- [m/FirefoxCSS](https://fedia.io/m/FirefoxCSS) - A community on the fediverse network dedicated to Firefox customization, equivalent to r/FirefoxCSS.
 - [SearchFox](https://searchfox.org) - A source code indexing tool for Mozilla Firefox. It indexes C++, Rust, and JavaScript code.
 - [Firefox Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) - A tool that helps to create and maintain extensive firefox customizations.
 - [ArkenFox GUI](https://arkenfox.github.io/gui) - Site to help you explore the information from the [arkenfox user.js](https://github.com/arkenfox/user.js)
