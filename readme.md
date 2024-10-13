@@ -23,42 +23,42 @@ My tailor-fitted, highly customized, and advanced [Firefox](https://www.mozilla.
 
 ## Features
 
-- Smooth scrolling
-- Animations throughout the UI
-- Auto-hiding sidebar (Sidebery)
-- Hovercards
-- Scrollable tabs
-- Searchable sidebar for tabs
-- Custom toolbar icons
-- Bouncing loading indicator
-- Icons only in the extensions menu
-- Icons in main menu items
-- Rounded UI elements
-- Dark theme for pages (e.g., addons.mozilla.org)
-- Centered status panel with animations
-- Compact about:config list
-- Compact menus and items (e.g., context menu)
-- Sidebar tweaks (Sidebery, Tree Style Tab) with auto-hide
-- Tab animations for audio playback
-- Consistent and matching UI colors
-- Hover effects (glow and scale) on toolbar buttons
-- Floating find bar at the top
-- Hidden horizontal tab bar
-- Bottom toolbar and search/url bar
-- Hidden bookmarks toolbar (visible on hover)
-- Custom colors for various elements
-- Centered text in the url bar
-- Colored overlay in the url bar based on connection type
-- RGB animation in the url bar
-- Global font family and size
-- Various fixes and tweaks
-- Custom addons configuration
-- Context menu tweaks (no separators, compact, custom colors & icons, rounded borders)
-- Custom theme
-- Icons in menus (appmenu, context menu, main menu, etc.)
-- Performance and privacy tweaks
-- JPEG XL (JXL) enabled by default
-- Per-site UI/UX tweaks (e.g., YouTube, Google, ChatGPT, Mozilla, about:config)
+-   Smooth scrolling
+-   Animations throughout the UI
+-   Auto-hiding sidebar (Sidebery)
+-   Hovercards
+-   Scrollable tabs
+-   Searchable sidebar for tabs
+-   Custom toolbar icons
+-   Bouncing loading indicator
+-   Icons only in the extensions menu
+-   Icons in main menu items
+-   Rounded UI elements
+-   Dark theme for pages (e.g., addons.mozilla.org)
+-   Centered status panel with animations
+-   Compact about:config list
+-   Compact menus and items (e.g., context menu)
+-   Sidebar tweaks (Sidebery, Tree Style Tab) with auto-hide
+-   Tab animations for audio playback
+-   Consistent and matching UI colors
+-   Hover effects (glow and scale) on toolbar buttons
+-   Floating find bar at the top
+-   Hidden horizontal tab bar
+-   Bottom toolbar and search/url bar
+-   Hidden bookmarks toolbar (visible on hover)
+-   Custom colors for various elements
+-   Centered text in the url bar
+-   Colored overlay in the url bar based on connection type
+-   RGB animation in the url bar
+-   Global font family and size
+-   Various fixes and tweaks
+-   Custom addons configuration
+-   Context menu tweaks (no separators, compact, custom colors & icons, rounded borders)
+-   Custom theme
+-   Icons in menus (appmenu, context menu, main menu, etc.)
+-   Performance and privacy tweaks
+-   JPEG XL (JXL) enabled by default
+-   Per-site UI/UX tweaks (e.g., YouTube, Google, ChatGPT, Mozilla, about:config)
 
 ## Screenshots and GIFs
 
@@ -92,11 +92,11 @@ Replace `<profile_ID>` with your Firefox profile ID.
 
 ### Finding Your Default Profile
 
-- **Linux**: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support` in Firefox, you'll see your default profile directory in the `Profile Directory` section. Click on `Open Directory`.
+-   **Linux**: You can find your default profile in `~/.mozilla/firefox/profiles.ini` OR go to `about:support` in Firefox, you'll see your default profile directory in the `Profile Directory` section. Click on `Open Directory`.
 
-- **Windows**: Your default profile can be found at `%APPDATA%\Mozilla\Firefox\Profiles\`. Alternatively, navigate to `about:support` in Firefox, and click on `Open Folder` next to the `Profile Directory` section.
+-   **Windows**: Your default profile can be found at `%APPDATA%\Mozilla\Firefox\Profiles\`. Alternatively, navigate to `about:support` in Firefox, and click on `Open Folder` next to the `Profile Directory` section.
 
-- **macOS**: Locate your default profile in `~/Library/Application Support/Firefox/Profiles/`. Or, go to `about:support` in Firefox, and click on `Show in Finder` next to the `Profile Directory` section.
+-   **macOS**: Locate your default profile in `~/Library/Application Support/Firefox/Profiles/`. Or, go to `about:support` in Firefox, and click on `Show in Finder` next to the `Profile Directory` section.
 
 ## Theme
 
@@ -126,13 +126,13 @@ To disable bookmarks toolbar:
 
 ### Understanding `userChrome.css` and `userContent.css`
 
-- **userChrome.css**: Used for changing the Firefox interface, including everything above the web page such as toolbars, tabs, and context menus.
-- **userContent.css**: Used for changing the content of web pages and Firefox's `about:` pages.
+-   **userChrome.css**: Used for changing the Firefox interface, including everything above the web page such as toolbars, tabs, and context menus.
+-   **userContent.css**: Used for changing the content of web pages and Firefox's `about:` pages.
 
 ### Understanding **The Browser Toolbox** and **The Toolbox**
 
-- **[The Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)** _(ctrl+alt+shift+i)_ is used to inspect the interface (parent process only) and/or web pages (multi-process).
-- **[The Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)** _(ctrl+shift+c)_ is used to inspect web pages.
+-   **[The Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)** _(ctrl+alt+shift+i)_ is used to inspect the interface (parent process only) and/or web pages (multi-process).
+-   **[The Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)** _(ctrl+shift+c)_ is used to inspect web pages.
 
 ### Tips and Resources
 
@@ -165,12 +165,12 @@ Misc resources: [Overview for beginners](https://www.reddit.com/r/FirefoxCSS/com
 
 ## Notable Mentions
 
-- [schizofox](https://github.com/schizofox/schizofox) - Hardened Firefox flake for the delusional and the schizophrenics. You might find some interesting stuff there.
-- [Betterfox](https://github.com/yokoffing/Betterfox) - Firefox user.js for speed, privacy, and security. Your favorite browser, but better.
-- [FirefoxCSS-Store](https://firefoxcss-store.github.io) - A collection site of Firefox userchrome themes.
-- [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) - A subreddit dedicated to Firefox customization.
-- [m/FirefoxCSS](https://fedia.io/m/FirefoxCSS) - A community on the fediverse network dedicated to Firefox customization, equivalent to r/FirefoxCSS.
-- [SearchFox](https://searchfox.org) - A source code indexing tool for Mozilla Firefox. It indexes C++, Rust, and JavaScript code.
-- [Firefox Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) - A tool that helps to create and maintain extensive firefox customizations.
-- [ArkenFox GUI](https://arkenfox.github.io/gui) - Site to help you explore the information from the [arkenfox user.js](https://github.com/arkenfox/user.js)
-- [fx-autoconfig](https://github.com/MrOtherGuy/fx-autoconfig) - A toolkit to load arbitrary javascript files to be run in Firefox browser context. Relies on autoconfig functionality available in Firefox.
+-   [schizofox](https://github.com/schizofox/schizofox) - Hardened Firefox flake for the delusional and the schizophrenics. You might find some interesting stuff there.
+-   [Betterfox](https://github.com/yokoffing/Betterfox) - Firefox user.js for speed, privacy, and security. Your favorite browser, but better.
+-   [FirefoxCSS-Store](https://firefoxcss-store.github.io) - A collection site of Firefox userchrome themes.
+-   [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) - A subreddit dedicated to Firefox customization.
+-   [m/FirefoxCSS](https://fedia.io/m/FirefoxCSS) - A community on the fediverse network dedicated to Firefox customization, equivalent to r/FirefoxCSS.
+-   [SearchFox](https://searchfox.org) - A source code indexing tool for Mozilla Firefox. It indexes C++, Rust, and JavaScript code.
+-   [Firefox Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html) - A tool that helps to create and maintain extensive firefox customizations.
+-   [ArkenFox GUI](https://arkenfox.github.io/gui) - Site to help you explore the information from the [arkenfox user.js](https://github.com/arkenfox/user.js)
+-   [fx-autoconfig](https://github.com/MrOtherGuy/fx-autoconfig) - A toolkit to load arbitrary javascript files to be run in Firefox browser context. Relies on autoconfig functionality available in Firefox.
