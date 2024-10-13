@@ -152,7 +152,7 @@ Look for specific topic on Github Gist: [firefox css userchrome](https://gist.gi
 
 More handy resources: [m/FirefoxCSS](https://fedia.io/m/FirefoxCSS), [Firefox CSS Guidelines](https://firefox-source-docs.mozilla.org/code-quality/coding-style/css_guidelines.html), [userchrome.org](https://www.userchrome.org), [FirefoxCSS Store](https://firefoxcss-store.github.io), [Mozilla Bugzilla](https://bugzilla.mozilla.org), [The other guide to CSS hacking](https://mrotherguy.github.io/ToyfoCSS/).
 
-Misc resources: [Overview for beginners](https://www.reddit.com/r/FirefoxCSS/comments/ugej2i/comment/i707t5x/)
+Misc resources: [Overview for beginners](https://www.reddit.com/r/FirefoxCSS/comments/ugej2i/comment/i707t5x/) and also check [List of Firefox CSS Variables](misc/firefox-css-variables.md).
 
 ### Live Debug and Update `userChrome.css`
 
