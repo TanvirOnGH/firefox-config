@@ -34,6 +34,10 @@ user_pref("extensions.screenshots.disabled", true);
 user_pref("browser.dataFeatureRecommendations.enabled", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Remove 'Recommendations' tab in about:addons
 
+// Devtools
+// Remove the annoying "Incoming connection" confirmation dialog when opening the Browser Toolbox
+user_pref("devtools.debugger.prompt-connection", false);
+
 // Media
 user_pref("media.default_volume", "1.0");
 user_pref("media.volume_scale", "1.0");
