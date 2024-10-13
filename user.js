@@ -35,6 +35,9 @@ user_pref("browser.dataFeatureRecommendations.enabled", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Remove 'Recommendations' tab in about:addons
 
 // Devtools
+user_pref("devtools.debugger.enabled", true);
+user_pref("devtools.debugger.auto-pretty-print", true);
+user_pref("devtools.debugger.remote-enabled", true);
 // Remove the annoying "Incoming connection" confirmation dialog when opening the Browser Toolbox
 user_pref("devtools.debugger.prompt-connection", false);
 
