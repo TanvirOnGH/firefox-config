@@ -10,6 +10,7 @@
 @import "sites/google.css";
 @import "sites/chatgpt.css";
 @import "sites/gemini.css";
+@import "sites/spotify.css";
 
 /* Text Highlight color on webpages */
 @-moz-document regexp("http(s)?:.*") {
