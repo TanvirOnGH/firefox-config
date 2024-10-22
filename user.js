@@ -230,3 +230,25 @@ user_pref("mousewheel.acceleration.start", -1);
 user_pref("mousewheel.min_line_scroll_amount", 5);
 user_pref("toolkit.scrollbox.horizontalScrollDistance", 5);
 user_pref("toolkit.scrollbox.verticalScrollDistance", 3);
+
+/// Addons/Extensions
+// Pocket
+user_pref("extensions.pocket.enabled", true);
+user_pref("extensions.pocket.refresh.emailButton.enabled", true);
+user_pref("extensions.pocket.refresh.hideRecentSaves.enabled", true);
+user_pref("extensions.pocket.showHome", true);
+user_pref("extensions.pocket.bffRecentSaves", true);
+user_pref("browser.urlbar.pocket.featureGate", true);
+user_pref("browser.urlbar.suggest.pocket", true);
+user_pref(
+	"browser.newtabpage.activity-stream.section.highlights.includePocket",
+	true
+);
+user_pref(
+	"browser.newtabpage.activity-stream.discoverystream.sendToPocket.enabled",
+	true
+);
+user_pref(
+	"browser.newtabpage.activity-stream.discoverystream.saveToPocketCard.enabled",
+	true
+);
